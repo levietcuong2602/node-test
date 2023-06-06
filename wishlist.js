@@ -2,24 +2,15 @@ const fs = require("fs");
 const path = require("path");
 const XLSX = require("xlsx");
 const axios = require("axios");
+const url = require("url");
 
-let token = `eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJLTEE2a0NHLWJkdkR3TmFXUS0tTDhxN242RkFHZGx1ZmhhaUZ2a3dqTktBIn0.eyJleHAiOjE2ODQ3NzMwNzUsImlhdCI6MTY4NDc1NTA3NSwianRpIjoiYjI2MDY1MDgtOTA2Yy00YTUzLWEwZDUtYzVmZTZhNzg1MDgxIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmF1LWF3cy50aGV3aXNobGlzdC5pby9hdXRoL3JlYWxtcy9zaG9uYS1qb3ktZGV2IiwiYXVkIjoiYWNjb3VudCIsInN1YiI6ImMxMmUyNzI0LWZjZTQtNDVlZi1hZWRmLWE3NjgyZTViY2U5NyIsInR5cCI6IkJlYXJlciIsImF6cCI6InR3Y19hZG1pbiIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cHM6Ly9jb25zb2xlLmF1LWF3cy50aGV3aXNobGlzdC5pbyIsImh0dHBzOi8vYXBpLmF1LWF3cy50aGV3aXNobGlzdC5pbyJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoiZW1haWwgcHJvZmlsZSIsImNsaWVudElkIjoidHdjX2FkbWluIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRIb3N0IjoiMTkyLjE2OC4xNTUuMTQ2IiwicHJlZmVycmVkX3VzZXJuYW1lIjoic2VydmljZS1hY2NvdW50LXR3Y19hZG1pbiIsImNsaWVudEFkZHJlc3MiOiIxOTIuMTY4LjE1NS4xNDYifQ.lBBYnQ2qzn_CaZVxcpLV1jzMrZji9RPvSmgcPbvmXygdLzht5RkSXwoOxlCVHK84ylAtzggFLstyxQSI_yUW4MyF3LYQRiw-i8W-FJ60o9dObDDtY_EcZnNmGaXW7Aaw5a3nJMc1Ta5gMawSmeXdzgoz0uSs7-rrJkUdTlR40Weah3uK_s2bpI7q_wWIdFKVFq9OrxtajueRpzNA0TmQEMtWX8UIy7BSpP3mIAOMIC6GwZgNm4EyP0wJqgU4Klhef0BIYRGFhw4ihimCq3uCzwUtD9LitcW-JJiHvUgOK1s6GBkpEYeoD6uiLmKw4QIZWp8ZLMjKzv9r1MFEboY5Wg`;
+let token = `eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJaVjJZTU5kZGpCTHU1OWJ4Um9KNFU4NnlEY3ZnNUpKd19Lb0lwRnlJUU5vIn0.eyJleHAiOjE2ODU5Nzk4MzIsImlhdCI6MTY4NTk2MTgzMiwianRpIjoiZTI0NWIwMjEtNzVhYS00ZjNjLWE2MWEtNzY4ZTFmZmNhNWYzIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmF1LWF3cy50aGV3aXNobGlzdC5pby9hdXRoL3JlYWxtcy9tci1wb29sbWFuIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjQ4YjRiM2IzLTE1NDQtNGU4MC04NTkxLWI0NzFkYmFjNzM0OCIsInR5cCI6IkJlYXJlciIsImF6cCI6InR3Y19hZG1pbiIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cHM6Ly9jb25zb2xlLmF1LWF3cy50aGV3aXNobGlzdC5pbyIsImh0dHBzOi8vYXBpLmF1LWF3cy50aGV3aXNobGlzdC5pbyJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoiZW1haWwgcHJvZmlsZSIsImNsaWVudElkIjoidHdjX2FkbWluIiwiY2xpZW50SG9zdCI6IjE5Mi4xNjguMTMzLjIwIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtdHdjX2FkbWluIiwiY2xpZW50QWRkcmVzcyI6IjE5Mi4xNjguMTMzLjIwIn0.JUFgbzri8A70cOG1dL6CgO5KRvmsj4JUlSdDVL-qVZ-gmqDQwFYhBu9cc4ojLQmXB8PB6qfF_LUBrpPt3GiAGLygCuN83gf2Vw8MEwbaahCHvt3MOjhPyCIp41oQ5XPsX-MWHNObuvgB7_2JI8IzukNkhnrgCmxjlJuuUZ8yY0FNksgp3euex5OmQXpokAbqsurjySUXIACXE667F-cedrFKX6OyUn-5xbVe4VyzwWBFZrV8D2BJ77-igP8TQO8AMmS8ysxPvuCipefkt4qd_W_QeQvOI6IirEUHelsJRY9NJ2973fi8q2LgkyrsBJWlLruFKULgj4d0dyEdVA8sbg`;
 const results = {};
 
 const RATE_LIMIT_TWC = 15;
-const TENANT_ID = "shona-joy-dev";
-const TENANT_SECRET = "d3aBWX05Hf13WjT6pUBy0F";
-
-function chunk(items, size) {
-  const chunks = [];
-  items = [].concat(...items);
-
-  while (items.length) {
-    chunks.push(items.splice(0, size));
-  }
-
-  return chunks;
-}
+const TENANT_ID = "mr-poolman";
+const TENANT_SECRET = "gLkyfic0IwiDbGjLHe1VHk";
+const ENV_TWC = "aws";
 
 const readFileCsv = async () => {
   const filePath = path.join(__dirname, "./variants/product-variant-shona.csv");
@@ -68,7 +59,7 @@ const getAccessToken = async ({ tenant_id, client_secret }) => {
     const { status, data } = await axios({
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      url: `https://auth.au-aws.thewishlist.io/auth/realms/${tenant_id}/protocol/openid-connect/token`,
+      url: `https://auth.au-${ENV_TWC}.thewishlist.io/auth/realms/${tenant_id}/protocol/openid-connect/token`,
       data: `client_id=${encodeURIComponent(
         "twc_admin"
       )}&client_secret=${encodeURIComponent(
@@ -174,7 +165,7 @@ const saveProductVariantTWC = async (variant, tenant_id) => {
           "X-TWC-Tenant": tenant_id,
           Authorization: `Bearer ${token}`,
         },
-        url: `https://api.au-aws.thewishlist.io/services/shopifyconnect/api/products/variants`,
+        url: `https://api.au-${ENV_TWC}.thewishlist.io/services/shopifyconnect/api/products/variants`,
         data: variant,
       });
       // console.log({
@@ -204,10 +195,17 @@ const saveProductVariantTWC = async (variant, tenant_id) => {
   }
 };
 
-readFileCsv();
+// readFileCsv();
 // restoreProductVariants();
 
 // getAccessToken({
-//   tenant_id: "shona-joy-dev",
-//   client_secret: "d3aBWX05Hf13WjT6pUBy0F",
+//   tenant_id: TENANT_ID,
+//   client_secret: TENANT_SECRET,
 // });
+
+const findPageInfoSubmatch = (text = "") => {
+  var textRegex = /^([\w]+)\>; rel="(previous|next)"$/;
+  return text.match(textRegex);
+};
+
+// getListOrderFromShopify();

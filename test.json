@@ -1,0 +1,3103 @@
+[
+  {
+    "id": 5380954095925,
+    "name": "#1013",
+    "email": "vietcuongkashi97hy@gmail.com",
+    "created_at": "2023-05-12T04:16:31-04:00",
+    "updated_at": "2023-05-12T04:16:32-04:00",
+    "processed_at": "2023-05-12T04:16:31-04:00",
+    "customer": {
+      "id": 6976742850869,
+      "email": "vietcuongkashi97hy@gmail.com",
+      "first_name": "Cường",
+      "last_name": "Lê",
+      "state": "disabled",
+      "verified_email": true,
+      "orders_count": 2,
+      "total_spent": "270870",
+      "phone": "+84968078124",
+      "last_order_id": 5380954095925,
+      "last_order_name": "#1013",
+      "accepts_marketing": true,
+      "default_address": {
+        "id": 9220294934837,
+        "customer_id": 6976742850869,
+        "first_name": "Cường",
+        "last_name": "Lê",
+        "company": "SmartOSC",
+        "address1": "Phạm Hùng",
+        "city": "Mễ Trì",
+        "country": "Vietnam",
+        "name": "Cường Lê",
+        "country_code": "VN",
+        "country_name": "Vietnam",
+        "default": true
+      },
+      "created_at": "2023-05-08T23:05:03-04:00",
+      "updated_at": "2023-05-12T04:16:32-04:00",
+      "marketing_opt_in_level": "single_opt_in",
+      "accepts_marketing_updated_at": "2023-05-08T23:05:03-04:00",
+      "admin_graphql_api_id": "gid://shopify/Customer/6976742850869",
+      "currency": "VND"
+    },
+    "billing_address": {
+      "address1": "Phạm Hùng",
+      "city": "Mễ Trì",
+      "company": "SmartOSC",
+      "country": "Vietnam",
+      "country_code": "VN",
+      "first_name": "Cường",
+      "last_name": "Lê",
+      "latitude": 21.0125832,
+      "longitude": 105.7860644,
+      "name": "Cường Lê"
+    },
+    "shipping_address": {
+      "address1": "Phạm Hùng",
+      "city": "Mễ Trì",
+      "company": "SmartOSC",
+      "country": "Vietnam",
+      "country_code": "VN",
+      "first_name": "Cường",
+      "last_name": "Lê",
+      "latitude": 21.0125832,
+      "longitude": 105.7860644,
+      "name": "Cường Lê"
+    },
+    "currency": "VND",
+    "total_price": "135435",
+    "subtotal_price": "123123",
+    "total_discounts": "0",
+    "total_line_items_price": "123123",
+    "total_tax": "12312",
+    "tax_lines": [
+      {
+        "title": "VAT",
+        "price": "12312",
+        "price_set": {
+          "shop_money": {
+            "amount": "12312",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "12312",
+            "currency_code": "VND"
+          }
+        },
+        "rate": "0.1"
+      }
+    ],
+    "financial_status": "paid",
+    "token": "bd9e72dac42f28994dda29506a5ab8c2",
+    "number": 13,
+    "order_number": 1013,
+    "browser_ip": "118.70.67.134",
+    "buyer_accepts_marketing": true,
+    "line_items": [
+      {
+        "id": 13957567775029,
+        "quantity": 1,
+        "price": "123123",
+        "total_discount": "0",
+        "title": "Áo mới của Cường",
+        "name": "Áo mới của Cường",
+        "sku": "123123",
+        "vendor": "cuongtoi001",
+        "taxable": true,
+        "fulfillment_service": "manual",
+        "requires_shipping": true,
+        "fulfillable_quantity": 1,
+        "tax_lines": [
+          {
+            "title": "VAT",
+            "price": "12312",
+            "price_set": {
+              "shop_money": {
+                "amount": "12312",
+                "currency_code": "VND"
+              },
+              "presentment_money": {
+                "amount": "12312",
+                "currency_code": "VND"
+              }
+            },
+            "rate": "0.1"
+          }
+        ],
+        "origin_location": {
+          "id": 3786220077365,
+          "country_code": "VN",
+          "name": "Shop location"
+        },
+        "price_set": {
+          "shop_money": {
+            "amount": "123123",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "123123",
+            "currency_code": "VND"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          }
+        }
+      }
+    ],
+    "app_id": 1354745,
+    "customer_locale": "en",
+    "source_name": "shopify_draft_order",
+    "client_details": {
+      "browser_ip": "118.70.67.134",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+    },
+    "payment_gateway_names": ["manual"],
+    "processing_method": "manual",
+    "user_id": 96523518261,
+    "order_status_url": "https://cuongtoi001.myshopify.com/75705712949/orders/bd9e72dac42f28994dda29506a5ab8c2/authenticate?key=ef6f920aae5fc0338e266c0f3b08244a",
+    "gateway": "manual",
+    "confirmed": true,
+    "total_price_usd": "5.79",
+    "checkout_token": "3d73fffe7b4427334541109b55bae03d",
+    "reference": "1539cd37d5874cbc8b1dc434d6aa6f30",
+    "source_identifier": "1539cd37d5874cbc8b1dc434d6aa6f30",
+    "phone": "+84968078124",
+    "checkout_id": 36680532951349,
+    "contact_email": "vietcuongkashi97hy@gmail.com",
+    "payment_details": {},
+    "presentment_currency": "VND",
+    "total_line_items_price_set": {
+      "shop_money": {
+        "amount": "123123",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "123123",
+        "currency_code": "VND"
+      }
+    },
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      }
+    },
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "123123",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "123123",
+        "currency_code": "VND"
+      }
+    },
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "12312",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "12312",
+        "currency_code": "VND"
+      }
+    },
+    "total_tip_received": "0",
+    "origin_total_duties_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "current_total_duties_set": null,
+    "admin_graph_api_id": "",
+    "total_discount_price_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "total_price_set": {
+      "shop_money": {
+        "amount": "135435",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "135435",
+        "currency_code": "VND"
+      }
+    }
+  },
+  {
+    "id": 5380765352245,
+    "name": "#1012",
+    "created_at": "2023-05-12T02:56:26-04:00",
+    "updated_at": "2023-05-12T02:56:27-04:00",
+    "processed_at": "2023-05-12T02:56:25-04:00",
+    "currency": "VND",
+    "total_price": "135435",
+    "subtotal_price": "123123",
+    "total_discounts": "0",
+    "total_line_items_price": "123123",
+    "total_tax": "12312",
+    "tax_lines": [
+      {
+        "title": "VAT",
+        "price": "12312",
+        "price_set": {
+          "shop_money": {
+            "amount": "12312",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "12312",
+            "currency_code": "VND"
+          }
+        },
+        "rate": "0.1"
+      }
+    ],
+    "financial_status": "pending",
+    "token": "8b848c21b259fa126728bdf51f2cdb5d",
+    "number": 12,
+    "order_number": 1012,
+    "browser_ip": "118.70.67.134",
+    "line_items": [
+      {
+        "id": 13957296193845,
+        "quantity": 1,
+        "price": "123123",
+        "total_discount": "0",
+        "title": "Áo mới của Cường",
+        "name": "Áo mới của Cường",
+        "sku": "123123",
+        "vendor": "cuongtoi001",
+        "taxable": true,
+        "fulfillment_service": "manual",
+        "requires_shipping": true,
+        "fulfillable_quantity": 1,
+        "tax_lines": [
+          {
+            "title": "VAT",
+            "price": "12312",
+            "price_set": {
+              "shop_money": {
+                "amount": "12312",
+                "currency_code": "VND"
+              },
+              "presentment_money": {
+                "amount": "12312",
+                "currency_code": "VND"
+              }
+            },
+            "rate": "0.1"
+          }
+        ],
+        "origin_location": {
+          "id": 3786220077365,
+          "country_code": "VN",
+          "name": "Shop location"
+        },
+        "price_set": {
+          "shop_money": {
+            "amount": "123123",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "123123",
+            "currency_code": "VND"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          }
+        }
+      }
+    ],
+    "app_id": 1354745,
+    "customer_locale": "en",
+    "source_name": "shopify_draft_order",
+    "client_details": {
+      "browser_ip": "118.70.67.134",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+    },
+    "location_id": 82933973301,
+    "payment_gateway_names": ["manual"],
+    "processing_method": "manual",
+    "user_id": 96523518261,
+    "order_status_url": "https://cuongtoi001.myshopify.com/75705712949/orders/8b848c21b259fa126728bdf51f2cdb5d/authenticate?key=e8e80002df6513bfdbbce327c18e5383",
+    "gateway": "manual",
+    "confirmed": true,
+    "total_price_usd": "5.79",
+    "checkout_token": "6f1b20e7f5bf114dcb4f7b1662f6a739",
+    "reference": "e61cb38ce00e63205176ffb936438114",
+    "source_identifier": "e61cb38ce00e63205176ffb936438114",
+    "checkout_id": 36680467317045,
+    "payment_details": {},
+    "presentment_currency": "VND",
+    "total_line_items_price_set": {
+      "shop_money": {
+        "amount": "123123",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "123123",
+        "currency_code": "VND"
+      }
+    },
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      }
+    },
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "123123",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "123123",
+        "currency_code": "VND"
+      }
+    },
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "12312",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "12312",
+        "currency_code": "VND"
+      }
+    },
+    "total_tip_received": "0",
+    "origin_total_duties_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "current_total_duties_set": null,
+    "admin_graph_api_id": "",
+    "total_discount_price_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "total_price_set": {
+      "shop_money": {
+        "amount": "135435",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "135435",
+        "currency_code": "VND"
+      }
+    }
+  },
+  {
+    "id": 5380756832565,
+    "name": "#1011",
+    "email": "vietcuongkashi97hy@gmail.com",
+    "created_at": "2023-05-12T02:52:55-04:00",
+    "updated_at": "2023-05-12T02:52:56-04:00",
+    "processed_at": "2023-05-12T02:52:55-04:00",
+    "customer": {
+      "id": 6976742850869,
+      "email": "vietcuongkashi97hy@gmail.com",
+      "first_name": "Cường",
+      "last_name": "Lê",
+      "state": "disabled",
+      "verified_email": true,
+      "orders_count": 2,
+      "total_spent": "270870",
+      "phone": "+84968078124",
+      "last_order_id": 5380954095925,
+      "last_order_name": "#1013",
+      "accepts_marketing": true,
+      "default_address": {
+        "id": 9220294934837,
+        "customer_id": 6976742850869,
+        "first_name": "Cường",
+        "last_name": "Lê",
+        "company": "SmartOSC",
+        "address1": "Phạm Hùng",
+        "city": "Mễ Trì",
+        "country": "Vietnam",
+        "name": "Cường Lê",
+        "country_code": "VN",
+        "country_name": "Vietnam",
+        "default": true
+      },
+      "created_at": "2023-05-08T23:05:03-04:00",
+      "updated_at": "2023-05-12T04:16:32-04:00",
+      "marketing_opt_in_level": "single_opt_in",
+      "accepts_marketing_updated_at": "2023-05-08T23:05:03-04:00",
+      "admin_graphql_api_id": "gid://shopify/Customer/6976742850869",
+      "currency": "VND"
+    },
+    "billing_address": {
+      "address1": "Phạm Hùng",
+      "city": "Mễ Trì",
+      "company": "SmartOSC",
+      "country": "Vietnam",
+      "country_code": "VN",
+      "first_name": "Cường",
+      "last_name": "Lê",
+      "latitude": 21.0125832,
+      "longitude": 105.7860644,
+      "name": "Cường Lê"
+    },
+    "shipping_address": {
+      "address1": "Phạm Hùng",
+      "city": "Mễ Trì",
+      "company": "SmartOSC",
+      "country": "Vietnam",
+      "country_code": "VN",
+      "first_name": "Cường",
+      "last_name": "Lê",
+      "latitude": 21.0125832,
+      "longitude": 105.7860644,
+      "name": "Cường Lê"
+    },
+    "currency": "VND",
+    "total_price": "135435",
+    "subtotal_price": "123123",
+    "total_discounts": "0",
+    "total_line_items_price": "123123",
+    "total_tax": "12312",
+    "tax_lines": [
+      {
+        "title": "VAT",
+        "price": "12312",
+        "price_set": {
+          "shop_money": {
+            "amount": "12312",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "12312",
+            "currency_code": "VND"
+          }
+        },
+        "rate": "0.1"
+      }
+    ],
+    "financial_status": "paid",
+    "token": "75ccd4c0b0f180174198e0b93bf95111",
+    "number": 11,
+    "order_number": 1011,
+    "browser_ip": "118.70.67.134",
+    "buyer_accepts_marketing": true,
+    "line_items": [
+      {
+        "id": 13957283086645,
+        "quantity": 1,
+        "price": "123123",
+        "total_discount": "0",
+        "title": "Áo mới của Cường",
+        "name": "Áo mới của Cường",
+        "sku": "123123",
+        "vendor": "cuongtoi001",
+        "taxable": true,
+        "fulfillment_service": "manual",
+        "requires_shipping": true,
+        "fulfillable_quantity": 1,
+        "tax_lines": [
+          {
+            "title": "VAT",
+            "price": "12312",
+            "price_set": {
+              "shop_money": {
+                "amount": "12312",
+                "currency_code": "VND"
+              },
+              "presentment_money": {
+                "amount": "12312",
+                "currency_code": "VND"
+              }
+            },
+            "rate": "0.1"
+          }
+        ],
+        "origin_location": {
+          "id": 3788464881973,
+          "address1": "123 Main St",
+          "city": "Toronto",
+          "country_code": "CA",
+          "name": "My Custom Location",
+          "province_code": "ON",
+          "zip": "A1A 1A1"
+        },
+        "price_set": {
+          "shop_money": {
+            "amount": "123123",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "123123",
+            "currency_code": "VND"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          }
+        }
+      }
+    ],
+    "app_id": 1354745,
+    "customer_locale": "en",
+    "source_name": "shopify_draft_order",
+    "client_details": {
+      "browser_ip": "118.70.67.134",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+    },
+    "payment_gateway_names": ["manual"],
+    "processing_method": "manual",
+    "user_id": 96523518261,
+    "order_status_url": "https://cuongtoi001.myshopify.com/75705712949/orders/75ccd4c0b0f180174198e0b93bf95111/authenticate?key=278abade52d58141cf8ecec874a93972",
+    "gateway": "manual",
+    "confirmed": true,
+    "total_price_usd": "5.79",
+    "checkout_token": "c243437e4e275f2cd04d8fd41aa61b56",
+    "reference": "35ef6f1f5309a3fc394eb67327979072",
+    "source_identifier": "35ef6f1f5309a3fc394eb67327979072",
+    "phone": "+84968078124",
+    "checkout_id": 36680464924981,
+    "contact_email": "vietcuongkashi97hy@gmail.com",
+    "payment_details": {},
+    "presentment_currency": "VND",
+    "total_line_items_price_set": {
+      "shop_money": {
+        "amount": "123123",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "123123",
+        "currency_code": "VND"
+      }
+    },
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      }
+    },
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "123123",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "123123",
+        "currency_code": "VND"
+      }
+    },
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "12312",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "12312",
+        "currency_code": "VND"
+      }
+    },
+    "total_tip_received": "0",
+    "origin_total_duties_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "current_total_duties_set": null,
+    "admin_graph_api_id": "",
+    "total_discount_price_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "total_price_set": {
+      "shop_money": {
+        "amount": "135435",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "135435",
+        "currency_code": "VND"
+      }
+    }
+  },
+  {
+    "id": 5361796448565,
+    "name": "#1010",
+    "email": "karine.ruby@example.com",
+    "created_at": "2023-04-29T03:58:06-04:00",
+    "updated_at": "2023-04-29T03:58:07-04:00",
+    "processed_at": "2023-04-29T03:58:06-04:00",
+    "customer": {
+      "id": 6962183864629,
+      "email": "karine.ruby@example.com",
+      "first_name": "Karine",
+      "last_name": "Ruby",
+      "state": "disabled",
+      "verified_email": true,
+      "orders_count": 1,
+      "total_spent": "822",
+      "phone": "+16135550142",
+      "last_order_id": 5361796448565,
+      "last_order_name": "#1010",
+      "created_at": "2023-04-29T03:58:02-04:00",
+      "updated_at": "2023-04-29T03:58:07-04:00",
+      "accepts_marketing_updated_at": "2023-04-29T03:58:02-04:00",
+      "admin_graphql_api_id": "gid://shopify/Customer/6962183864629",
+      "currency": "VND"
+    },
+    "currency": "VND",
+    "total_price": "822",
+    "subtotal_price": "700",
+    "total_discounts": "0",
+    "total_line_items_price": "700",
+    "total_tax": "70",
+    "tax_lines": [
+      {
+        "title": "VAT",
+        "price": "70",
+        "price_set": {
+          "shop_money": {
+            "amount": "70",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "70",
+            "currency_code": "VND"
+          }
+        },
+        "rate": "0.1"
+      }
+    ],
+    "total_weight": 4535,
+    "financial_status": "paid",
+    "token": "0ee65a1bdd1c203d2c0fbbbb0745c226",
+    "number": 10,
+    "order_number": 1010,
+    "browser_ip": "244.100.39.11",
+    "line_items": [
+      {
+        "id": 13920226148661,
+        "product_id": 8268258738485,
+        "variant_id": 44986378191157,
+        "quantity": 1,
+        "price": "700",
+        "total_discount": "0",
+        "title": "The Complete Snowboard",
+        "variant_title": "Sunset",
+        "name": "The Complete Snowboard - Sunset",
+        "vendor": "Snowboard Vendor",
+        "taxable": true,
+        "fulfillment_service": "manual",
+        "requires_shipping": true,
+        "variant_inventory_management": "shopify",
+        "product_exists": true,
+        "grams": 4536,
+        "tax_lines": [
+          {
+            "title": "VAT",
+            "price": "70",
+            "price_set": {
+              "shop_money": {
+                "amount": "70",
+                "currency_code": "VND"
+              },
+              "presentment_money": {
+                "amount": "70",
+                "currency_code": "VND"
+              }
+            },
+            "rate": "0.1"
+          }
+        ],
+        "origin_location": {
+          "id": 3786220077365,
+          "country_code": "VN",
+          "name": "Shop location"
+        },
+        "price_set": {
+          "shop_money": {
+            "amount": "700",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "700",
+            "currency_code": "VND"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          }
+        }
+      }
+    ],
+    "shipping_lines": [
+      {
+        "id": 4346973487413,
+        "title": "Custom Shipping Rate",
+        "price": "52",
+        "code": "custom",
+        "source": "shopify",
+        "carrier_identifier": "071e9d6cd4a1d56acf60bc21aea1e689",
+        "discounted_price": "52",
+        "discounted_price_set": {
+          "shop_money": {
+            "amount": "52",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "52",
+            "currency_code": "VND"
+          }
+        }
+      }
+    ],
+    "app_id": 16818700289,
+    "customer_locale": "en",
+    "source_name": "16818700289",
+    "client_details": {
+      "browser_ip": "244.100.39.11",
+      "user_agent": "Sunflower/production Cusco/1.12.1 Ruby/3.2.2"
+    },
+    "tags": "Custom Shipping Rate",
+    "location_id": 82933973301,
+    "payment_gateway_names": ["manual"],
+    "processing_method": "manual",
+    "order_status_url": "https://cuongtoi001.myshopify.com/75705712949/orders/0ee65a1bdd1c203d2c0fbbbb0745c226/authenticate?key=4a0f886f6275c5a05d376b41de400deb",
+    "gateway": "manual",
+    "confirmed": true,
+    "total_price_usd": "0.04",
+    "checkout_token": "347980e2878065a9c399a66a711bd356",
+    "reference": "687cf71fc7923cd707894aa583ecd052",
+    "source_identifier": "687cf71fc7923cd707894aa583ecd052",
+    "checkout_id": 36656221585717,
+    "contact_email": "karine.ruby@example.com",
+    "payment_details": {},
+    "presentment_currency": "VND",
+    "total_line_items_price_set": {
+      "shop_money": {
+        "amount": "700",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "700",
+        "currency_code": "VND"
+      }
+    },
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "52",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "52",
+        "currency_code": "VND"
+      }
+    },
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "700",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "700",
+        "currency_code": "VND"
+      }
+    },
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "70",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "70",
+        "currency_code": "VND"
+      }
+    },
+    "total_tip_received": "0",
+    "origin_total_duties_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "current_total_duties_set": null,
+    "admin_graph_api_id": "",
+    "total_discount_price_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "total_price_set": {
+      "shop_money": {
+        "amount": "822",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "822",
+        "currency_code": "VND"
+      }
+    }
+  },
+  {
+    "id": 5361796415797,
+    "name": "#1009",
+    "email": "russel.winfield@example.com",
+    "created_at": "2023-04-29T03:58:05-04:00",
+    "updated_at": "2023-04-29T03:58:06-04:00",
+    "processed_at": "2023-04-29T03:58:05-04:00",
+    "customer": {
+      "id": 6962183930165,
+      "email": "russel.winfield@example.com",
+      "first_name": "Russell",
+      "last_name": "Winfield",
+      "state": "disabled",
+      "note": "This customer is created with most available fields",
+      "verified_email": true,
+      "orders_count": 4,
+      "total_spent": "6657",
+      "phone": "+16135550135",
+      "tags": "VIP",
+      "last_order_id": 5361796415797,
+      "last_order_name": "#1009",
+      "default_address": {
+        "id": 9204555153717,
+        "customer_id": 6962183930165,
+        "first_name": "Russell",
+        "last_name": "Winfield",
+        "company": "Company Name",
+        "address1": "105 Victoria St",
+        "city": "Toronto",
+        "country": "Canada",
+        "zip": "M5C1N7",
+        "name": "Russell Winfield",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "default": true
+      },
+      "created_at": "2023-04-29T03:58:02-04:00",
+      "updated_at": "2023-04-29T03:58:06-04:00",
+      "accepts_marketing_updated_at": "2023-04-29T03:58:02-04:00",
+      "admin_graphql_api_id": "gid://shopify/Customer/6962183930165",
+      "currency": "VND"
+    },
+    "billing_address": {
+      "address1": "105 Victoria St",
+      "city": "Toronto",
+      "company": "Company Name",
+      "country": "Canada",
+      "country_code": "CA",
+      "first_name": "Russell",
+      "last_name": "Winfield",
+      "latitude": 43.6522608,
+      "longitude": -79.3776862,
+      "name": "Russell Winfield",
+      "zip": "M5C1N7"
+    },
+    "shipping_address": {
+      "address1": "105 Victoria St",
+      "city": "Toronto",
+      "company": "Company Name",
+      "country": "Canada",
+      "country_code": "CA",
+      "first_name": "Russell",
+      "last_name": "Winfield",
+      "latitude": 43.6522608,
+      "longitude": -79.3776862,
+      "name": "Russell Winfield",
+      "zip": "M5C1N7"
+    },
+    "currency": "VND",
+    "total_price": "3330",
+    "subtotal_price": "3330",
+    "total_discounts": "0",
+    "total_line_items_price": "3330",
+    "total_tax": "0",
+    "total_weight": 4535,
+    "financial_status": "paid",
+    "token": "6e206d2d01ba2838372422b6ed05aafd",
+    "number": 9,
+    "order_number": 1009,
+    "browser_ip": "244.100.39.11",
+    "line_items": [
+      {
+        "id": 13920226050357,
+        "product_id": 8268258738485,
+        "variant_id": 44986378191157,
+        "quantity": 1,
+        "price": "700",
+        "total_discount": "0",
+        "title": "The Complete Snowboard",
+        "variant_title": "Sunset",
+        "name": "The Complete Snowboard - Sunset",
+        "vendor": "Snowboard Vendor",
+        "taxable": true,
+        "fulfillment_service": "manual",
+        "requires_shipping": true,
+        "variant_inventory_management": "shopify",
+        "product_exists": true,
+        "fulfillable_quantity": 1,
+        "grams": 4536,
+        "origin_location": {
+          "id": 3786220077365,
+          "country_code": "VN",
+          "name": "Shop location"
+        },
+        "price_set": {
+          "shop_money": {
+            "amount": "700",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "700",
+            "currency_code": "VND"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          }
+        }
+      },
+      {
+        "id": 13920226083125,
+        "product_id": 8268259033397,
+        "variant_id": 44986378387765,
+        "quantity": 1,
+        "price": "2630",
+        "total_discount": "0",
+        "title": "The 3p Fulfilled Snowboard",
+        "name": "The 3p Fulfilled Snowboard",
+        "sku": "sku-hosted-1",
+        "vendor": "cuongtoi001",
+        "taxable": true,
+        "fulfillment_service": "snow-city-warehouse",
+        "requires_shipping": true,
+        "variant_inventory_management": "shopify",
+        "product_exists": true,
+        "fulfillable_quantity": 1,
+        "origin_location": {
+          "id": 3786220142901,
+          "country_code": "VN",
+          "name": "Snow City Warehouse"
+        },
+        "price_set": {
+          "shop_money": {
+            "amount": "2630",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "2630",
+            "currency_code": "VND"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          }
+        }
+      }
+    ],
+    "app_id": 16818700289,
+    "customer_locale": "UK",
+    "source_name": "16818700289",
+    "client_details": {
+      "browser_ip": "244.100.39.11",
+      "user_agent": "Sunflower/production Cusco/1.12.1 Ruby/3.2.2"
+    },
+    "tags": "Multiple Fulfillments",
+    "payment_gateway_names": ["manual"],
+    "processing_method": "manual",
+    "order_status_url": "https://cuongtoi001.myshopify.com/75705712949/orders/6e206d2d01ba2838372422b6ed05aafd/authenticate?key=7169212683917d93e0e6e9d5385465da",
+    "gateway": "manual",
+    "confirmed": true,
+    "total_price_usd": "0.14",
+    "checkout_token": "dfe95c495791b5cfc11050e9f1e1aedc",
+    "reference": "6fb86a65ffe07dee6fa1455cb354a016",
+    "source_identifier": "6fb86a65ffe07dee6fa1455cb354a016",
+    "checkout_id": 36656221552949,
+    "contact_email": "russel.winfield@example.com",
+    "payment_details": {},
+    "presentment_currency": "VND",
+    "total_line_items_price_set": {
+      "shop_money": {
+        "amount": "3330",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "3330",
+        "currency_code": "VND"
+      }
+    },
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      }
+    },
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "3330",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "3330",
+        "currency_code": "VND"
+      }
+    },
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      }
+    },
+    "total_tip_received": "0",
+    "origin_total_duties_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "current_total_duties_set": null,
+    "admin_graph_api_id": "",
+    "total_discount_price_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "total_price_set": {
+      "shop_money": {
+        "amount": "3330",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "3330",
+        "currency_code": "VND"
+      }
+    }
+  },
+  {
+    "id": 5361796350261,
+    "name": "#1008",
+    "email": "ayumu.hirano@example.com",
+    "created_at": "2023-04-29T03:58:05-04:00",
+    "updated_at": "2023-04-29T03:58:06-04:00",
+    "processed_at": "2023-04-29T03:58:05-04:00",
+    "customer": {
+      "id": 6962183831861,
+      "email": "ayumu.hirano@example.com",
+      "first_name": "Ayumu",
+      "last_name": "Hirano",
+      "state": "disabled",
+      "verified_email": true,
+      "orders_count": 2,
+      "total_spent": "3143",
+      "phone": "+16135550127",
+      "last_order_id": 5361796350261,
+      "last_order_name": "#1008",
+      "created_at": "2023-04-29T03:58:01-04:00",
+      "updated_at": "2023-04-29T03:58:06-04:00",
+      "accepts_marketing_updated_at": "2023-04-29T03:58:02-04:00",
+      "admin_graphql_api_id": "gid://shopify/Customer/6962183831861",
+      "currency": "VND"
+    },
+    "currency": "VND",
+    "total_price": "803",
+    "subtotal_price": "730",
+    "total_discounts": "0",
+    "total_line_items_price": "730",
+    "total_tax": "73",
+    "tax_lines": [
+      {
+        "title": "VAT",
+        "price": "73",
+        "price_set": {
+          "shop_money": {
+            "amount": "73",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "73",
+            "currency_code": "VND"
+          }
+        },
+        "rate": "0.1"
+      }
+    ],
+    "financial_status": "paid",
+    "token": "3e620436aeacd9c291af3b6eb22ab946",
+    "number": 8,
+    "order_number": 1008,
+    "browser_ip": "244.100.39.11",
+    "line_items": [
+      {
+        "id": 13920226017589,
+        "product_id": 8268259000629,
+        "variant_id": 44986378354997,
+        "quantity": 1,
+        "price": "730",
+        "total_discount": "0",
+        "title": "The Multi-location Snowboard",
+        "name": "The Multi-location Snowboard",
+        "vendor": "cuongtoi001",
+        "taxable": true,
+        "fulfillment_service": "manual",
+        "requires_shipping": true,
+        "variant_inventory_management": "shopify",
+        "product_exists": true,
+        "fulfillable_quantity": 1,
+        "tax_lines": [
+          {
+            "title": "VAT",
+            "price": "73",
+            "price_set": {
+              "shop_money": {
+                "amount": "73",
+                "currency_code": "VND"
+              },
+              "presentment_money": {
+                "amount": "73",
+                "currency_code": "VND"
+              }
+            },
+            "rate": "0.1"
+          }
+        ],
+        "origin_location": {
+          "id": 3786220077365,
+          "country_code": "VN",
+          "name": "Shop location"
+        },
+        "price_set": {
+          "shop_money": {
+            "amount": "730",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "730",
+            "currency_code": "VND"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          }
+        }
+      }
+    ],
+    "shipping_lines": [
+      {
+        "id": 4346973421877,
+        "title": "Discount Shipping Rate",
+        "price": "0",
+        "code": "custom",
+        "source": "shopify",
+        "carrier_identifier": "071e9d6cd4a1d56acf60bc21aea1e689",
+        "discounted_price": "0",
+        "discounted_price_set": {
+          "shop_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          }
+        }
+      }
+    ],
+    "app_id": 16818700289,
+    "customer_locale": "en",
+    "source_name": "16818700289",
+    "client_details": {
+      "browser_ip": "244.100.39.11",
+      "user_agent": "Sunflower/production Cusco/1.12.1 Ruby/3.2.2"
+    },
+    "tags": "Shipping Discount",
+    "location_id": 82933973301,
+    "payment_gateway_names": ["manual"],
+    "processing_method": "manual",
+    "order_status_url": "https://cuongtoi001.myshopify.com/75705712949/orders/3e620436aeacd9c291af3b6eb22ab946/authenticate?key=faf0aabea2e5ccb6e351fc525e443a31",
+    "gateway": "manual",
+    "confirmed": true,
+    "total_price_usd": "0.03",
+    "checkout_token": "03d196f31516851c6e4d3bce4929a97a",
+    "reference": "a99afea83fcdeaad98cdd1c2b18137c2",
+    "source_identifier": "a99afea83fcdeaad98cdd1c2b18137c2",
+    "checkout_id": 36656221487413,
+    "contact_email": "ayumu.hirano@example.com",
+    "payment_details": {},
+    "presentment_currency": "VND",
+    "total_line_items_price_set": {
+      "shop_money": {
+        "amount": "730",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "730",
+        "currency_code": "VND"
+      }
+    },
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      }
+    },
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "730",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "730",
+        "currency_code": "VND"
+      }
+    },
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "73",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "73",
+        "currency_code": "VND"
+      }
+    },
+    "total_tip_received": "0",
+    "origin_total_duties_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "current_total_duties_set": null,
+    "admin_graph_api_id": "",
+    "total_discount_price_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "total_price_set": {
+      "shop_money": {
+        "amount": "803",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "803",
+        "currency_code": "VND"
+      }
+    }
+  },
+  {
+    "id": 5361796317493,
+    "name": "#1007",
+    "email": "russel.winfield@example.com",
+    "created_at": "2023-04-29T03:58:05-04:00",
+    "updated_at": "2023-04-29T03:58:06-04:00",
+    "processed_at": "2023-04-29T03:58:04-04:00",
+    "customer": {
+      "id": 6962183930165,
+      "email": "russel.winfield@example.com",
+      "first_name": "Russell",
+      "last_name": "Winfield",
+      "state": "disabled",
+      "note": "This customer is created with most available fields",
+      "verified_email": true,
+      "orders_count": 4,
+      "total_spent": "6657",
+      "phone": "+16135550135",
+      "tags": "VIP",
+      "last_order_id": 5361796415797,
+      "last_order_name": "#1009",
+      "default_address": {
+        "id": 9204555153717,
+        "customer_id": 6962183930165,
+        "first_name": "Russell",
+        "last_name": "Winfield",
+        "company": "Company Name",
+        "address1": "105 Victoria St",
+        "city": "Toronto",
+        "country": "Canada",
+        "zip": "M5C1N7",
+        "name": "Russell Winfield",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "default": true
+      },
+      "created_at": "2023-04-29T03:58:02-04:00",
+      "updated_at": "2023-04-29T03:58:06-04:00",
+      "accepts_marketing_updated_at": "2023-04-29T03:58:02-04:00",
+      "admin_graphql_api_id": "gid://shopify/Customer/6962183930165",
+      "currency": "VND"
+    },
+    "billing_address": {
+      "address1": "105 Victoria St",
+      "city": "Toronto",
+      "company": "Company Name",
+      "country": "Canada",
+      "country_code": "CA",
+      "first_name": "Russell",
+      "last_name": "Winfield",
+      "name": "Russell Winfield",
+      "zip": "M5C1N7"
+    },
+    "shipping_address": {
+      "address1": "105 Victoria St",
+      "city": "Toronto",
+      "company": "Company Name",
+      "country": "Canada",
+      "country_code": "CA",
+      "first_name": "Russell",
+      "last_name": "Winfield",
+      "latitude": 43.6522608,
+      "longitude": -79.3776862,
+      "name": "Russell Winfield",
+      "zip": "M5C1N7"
+    },
+    "currency": "VND",
+    "total_price": "1290",
+    "subtotal_price": "1260",
+    "total_discounts": "140",
+    "total_line_items_price": "1400",
+    "total_tax": "0",
+    "total_weight": 9070,
+    "financial_status": "paid",
+    "token": "99414becca42e4e8d2be63489319d4c1",
+    "number": 7,
+    "order_number": 1007,
+    "browser_ip": "244.100.39.11",
+    "discount_codes": [
+      {
+        "amount": "140",
+        "type": "percentage"
+      }
+    ],
+    "line_items": [
+      {
+        "id": 13920225984821,
+        "product_id": 8268258738485,
+        "variant_id": 44986377929013,
+        "quantity": 2,
+        "price": "700",
+        "total_discount": "0",
+        "title": "The Complete Snowboard",
+        "variant_title": "Dawn",
+        "name": "The Complete Snowboard - Dawn",
+        "vendor": "Snowboard Vendor",
+        "taxable": true,
+        "fulfillment_service": "manual",
+        "requires_shipping": true,
+        "variant_inventory_management": "shopify",
+        "product_exists": true,
+        "fulfillable_quantity": 2,
+        "grams": 4536,
+        "origin_location": {
+          "id": 3786220077365,
+          "country_code": "VN",
+          "name": "Shop location"
+        },
+        "discount_allocations": [
+          {
+            "amount": "140",
+            "amount_set": {
+              "shop_money": {
+                "amount": "140",
+                "currency_code": "VND"
+              },
+              "presentment_money": {
+                "amount": "140",
+                "currency_code": "VND"
+              }
+            }
+          }
+        ],
+        "price_set": {
+          "shop_money": {
+            "amount": "700",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "700",
+            "currency_code": "VND"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          }
+        }
+      }
+    ],
+    "shipping_lines": [
+      {
+        "id": 4346973389109,
+        "title": "International Shipping",
+        "price": "30",
+        "code": "International Shipping",
+        "source": "shopify",
+        "carrier_identifier": "071e9d6cd4a1d56acf60bc21aea1e689",
+        "discounted_price": "30",
+        "discounted_price_set": {
+          "shop_money": {
+            "amount": "30",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "30",
+            "currency_code": "VND"
+          }
+        }
+      }
+    ],
+    "app_id": 16818700289,
+    "customer_locale": "UK",
+    "source_name": "16818700289",
+    "client_details": {
+      "browser_ip": "244.100.39.11",
+      "user_agent": "Sunflower/production Cusco/1.12.1 Ruby/3.2.2"
+    },
+    "tags": "Order Discount",
+    "payment_gateway_names": ["manual"],
+    "processing_method": "manual",
+    "order_status_url": "https://cuongtoi001.myshopify.com/75705712949/orders/99414becca42e4e8d2be63489319d4c1/authenticate?key=6a26a5f1ebec187ed413abc30843227c",
+    "gateway": "manual",
+    "confirmed": true,
+    "total_price_usd": "0.06",
+    "checkout_token": "670073141b7d153c7186802a3761892b",
+    "reference": "5497dd13ce5c74372e9fc7c1731d8507",
+    "source_identifier": "5497dd13ce5c74372e9fc7c1731d8507",
+    "checkout_id": 36656221454645,
+    "contact_email": "russel.winfield@example.com",
+    "discount_applications": [
+      {
+        "type": "manual",
+        "value": "10",
+        "value_type": "percentage",
+        "allocation_method": "across",
+        "target_selection": "all",
+        "target_type": "line_item"
+      }
+    ],
+    "payment_details": {},
+    "presentment_currency": "VND",
+    "total_line_items_price_set": {
+      "shop_money": {
+        "amount": "1400",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "1400",
+        "currency_code": "VND"
+      }
+    },
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "140",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "140",
+        "currency_code": "VND"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "30",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "30",
+        "currency_code": "VND"
+      }
+    },
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "1260",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "1260",
+        "currency_code": "VND"
+      }
+    },
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      }
+    },
+    "total_tip_received": "0",
+    "origin_total_duties_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "current_total_duties_set": null,
+    "admin_graph_api_id": "",
+    "total_discount_price_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "total_price_set": {
+      "shop_money": {
+        "amount": "1290",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "1290",
+        "currency_code": "VND"
+      }
+    }
+  },
+  {
+    "id": 5361796284725,
+    "name": "#1006",
+    "email": "russel.winfield@example.com",
+    "created_at": "2023-04-29T03:58:05-04:00",
+    "updated_at": "2023-04-29T03:58:06-04:00",
+    "processed_at": "2023-04-29T03:58:04-04:00",
+    "customer": {
+      "id": 6962183930165,
+      "email": "russel.winfield@example.com",
+      "first_name": "Russell",
+      "last_name": "Winfield",
+      "state": "disabled",
+      "note": "This customer is created with most available fields",
+      "verified_email": true,
+      "orders_count": 4,
+      "total_spent": "6657",
+      "phone": "+16135550135",
+      "tags": "VIP",
+      "last_order_id": 5361796415797,
+      "last_order_name": "#1009",
+      "default_address": {
+        "id": 9204555153717,
+        "customer_id": 6962183930165,
+        "first_name": "Russell",
+        "last_name": "Winfield",
+        "company": "Company Name",
+        "address1": "105 Victoria St",
+        "city": "Toronto",
+        "country": "Canada",
+        "zip": "M5C1N7",
+        "name": "Russell Winfield",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "default": true
+      },
+      "created_at": "2023-04-29T03:58:02-04:00",
+      "updated_at": "2023-04-29T03:58:06-04:00",
+      "accepts_marketing_updated_at": "2023-04-29T03:58:02-04:00",
+      "admin_graphql_api_id": "gid://shopify/Customer/6962183930165",
+      "currency": "VND"
+    },
+    "billing_address": {
+      "address1": "105 Victoria St",
+      "city": "Toronto",
+      "company": "Company Name",
+      "country": "Canada",
+      "country_code": "CA",
+      "first_name": "Russell",
+      "last_name": "Winfield",
+      "latitude": 43.6522608,
+      "longitude": -79.3776862,
+      "name": "Russell Winfield",
+      "zip": "M5C1N7"
+    },
+    "shipping_address": {
+      "address1": "105 Victoria St",
+      "city": "Toronto",
+      "company": "Company Name",
+      "country": "Canada",
+      "country_code": "CA",
+      "first_name": "Russell",
+      "last_name": "Winfield",
+      "latitude": 43.6522608,
+      "longitude": -79.3776862,
+      "name": "Russell Winfield",
+      "zip": "M5C1N7"
+    },
+    "currency": "VND",
+    "total_price": "1807",
+    "subtotal_price": "1777",
+    "total_discounts": "323",
+    "total_line_items_price": "2100",
+    "total_tax": "0",
+    "total_weight": 13605,
+    "financial_status": "paid",
+    "token": "07a4da369dd10a7f4e965014f8e5ad98",
+    "number": 6,
+    "order_number": 1006,
+    "browser_ip": "244.100.39.11",
+    "discount_codes": [
+      {
+        "amount": "313",
+        "type": "percentage"
+      }
+    ],
+    "line_items": [
+      {
+        "id": 13920225919285,
+        "product_id": 8268258738485,
+        "variant_id": 44986377994549,
+        "quantity": 1,
+        "price": "700",
+        "total_discount": "10",
+        "title": "The Complete Snowboard",
+        "variant_title": "Powder",
+        "name": "The Complete Snowboard - Powder",
+        "vendor": "Snowboard Vendor",
+        "taxable": true,
+        "fulfillment_service": "manual",
+        "requires_shipping": true,
+        "variant_inventory_management": "shopify",
+        "product_exists": true,
+        "fulfillable_quantity": 1,
+        "grams": 4536,
+        "origin_location": {
+          "id": 3786220077365,
+          "country_code": "VN",
+          "name": "Shop location"
+        },
+        "discount_allocations": [
+          {
+            "amount": "10",
+            "amount_set": {
+              "shop_money": {
+                "amount": "10",
+                "currency_code": "VND"
+              },
+              "presentment_money": {
+                "amount": "10",
+                "currency_code": "VND"
+              }
+            }
+          },
+          {
+            "amount": "104",
+            "amount_set": {
+              "shop_money": {
+                "amount": "104",
+                "currency_code": "VND"
+              },
+              "presentment_money": {
+                "amount": "104",
+                "currency_code": "VND"
+              }
+            }
+          }
+        ],
+        "price_set": {
+          "shop_money": {
+            "amount": "700",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "700",
+            "currency_code": "VND"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "10",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "10",
+            "currency_code": "VND"
+          }
+        }
+      },
+      {
+        "id": 13920225952053,
+        "product_id": 8268258738485,
+        "variant_id": 44986378092853,
+        "quantity": 2,
+        "price": "700",
+        "total_discount": "0",
+        "title": "The Complete Snowboard",
+        "variant_title": "Electric",
+        "name": "The Complete Snowboard - Electric",
+        "vendor": "Snowboard Vendor",
+        "taxable": true,
+        "fulfillment_service": "manual",
+        "requires_shipping": true,
+        "variant_inventory_management": "shopify",
+        "product_exists": true,
+        "fulfillable_quantity": 2,
+        "grams": 4536,
+        "origin_location": {
+          "id": 3786220077365,
+          "country_code": "VN",
+          "name": "Shop location"
+        },
+        "discount_allocations": [
+          {
+            "amount": "209",
+            "amount_set": {
+              "shop_money": {
+                "amount": "209",
+                "currency_code": "VND"
+              },
+              "presentment_money": {
+                "amount": "209",
+                "currency_code": "VND"
+              }
+            }
+          }
+        ],
+        "price_set": {
+          "shop_money": {
+            "amount": "700",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "700",
+            "currency_code": "VND"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          }
+        }
+      }
+    ],
+    "shipping_lines": [
+      {
+        "id": 4346973356341,
+        "title": "International Shipping",
+        "price": "30",
+        "code": "International Shipping",
+        "source": "shopify",
+        "carrier_identifier": "071e9d6cd4a1d56acf60bc21aea1e689",
+        "discounted_price": "30",
+        "discounted_price_set": {
+          "shop_money": {
+            "amount": "30",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "30",
+            "currency_code": "VND"
+          }
+        }
+      }
+    ],
+    "app_id": 16818700289,
+    "customer_locale": "UK",
+    "source_name": "16818700289",
+    "client_details": {
+      "browser_ip": "244.100.39.11",
+      "user_agent": "Sunflower/production Cusco/1.12.1 Ruby/3.2.2"
+    },
+    "tags": "Line Item Discount, Order Discount",
+    "payment_gateway_names": ["manual"],
+    "processing_method": "manual",
+    "order_status_url": "https://cuongtoi001.myshopify.com/75705712949/orders/07a4da369dd10a7f4e965014f8e5ad98/authenticate?key=0a4a94c3ad20892c60f331536a0b0c91",
+    "gateway": "manual",
+    "confirmed": true,
+    "total_price_usd": "0.08",
+    "checkout_token": "774b8665ce862adc4e607949b4baef51",
+    "reference": "ad3a5777d6ff17df83e69365f3f8a363",
+    "source_identifier": "ad3a5777d6ff17df83e69365f3f8a363",
+    "checkout_id": 36656221421877,
+    "contact_email": "russel.winfield@example.com",
+    "discount_applications": [
+      {
+        "type": "manual",
+        "value": "10",
+        "value_type": "fixed_amount",
+        "allocation_method": "each",
+        "target_selection": "explicit",
+        "target_type": "line_item"
+      },
+      {
+        "type": "manual",
+        "value": "15",
+        "value_type": "percentage",
+        "allocation_method": "across",
+        "target_selection": "all",
+        "target_type": "line_item"
+      }
+    ],
+    "payment_details": {},
+    "presentment_currency": "VND",
+    "total_line_items_price_set": {
+      "shop_money": {
+        "amount": "2100",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "2100",
+        "currency_code": "VND"
+      }
+    },
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "323",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "323",
+        "currency_code": "VND"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "30",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "30",
+        "currency_code": "VND"
+      }
+    },
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "1777",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "1777",
+        "currency_code": "VND"
+      }
+    },
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      }
+    },
+    "total_tip_received": "0",
+    "origin_total_duties_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "current_total_duties_set": null,
+    "admin_graph_api_id": "",
+    "total_discount_price_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "total_price_set": {
+      "shop_money": {
+        "amount": "1807",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "1807",
+        "currency_code": "VND"
+      }
+    }
+  },
+  {
+    "id": 5361796251957,
+    "name": "#1005",
+    "email": "ayumu.hirano@example.com",
+    "created_at": "2023-04-29T03:58:05-04:00",
+    "updated_at": "2023-04-29T03:58:06-04:00",
+    "processed_at": "2023-04-29T03:58:04-04:00",
+    "customer": {
+      "id": 6962183831861,
+      "email": "ayumu.hirano@example.com",
+      "first_name": "Ayumu",
+      "last_name": "Hirano",
+      "state": "disabled",
+      "verified_email": true,
+      "orders_count": 2,
+      "total_spent": "3143",
+      "phone": "+16135550127",
+      "last_order_id": 5361796350261,
+      "last_order_name": "#1008",
+      "created_at": "2023-04-29T03:58:01-04:00",
+      "updated_at": "2023-04-29T03:58:06-04:00",
+      "accepts_marketing_updated_at": "2023-04-29T03:58:02-04:00",
+      "admin_graphql_api_id": "gid://shopify/Customer/6962183831861",
+      "currency": "VND"
+    },
+    "currency": "VND",
+    "total_price": "2340",
+    "subtotal_price": "2100",
+    "total_discounts": "700",
+    "total_line_items_price": "2800",
+    "total_tax": "210",
+    "tax_lines": [
+      {
+        "title": "VAT",
+        "price": "210",
+        "price_set": {
+          "shop_money": {
+            "amount": "210",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "210",
+            "currency_code": "VND"
+          }
+        },
+        "rate": "0.1"
+      }
+    ],
+    "total_weight": 18140,
+    "financial_status": "paid",
+    "token": "d3a8978c63f47b0383175b619d00d185",
+    "number": 5,
+    "order_number": 1005,
+    "browser_ip": "244.100.39.11",
+    "line_items": [
+      {
+        "id": 13920225886517,
+        "product_id": 8268258738485,
+        "variant_id": 44986377863477,
+        "quantity": 4,
+        "price": "700",
+        "total_discount": "700",
+        "title": "The Complete Snowboard",
+        "variant_title": "Ice",
+        "name": "The Complete Snowboard - Ice",
+        "vendor": "Snowboard Vendor",
+        "taxable": true,
+        "fulfillment_service": "manual",
+        "requires_shipping": true,
+        "variant_inventory_management": "shopify",
+        "product_exists": true,
+        "fulfillable_quantity": 4,
+        "grams": 4536,
+        "tax_lines": [
+          {
+            "title": "VAT",
+            "price": "210",
+            "price_set": {
+              "shop_money": {
+                "amount": "210",
+                "currency_code": "VND"
+              },
+              "presentment_money": {
+                "amount": "210",
+                "currency_code": "VND"
+              }
+            },
+            "rate": "0.1"
+          }
+        ],
+        "origin_location": {
+          "id": 3786220077365,
+          "country_code": "VN",
+          "name": "Shop location"
+        },
+        "discount_allocations": [
+          {
+            "amount": "700",
+            "amount_set": {
+              "shop_money": {
+                "amount": "700",
+                "currency_code": "VND"
+              },
+              "presentment_money": {
+                "amount": "700",
+                "currency_code": "VND"
+              }
+            }
+          }
+        ],
+        "price_set": {
+          "shop_money": {
+            "amount": "700",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "700",
+            "currency_code": "VND"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "700",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "700",
+            "currency_code": "VND"
+          }
+        }
+      }
+    ],
+    "shipping_lines": [
+      {
+        "id": 4346973323573,
+        "title": "International Shipping",
+        "price": "30",
+        "code": "custom",
+        "source": "shopify",
+        "carrier_identifier": "071e9d6cd4a1d56acf60bc21aea1e689",
+        "discounted_price": "30",
+        "discounted_price_set": {
+          "shop_money": {
+            "amount": "30",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "30",
+            "currency_code": "VND"
+          }
+        }
+      }
+    ],
+    "app_id": 16818700289,
+    "customer_locale": "en",
+    "source_name": "16818700289",
+    "client_details": {
+      "browser_ip": "244.100.39.11",
+      "user_agent": "Sunflower/production Cusco/1.12.1 Ruby/3.2.2"
+    },
+    "tags": "Line Item Discount",
+    "location_id": 82933973301,
+    "payment_gateway_names": ["manual"],
+    "processing_method": "manual",
+    "order_status_url": "https://cuongtoi001.myshopify.com/75705712949/orders/d3a8978c63f47b0383175b619d00d185/authenticate?key=b71c7d5e0accc26fdda54c8d187c530e",
+    "gateway": "manual",
+    "confirmed": true,
+    "total_price_usd": "0.1",
+    "checkout_token": "b595dd8d4eb8c58442071489c453742c",
+    "reference": "1d7f6d421d6e1c2617a9823147180ef6",
+    "source_identifier": "1d7f6d421d6e1c2617a9823147180ef6",
+    "checkout_id": 36656221323573,
+    "contact_email": "ayumu.hirano@example.com",
+    "discount_applications": [
+      {
+        "type": "manual",
+        "value": "25",
+        "value_type": "percentage",
+        "allocation_method": "across",
+        "target_selection": "explicit",
+        "target_type": "line_item"
+      }
+    ],
+    "payment_details": {},
+    "presentment_currency": "VND",
+    "total_line_items_price_set": {
+      "shop_money": {
+        "amount": "2800",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "2800",
+        "currency_code": "VND"
+      }
+    },
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "700",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "700",
+        "currency_code": "VND"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "30",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "30",
+        "currency_code": "VND"
+      }
+    },
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "2100",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "2100",
+        "currency_code": "VND"
+      }
+    },
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "210",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "210",
+        "currency_code": "VND"
+      }
+    },
+    "total_tip_received": "0",
+    "origin_total_duties_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "current_total_duties_set": null,
+    "admin_graph_api_id": "",
+    "total_discount_price_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "total_price_set": {
+      "shop_money": {
+        "amount": "2340",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "2340",
+        "currency_code": "VND"
+      }
+    }
+  },
+  {
+    "id": 5361796219189,
+    "name": "#1004",
+    "created_at": "2023-04-29T03:58:04-04:00",
+    "updated_at": "2023-04-29T03:58:06-04:00",
+    "processed_at": "2023-04-29T03:58:04-04:00",
+    "currency": "VND",
+    "total_price": "9746",
+    "subtotal_price": "8860",
+    "total_discounts": "0",
+    "total_line_items_price": "8860",
+    "total_tax": "886",
+    "tax_lines": [
+      {
+        "title": "VAT",
+        "price": "89",
+        "price_set": {
+          "shop_money": {
+            "amount": "89",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "89",
+            "currency_code": "VND"
+          }
+        },
+        "rate": "0.1"
+      },
+      {
+        "title": "VAT",
+        "price": "797",
+        "price_set": {
+          "shop_money": {
+            "amount": "797",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "797",
+            "currency_code": "VND"
+          }
+        },
+        "rate": "0.1"
+      }
+    ],
+    "financial_status": "partially_paid",
+    "token": "daabd94d332dd015298358f892ecfc7f",
+    "number": 4,
+    "order_number": 1004,
+    "browser_ip": "244.100.39.11",
+    "line_items": [
+      {
+        "id": 13920225853749,
+        "product_id": 8268258640181,
+        "variant_id": 44986377765173,
+        "quantity": 10,
+        "price": "886",
+        "total_discount": "0",
+        "title": "The Minimal Snowboard",
+        "name": "The Minimal Snowboard",
+        "vendor": "cuongtoi001",
+        "taxable": true,
+        "fulfillment_service": "manual",
+        "requires_shipping": true,
+        "variant_inventory_management": "shopify",
+        "product_exists": true,
+        "fulfillable_quantity": 10,
+        "tax_lines": [
+          {
+            "title": "VAT",
+            "price": "89",
+            "price_set": {
+              "shop_money": {
+                "amount": "89",
+                "currency_code": "VND"
+              },
+              "presentment_money": {
+                "amount": "89",
+                "currency_code": "VND"
+              }
+            },
+            "rate": "0.1"
+          },
+          {
+            "title": "VAT",
+            "price": "797",
+            "price_set": {
+              "shop_money": {
+                "amount": "797",
+                "currency_code": "VND"
+              },
+              "presentment_money": {
+                "amount": "797",
+                "currency_code": "VND"
+              }
+            },
+            "rate": "0.1"
+          }
+        ],
+        "origin_location": {
+          "id": 3786220077365,
+          "country_code": "VN",
+          "name": "Shop location"
+        },
+        "price_set": {
+          "shop_money": {
+            "amount": "886",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "886",
+            "currency_code": "VND"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          }
+        }
+      }
+    ],
+    "app_id": 16818700289,
+    "customer_locale": "en",
+    "source_name": "16818700289",
+    "client_details": {
+      "browser_ip": "244.100.39.11",
+      "user_agent": "Sunflower/production Cusco/1.12.1 Ruby/3.2.2"
+    },
+    "tags": "Edited",
+    "location_id": 82933973301,
+    "payment_gateway_names": ["manual"],
+    "processing_method": "manual",
+    "order_status_url": "https://cuongtoi001.myshopify.com/75705712949/orders/daabd94d332dd015298358f892ecfc7f/authenticate?key=73b239d5a89d514aba667b19203439da",
+    "gateway": "manual",
+    "confirmed": true,
+    "total_price_usd": "0.42",
+    "checkout_token": "9143ab639f49fecce699c154902397a6",
+    "reference": "5e7b3da4ee622843a0d2acee1d1f724b",
+    "source_identifier": "5e7b3da4ee622843a0d2acee1d1f724b",
+    "checkout_id": 36656221290805,
+    "payment_details": {},
+    "presentment_currency": "VND",
+    "total_line_items_price_set": {
+      "shop_money": {
+        "amount": "8860",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "8860",
+        "currency_code": "VND"
+      }
+    },
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      }
+    },
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "8860",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "8860",
+        "currency_code": "VND"
+      }
+    },
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "886",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "886",
+        "currency_code": "VND"
+      }
+    },
+    "total_tip_received": "0",
+    "origin_total_duties_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "current_total_duties_set": null,
+    "admin_graph_api_id": "",
+    "total_discount_price_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "total_price_set": {
+      "shop_money": {
+        "amount": "9746",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "9746",
+        "currency_code": "VND"
+      }
+    }
+  },
+  {
+    "id": 5361796186421,
+    "name": "#1003",
+    "created_at": "2023-04-29T03:58:04-04:00",
+    "updated_at": "2023-04-29T03:58:05-04:00",
+    "processed_at": "2023-04-29T03:58:04-04:00",
+    "currency": "VND",
+    "total_price": "5738",
+    "subtotal_price": "5216",
+    "total_discounts": "0",
+    "total_line_items_price": "5216",
+    "total_tax": "522",
+    "tax_lines": [
+      {
+        "title": "VAT",
+        "price": "522",
+        "price_set": {
+          "shop_money": {
+            "amount": "522",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "0.4",
+            "currency_code": "MXN"
+          }
+        },
+        "rate": "0.1"
+      }
+    ],
+    "total_weight": 18143,
+    "financial_status": "paid",
+    "token": "d73eadcf0258370c484219e89c9584bd",
+    "number": 3,
+    "order_number": 1003,
+    "line_items": [
+      {
+        "id": 13920225820981,
+        "product_id": 8268258738485,
+        "variant_id": 44986377863477,
+        "quantity": 4,
+        "price": "1304",
+        "total_discount": "0",
+        "title": "The Complete Snowboard",
+        "variant_title": "Ice",
+        "name": "The Complete Snowboard - Ice",
+        "vendor": "Snowboard Vendor",
+        "taxable": true,
+        "fulfillment_service": "manual",
+        "requires_shipping": true,
+        "variant_inventory_management": "shopify",
+        "product_exists": true,
+        "fulfillable_quantity": 4,
+        "grams": 4536,
+        "tax_lines": [
+          {
+            "title": "VAT",
+            "price": "522",
+            "price_set": {
+              "shop_money": {
+                "amount": "522",
+                "currency_code": "VND"
+              },
+              "presentment_money": {
+                "amount": "0.4",
+                "currency_code": "MXN"
+              }
+            },
+            "rate": "0.1"
+          }
+        ],
+        "origin_location": {
+          "id": 3786220077365,
+          "country_code": "VN",
+          "name": "Shop location"
+        },
+        "price_set": {
+          "shop_money": {
+            "amount": "1304",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "1",
+            "currency_code": "MXN"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "0",
+            "currency_code": "MXN"
+          }
+        }
+      }
+    ],
+    "app_id": 16818700289,
+    "source_name": "16818700289",
+    "client_details": {},
+    "tags": "International Market",
+    "location_id": 82933973301,
+    "payment_gateway_names": ["manual"],
+    "processing_method": "manual",
+    "order_status_url": "https://cuongtoi001.myshopify.com/75705712949/orders/d73eadcf0258370c484219e89c9584bd/authenticate?key=656ff7d2e340a851982840169e597562",
+    "gateway": "manual",
+    "confirmed": true,
+    "total_price_usd": "0.25",
+    "checkout_token": "58a2be11509b28de9fd6854b90969c6b",
+    "checkout_id": 36656221389109,
+    "payment_details": {},
+    "presentment_currency": "MXN",
+    "total_line_items_price_set": {
+      "shop_money": {
+        "amount": "5216",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "4",
+        "currency_code": "MXN"
+      }
+    },
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "0",
+        "currency_code": "MXN"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "0",
+        "currency_code": "MXN"
+      }
+    },
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "5216",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "4",
+        "currency_code": "MXN"
+      }
+    },
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "522",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "0.4",
+        "currency_code": "MXN"
+      }
+    },
+    "total_tip_received": "0",
+    "origin_total_duties_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "current_total_duties_set": null,
+    "admin_graph_api_id": "",
+    "total_discount_price_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "total_price_set": {
+      "shop_money": {
+        "amount": "5738",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "4.4",
+        "currency_code": "MXN"
+      }
+    }
+  },
+  {
+    "id": 5361796153653,
+    "name": "#1002",
+    "email": "russel.winfield@example.com",
+    "created_at": "2023-04-29T03:58:03-04:00",
+    "updated_at": "2023-04-29T03:58:04-04:00",
+    "processed_at": "2023-04-29T03:58:03-04:00",
+    "customer": {
+      "id": 6962183930165,
+      "email": "russel.winfield@example.com",
+      "first_name": "Russell",
+      "last_name": "Winfield",
+      "state": "disabled",
+      "note": "This customer is created with most available fields",
+      "verified_email": true,
+      "orders_count": 4,
+      "total_spent": "6657",
+      "phone": "+16135550135",
+      "tags": "VIP",
+      "last_order_id": 5361796415797,
+      "last_order_name": "#1009",
+      "default_address": {
+        "id": 9204555153717,
+        "customer_id": 6962183930165,
+        "first_name": "Russell",
+        "last_name": "Winfield",
+        "company": "Company Name",
+        "address1": "105 Victoria St",
+        "city": "Toronto",
+        "country": "Canada",
+        "zip": "M5C1N7",
+        "name": "Russell Winfield",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "default": true
+      },
+      "created_at": "2023-04-29T03:58:02-04:00",
+      "updated_at": "2023-04-29T03:58:06-04:00",
+      "accepts_marketing_updated_at": "2023-04-29T03:58:02-04:00",
+      "admin_graphql_api_id": "gid://shopify/Customer/6962183930165",
+      "currency": "VND"
+    },
+    "billing_address": {
+      "address1": "105 Victoria St",
+      "city": "Toronto",
+      "company": "Company Name",
+      "country": "Canada",
+      "country_code": "CA",
+      "first_name": "Russell",
+      "last_name": "Winfield",
+      "name": "Russell Winfield",
+      "zip": "M5C1N7"
+    },
+    "shipping_address": {
+      "address1": "105 Victoria St",
+      "city": "Toronto",
+      "company": "Company Name",
+      "country": "Canada",
+      "country_code": "CA",
+      "first_name": "Russell",
+      "last_name": "Winfield",
+      "latitude": 43.6522608,
+      "longitude": -79.3776862,
+      "name": "Russell Winfield",
+      "zip": "M5C1N7"
+    },
+    "currency": "VND",
+    "total_price": "230",
+    "subtotal_price": "200",
+    "total_discounts": "0",
+    "total_line_items_price": "200",
+    "total_tax": "0",
+    "financial_status": "paid",
+    "token": "c4f0b385aace7c39188d25a907a778d8",
+    "number": 2,
+    "order_number": 1002,
+    "browser_ip": "244.100.39.11",
+    "line_items": [
+      {
+        "id": 13920225788213,
+        "quantity": 1,
+        "price": "200",
+        "total_discount": "0",
+        "title": "Custom Snowboard",
+        "name": "Custom Snowboard",
+        "taxable": true,
+        "fulfillment_service": "manual",
+        "requires_shipping": true,
+        "properties": [
+          {
+            "name": "wrap description",
+            "value": "Put my cat on it so I can shred these slopes like he shreds my couch!"
+          }
+        ],
+        "fulfillable_quantity": 1,
+        "price_set": {
+          "shop_money": {
+            "amount": "200",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "200",
+            "currency_code": "VND"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          }
+        }
+      }
+    ],
+    "shipping_lines": [
+      {
+        "id": 4346973290805,
+        "title": "International Shipping",
+        "price": "30",
+        "code": "International Shipping",
+        "source": "shopify",
+        "carrier_identifier": "071e9d6cd4a1d56acf60bc21aea1e689",
+        "discounted_price": "30",
+        "discounted_price_set": {
+          "shop_money": {
+            "amount": "30",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "30",
+            "currency_code": "VND"
+          }
+        }
+      }
+    ],
+    "app_id": 16818700289,
+    "customer_locale": "UK",
+    "source_name": "16818700289",
+    "client_details": {
+      "browser_ip": "244.100.39.11",
+      "user_agent": "Sunflower/production Cusco/1.12.1 Ruby/3.2.2"
+    },
+    "tags": "Custom Item",
+    "payment_gateway_names": ["manual"],
+    "processing_method": "manual",
+    "order_status_url": "https://cuongtoi001.myshopify.com/75705712949/orders/c4f0b385aace7c39188d25a907a778d8/authenticate?key=dd46e4d7762cd931b62513d7a596b07f",
+    "gateway": "manual",
+    "confirmed": true,
+    "total_price_usd": "0.01",
+    "checkout_token": "0fb224a13356439ee11a81b31e9e219c",
+    "reference": "c0689ea329aa9a95f22ed2121063ee70",
+    "source_identifier": "c0689ea329aa9a95f22ed2121063ee70",
+    "checkout_id": 36656221225269,
+    "contact_email": "russel.winfield@example.com",
+    "payment_details": {},
+    "presentment_currency": "VND",
+    "total_line_items_price_set": {
+      "shop_money": {
+        "amount": "200",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "200",
+        "currency_code": "VND"
+      }
+    },
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "30",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "30",
+        "currency_code": "VND"
+      }
+    },
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "200",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "200",
+        "currency_code": "VND"
+      }
+    },
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      }
+    },
+    "total_tip_received": "0",
+    "origin_total_duties_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "current_total_duties_set": null,
+    "admin_graph_api_id": "",
+    "total_discount_price_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "total_price_set": {
+      "shop_money": {
+        "amount": "230",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "230",
+        "currency_code": "VND"
+      }
+    }
+  },
+  {
+    "id": 5361796120885,
+    "name": "#1001",
+    "created_at": "2023-04-29T03:58:03-04:00",
+    "updated_at": "2023-04-29T03:58:04-04:00",
+    "processed_at": "2023-04-29T03:58:03-04:00",
+    "currency": "VND",
+    "total_price": "975",
+    "subtotal_price": "886",
+    "total_discounts": "0",
+    "total_line_items_price": "886",
+    "total_tax": "89",
+    "tax_lines": [
+      {
+        "title": "VAT",
+        "price": "89",
+        "price_set": {
+          "shop_money": {
+            "amount": "89",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "89",
+            "currency_code": "VND"
+          }
+        },
+        "rate": "0.1"
+      }
+    ],
+    "financial_status": "paid",
+    "token": "72ad3b7e2a6a1d8b9a875f09768ebd1e",
+    "number": 1,
+    "order_number": 1001,
+    "browser_ip": "244.100.39.11",
+    "line_items": [
+      {
+        "id": 13920225755445,
+        "product_id": 8268258640181,
+        "variant_id": 44986377765173,
+        "quantity": 1,
+        "price": "886",
+        "total_discount": "0",
+        "title": "The Minimal Snowboard",
+        "name": "The Minimal Snowboard",
+        "vendor": "cuongtoi001",
+        "taxable": true,
+        "fulfillment_service": "manual",
+        "requires_shipping": true,
+        "variant_inventory_management": "shopify",
+        "product_exists": true,
+        "fulfillable_quantity": 1,
+        "tax_lines": [
+          {
+            "title": "VAT",
+            "price": "89",
+            "price_set": {
+              "shop_money": {
+                "amount": "89",
+                "currency_code": "VND"
+              },
+              "presentment_money": {
+                "amount": "89",
+                "currency_code": "VND"
+              }
+            },
+            "rate": "0.1"
+          }
+        ],
+        "origin_location": {
+          "id": 3786220077365,
+          "country_code": "VN",
+          "name": "Shop location"
+        },
+        "price_set": {
+          "shop_money": {
+            "amount": "886",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "886",
+            "currency_code": "VND"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          },
+          "presentment_money": {
+            "amount": "0",
+            "currency_code": "VND"
+          }
+        }
+      }
+    ],
+    "app_id": 16818700289,
+    "customer_locale": "en",
+    "source_name": "16818700289",
+    "client_details": {
+      "browser_ip": "244.100.39.11",
+      "user_agent": "Sunflower/production Cusco/1.12.1 Ruby/3.2.2"
+    },
+    "tags": "Minimal Info",
+    "location_id": 82933973301,
+    "payment_gateway_names": ["manual"],
+    "processing_method": "manual",
+    "order_status_url": "https://cuongtoi001.myshopify.com/75705712949/orders/72ad3b7e2a6a1d8b9a875f09768ebd1e/authenticate?key=b444fe884921a7e6ce8cc17b56261f51",
+    "gateway": "manual",
+    "confirmed": true,
+    "total_price_usd": "0.04",
+    "checkout_token": "eac1278d24b64df89873b6b59aac53c1",
+    "reference": "5dc17d8d5d92baf740268cb4f168f1ef",
+    "source_identifier": "5dc17d8d5d92baf740268cb4f168f1ef",
+    "checkout_id": 36656221192501,
+    "payment_details": {},
+    "presentment_currency": "VND",
+    "total_line_items_price_set": {
+      "shop_money": {
+        "amount": "886",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "886",
+        "currency_code": "VND"
+      }
+    },
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "0",
+        "currency_code": "VND"
+      }
+    },
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "886",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "886",
+        "currency_code": "VND"
+      }
+    },
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "89",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "89",
+        "currency_code": "VND"
+      }
+    },
+    "total_tip_received": "0",
+    "origin_total_duties_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "current_total_duties_set": null,
+    "admin_graph_api_id": "",
+    "total_discount_price_set": {
+      "shop_money": {},
+      "presentment_money": {}
+    },
+    "total_price_set": {
+      "shop_money": {
+        "amount": "975",
+        "currency_code": "VND"
+      },
+      "presentment_money": {
+        "amount": "975",
+        "currency_code": "VND"
+      }
+    }
+  }
+]
