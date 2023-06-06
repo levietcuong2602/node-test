@@ -265,16 +265,17 @@ const convertCustomer = (customer) => {
     accepts_marketing_updated_at,
     addresses = [],
     default_address,
-    total_spent,
+    total_spent = 0,
   } = customer;
 
   const newCustomer = {
     ...customer,
+    email: email && email.toLowerCase(),
     id: `${id}`,
     last_order_id: `${last_order_id}`,
     created_at: new Date(created_at).toISOString(),
     updated_at: new Date(updated_at).toISOString(),
-    total_spent: +total_spent,
+    total_spent: total_spent && Number(total_spent),
     accepts_marketing_updated_at: new Date(
       accepts_marketing_updated_at
     ).toISOString(),
@@ -283,80 +284,123 @@ const convertCustomer = (customer) => {
   if (default_address) {
     newCustomer.default_address = {
       ...default_address,
-      email,
+      email: email && email.toLowerCase(),
       id: `${default_address.id}`,
-      customer_id: `${default_address.customer_id}`,
+      customer_id: `${default_address.customer_id || 0}`,
     };
   }
-  if (addresses) {
+  if (addresses && addresses.length > 0) {
     newCustomer.addresses = addresses.map((addr) => ({
       ...addr,
-      email,
+      email: email && email.toLowerCase(),
       id: `${addr.id}`,
-      customer_id: `${addr.customer_id}`,
+      customer_id: `${addr.customer_id || 0}`,
     }));
   }
 
   return newCustomer;
 };
 
-restoreCustomers();
-// console.log(
-//   JSON.stringify(
-//     convertCustomer({
-//       email: "ian@growthaustralia.com.au",
-//       id: 949077246009,
-//       note: "Sales Channel: Checkout",
-//       phone: "+61456229109",
-//       state: "disabled",
-//       currency: "AUD",
-//       addresses: [
-//         {
-//           id: 1036602277945,
-//           zip: "4017",
-//           city: "BRACKEN RIDGE",
-//           name: "Ian Gilmour",
-//           phone: "+61-456229109",
-//           country: "Australia",
-//           default: true,
-//           address1: "3 Michael Place",
-//           province: "Queensland",
-//           last_name: "Gilmour",
-//           first_name: "Ian",
-//           customer_id: 949077246009,
-//           country_code: "AU",
-//           country_name: "Australia",
-//           province_code: "QLD",
-//         },
-//       ],
-//       last_name: "Gilmour",
-//       created_at: "2018-09-21T12:29:24+10:00",
-//       first_name: "Ian",
-//       updated_at: "2023-01-24T05:18:22+11:00",
-//       total_spent: "69.99",
-//       orders_count: 1,
-//       last_order_id: 757230960697,
-//       verified_email: true,
-//       default_address: {
-//         id: 1036602277945,
-//         zip: "4017",
-//         city: "BRACKEN RIDGE",
-//         name: "Ian Gilmour",
-//         phone: "+61-456229109",
-//         country: "Australia",
-//         default: true,
-//         address1: "3 Michael Place",
-//         province: "Queensland",
-//         last_name: "Gilmour",
-//         first_name: "Ian",
-//         customer_id: 949077246009,
-//         country_code: "AU",
-//         country_name: "Australia",
-//         province_code: "QLD",
-//       },
-//       last_order_name: "N1071713",
-//       admin_graphql_api_id: "gid://shopify/Customer/949077246009",
-//       accepts_marketing_updated_at: "2019-01-04T23:31:11+11:00",
-//     })
-//   )
-// );
+// restoreCustomers();
+
+// getAccessToken({
+//   tenant_id: TENANT_ID,
+//   client_secret: TENANT_SECRET,
+// });
+
+console.log(
+  JSON.stringify(
+    convertCustomer({
+      id: 2735250571321,
+      tags: "segment_spend_participation",
+      email: "Jan0805@hotmail.com",
+      state: "disabled",
+      currency: "AUD",
+      addresses: [
+        {
+          id: 6393040273465,
+          zip: "6031",
+          city: "Banksia Grove",
+          name: "Jan Holt",
+          phone: "+61410594247",
+          country: "Australia",
+          default: true,
+          address1: "Parcel Locker 1002322995",
+          address2: "81 Ghost Gum Boulevard",
+          province: "Western Australia",
+          last_name: "Holt",
+          first_name: "Jan",
+          customer_id: 2735250571321,
+          country_code: "AU",
+          country_name: "Australia",
+          province_code: "WA",
+        },
+        {
+          id: 2923284594745,
+          zip: "6031",
+          city: "BANKSIA GROVE",
+          name: "Jan Holt",
+          phone: "0410 594 247",
+          company: "Mrs",
+          country: "Australia",
+          address1: "Parcel Locker 10023 22995",
+          address2: "81 Ghost Gum Boulevard,",
+          province: "Western Australia",
+          last_name: "Holt",
+          first_name: "Jan",
+          customer_id: 2735250571321,
+          country_code: "AU",
+          country_name: "Australia",
+          province_code: "WA",
+        },
+        {
+          id: 2923281678393,
+          zip: "6031",
+          city: "BANKSIA GROVE",
+          name: "Jan Holt",
+          phone: "0410594247",
+          company: "Mrs",
+          country: "Australia",
+          address1: "Parcel Locker 10023 22995",
+          address2: "81 Ghost Gum Boulevard,",
+          province: "Western Australia",
+          last_name: "Holt",
+          first_name: "Jan",
+          customer_id: 2735250571321,
+          country_code: "AU",
+          country_name: "Australia",
+          province_code: "WA",
+        },
+      ],
+      last_name: "Holt",
+      created_at: "2019-12-17T09:12:52+11:00",
+      first_name: "Jan",
+      updated_at: "2023-03-26T00:54:35+11:00",
+      total_spent: "149.92",
+      orders_count: 2,
+      last_order_id: 3844975394873,
+      verified_email: true,
+      default_address: {
+        id: 6393040273465,
+        zip: "6031",
+        city: "Banksia Grove",
+        name: "Jan Holt",
+        phone: "+61410594247",
+        country: "Australia",
+        default: true,
+        address1: "Parcel Locker 1002322995",
+        address2: "81 Ghost Gum Boulevard",
+        province: "Western Australia",
+        last_name: "Holt",
+        first_name: "Jan",
+        customer_id: 2735250571321,
+        country_code: "AU",
+        country_name: "Australia",
+        province_code: "WA",
+      },
+      last_order_name: "S236776",
+      admin_graphql_api_id: "gid://shopify/Customer/2735250571321",
+      accepts_marketing_updated_at: "2019-12-17T09:12:53+11:00",
+    })
+  )
+);
