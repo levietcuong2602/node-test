@@ -6,12 +6,13 @@ const url = require("url");
 
 const { chunk, sleep } = require("./utils/util");
 
-let token = `eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJaVjJZTU5kZGpCTHU1OWJ4Um9KNFU4NnlEY3ZnNUpKd19Lb0lwRnlJUU5vIn0.eyJleHAiOjE2ODU5Nzk4MzIsImlhdCI6MTY4NTk2MTgzMiwianRpIjoiZTI0NWIwMjEtNzVhYS00ZjNjLWE2MWEtNzY4ZTFmZmNhNWYzIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmF1LWF3cy50aGV3aXNobGlzdC5pby9hdXRoL3JlYWxtcy9tci1wb29sbWFuIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjQ4YjRiM2IzLTE1NDQtNGU4MC04NTkxLWI0NzFkYmFjNzM0OCIsInR5cCI6IkJlYXJlciIsImF6cCI6InR3Y19hZG1pbiIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cHM6Ly9jb25zb2xlLmF1LWF3cy50aGV3aXNobGlzdC5pbyIsImh0dHBzOi8vYXBpLmF1LWF3cy50aGV3aXNobGlzdC5pbyJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoiZW1haWwgcHJvZmlsZSIsImNsaWVudElkIjoidHdjX2FkbWluIiwiY2xpZW50SG9zdCI6IjE5Mi4xNjguMTMzLjIwIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtdHdjX2FkbWluIiwiY2xpZW50QWRkcmVzcyI6IjE5Mi4xNjguMTMzLjIwIn0.JUFgbzri8A70cOG1dL6CgO5KRvmsj4JUlSdDVL-qVZ-gmqDQwFYhBu9cc4ojLQmXB8PB6qfF_LUBrpPt3GiAGLygCuN83gf2Vw8MEwbaahCHvt3MOjhPyCIp41oQ5XPsX-MWHNObuvgB7_2JI8IzukNkhnrgCmxjlJuuUZ8yY0FNksgp3euex5OmQXpokAbqsurjySUXIACXE667F-cedrFKX6OyUn-5xbVe4VyzwWBFZrV8D2BJ77-igP8TQO8AMmS8ysxPvuCipefkt4qd_W_QeQvOI6IirEUHelsJRY9NJ2973fi8q2LgkyrsBJWlLruFKULgj4d0dyEdVA8sbg`;
+let token = `eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ3TTdnUTlXeVlKSzVZSHJQNUh5dkN5dUJDaWd0NnB2SkNVcnVicXB2dGVVIn0.eyJleHAiOjE2ODcxODAzOTksImlhdCI6MTY4NzE2MjM5OSwianRpIjoiNGNhNjMwZTAtNGE1OC00MmEzLWI5ZjYtNzljZWY2YzdkM2M3IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmF1LWF3cy50aGV3aXNobGlzdC5pby9hdXRoL3JlYWxtcy92aWt0b3JpYS13b29kcyIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJhMzM0YmIyYy1lMzcxLTQ5NTEtODUxNy1kNDQ0M2FkZDg5NTYiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJ0d2NfYWRtaW4iLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHBzOi8vY29uc29sZS5hdS1hd3MudGhld2lzaGxpc3QuaW8iLCJodHRwczovL2FwaS5hdS1hd3MudGhld2lzaGxpc3QuaW8iXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJjbGllbnRIb3N0IjoiMTkyLjE2OC4xNTcuMTA4IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRJZCI6InR3Y19hZG1pbiIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC10d2NfYWRtaW4iLCJjbGllbnRBZGRyZXNzIjoiMTkyLjE2OC4xNTcuMTA4In0.g7W_6sfhSEiuazzftGok8mBUt5UHVVcMkPH3RmNHmVZLs7aPBAo0y4IALGGCkkZP8YLbzD9JG5iNKYh-VGXbCp9iJptdVePkY0yMml52-Ufp-D541BhPkw6AZt5ya1VxXcMbToNWZcKJD4oeJ6Wtl3dluk7ykR8ZZLYLsqBJQoacGP3VhNgVVXElXLPYaRCYKRt_EmafyjBKb3kS_W607gxTSo_cMxrhvsvWUi8ZAF9-hQR61Wb6xtRnnFO3lOx3gBb73RNB2IFou4RCbJ9lrs8RGRTG3QysCJuexjOHaVi05NGW4e7-ndogzw5s8e76s4-l0tX2I7LKRxxxOjmOpQ`;
 const results = {};
+const removeFailCustomerIds = [];
 
 const RATE_LIMIT_TWC = 15;
-const TENANT_ID = "mr-poolman";
-const TENANT_SECRET = "gLkyfic0IwiDbGjLHe1VHk";
+const TENANT_ID = "viktoria-woods";
+const TENANT_SECRET = "OZDJrXXhFByxcHWGxXP7oF";
 const ENV_TWC = "aws";
 
 const getAccessToken = async ({ tenant_id, client_secret }) => {
@@ -76,6 +77,7 @@ const getListOrderFromShopify = async () => {
   }
 };
 
+// RESTORE CUSTOMER
 const checkCustomerInTWC = async (customer, tenant_id) => {
   const { customer_id, payload } = customer;
   let index = 0;
@@ -162,49 +164,6 @@ const readCustomerFromCsv = async () => {
   );
 };
 
-// readCustomerFromCsv();
-
-const restoreCustomers = async () => {
-  const customerObj = require(path.join(
-    __dirname,
-    "./customers/mr-poolman-missing-customer-retry-7.json"
-  ));
-  const customers = Object.values(customerObj)
-    .map((e) => JSON.parse(e))
-    .map(({ email, ...rest }) => ({
-      email: email && email.toLowerCase(),
-      ...rest,
-    }))
-    .map((e) => convertCustomer(e));
-  const customerChunks = chunk(customers, RATE_LIMIT_TWC);
-
-  const countCustomers = customers.length;
-  let index = 0;
-  for (const vChunk of customerChunks) {
-    console.log(
-      `upload customers - index: ${
-        index * RATE_LIMIT_TWC + 1
-      }/${countCustomers}`
-    );
-    await Promise.all(vChunk.map((customer) => uploadCustomerTWC(customer)));
-    await sleep(500);
-    index++;
-  }
-
-  // for (const variant of customerChunks) {
-  //   console.log(
-  //     `Create product: ${product_id} variant ${variant_id} - index: ${++index}/${countVariant}`
-  //   );
-  //   await saveProductVariantTWC(variant, TENANT_ID);
-  // }
-
-  console.log(`Total length customer not sync: ${Object.keys(results).length}`);
-  fs.writeFileSync(
-    "./customers/mr-poolman-missing-customer-after-restore-1.json",
-    JSON.stringify(results, null, 2)
-  );
-};
-
 const uploadCustomerTWC = async (customer, tenant_id = TENANT_ID) => {
   let index = 0;
   let totalRetries = 3;
@@ -255,6 +214,47 @@ const uploadCustomerTWC = async (customer, tenant_id = TENANT_ID) => {
   }
 };
 
+const restoreCustomers = async () => {
+  const customerObj = require(path.join(
+    __dirname,
+    "./customers/mr-poolman-missing-customer-retry-7.json"
+  ));
+  const customers = Object.values(customerObj)
+    .map((e) => JSON.parse(e))
+    .map(({ email, ...rest }) => ({
+      email: email && email.toLowerCase(),
+      ...rest,
+    }))
+    .map((e) => convertCustomer(e));
+  const customerChunks = chunk(customers, RATE_LIMIT_TWC);
+
+  const countCustomers = customers.length;
+  let index = 0;
+  for (const vChunk of customerChunks) {
+    console.log(
+      `upload customers - index: ${
+        index * RATE_LIMIT_TWC + 1
+      }/${countCustomers}`
+    );
+    await Promise.all(vChunk.map((customer) => uploadCustomerTWC(customer)));
+    await sleep(500);
+    index++;
+  }
+
+  // for (const variant of customerChunks) {
+  //   console.log(
+  //     `Create product: ${product_id} variant ${variant_id} - index: ${++index}/${countVariant}`
+  //   );
+  //   await saveProductVariantTWC(variant, TENANT_ID);
+  // }
+
+  console.log(`Total length customer not sync: ${Object.keys(results).length}`);
+  fs.writeFileSync(
+    "./customers/mr-poolman-missing-customer-after-restore-1.json",
+    JSON.stringify(results, null, 2)
+  );
+};
+
 const convertCustomer = (customer) => {
   const {
     id,
@@ -301,106 +301,96 @@ const convertCustomer = (customer) => {
   return newCustomer;
 };
 
-// restoreCustomers();
+//  REMOVE CUSTOMERS
+const removeChunkCustomers = async (customer_id) => {
+  let index = 0;
+  let totalRetries = 3;
 
-// getAccessToken({
-//   tenant_id: TENANT_ID,
-//   client_secret: TENANT_SECRET,
-// });
+  for (index = 0; index < totalRetries; index++) {
+    try {
+      const isExist = await checkCustomerInTWC(
+        {
+          customer_id,
+          payload: { customer_id },
+        },
+        TENANT_ID
+      );
+      if (!isExist) {
+        console.log(`Customer ${customer_id} doesn't exists`);
+        return false;
+      }
 
-console.log(
-  JSON.stringify(
-    convertCustomer({
-      id: 2735250571321,
-      tags: "segment_spend_participation",
-      email: "Jan0805@hotmail.com",
-      state: "disabled",
-      currency: "AUD",
-      addresses: [
-        {
-          id: 6393040273465,
-          zip: "6031",
-          city: "Banksia Grove",
-          name: "Jan Holt",
-          phone: "+61410594247",
-          country: "Australia",
-          default: true,
-          address1: "Parcel Locker 1002322995",
-          address2: "81 Ghost Gum Boulevard",
-          province: "Western Australia",
-          last_name: "Holt",
-          first_name: "Jan",
-          customer_id: 2735250571321,
-          country_code: "AU",
-          country_name: "Australia",
-          province_code: "WA",
+      const { status, data } = await axios({
+        method: "DELETE",
+        headers: {
+          "X-TWC-Tenant": tenant_id,
+          Authorization: `Bearer ${token}`,
         },
-        {
-          id: 2923284594745,
-          zip: "6031",
-          city: "BANKSIA GROVE",
-          name: "Jan Holt",
-          phone: "0410 594 247",
-          company: "Mrs",
-          country: "Australia",
-          address1: "Parcel Locker 10023 22995",
-          address2: "81 Ghost Gum Boulevard,",
-          province: "Western Australia",
-          last_name: "Holt",
-          first_name: "Jan",
-          customer_id: 2735250571321,
-          country_code: "AU",
-          country_name: "Australia",
-          province_code: "WA",
-        },
-        {
-          id: 2923281678393,
-          zip: "6031",
-          city: "BANKSIA GROVE",
-          name: "Jan Holt",
-          phone: "0410594247",
-          company: "Mrs",
-          country: "Australia",
-          address1: "Parcel Locker 10023 22995",
-          address2: "81 Ghost Gum Boulevard,",
-          province: "Western Australia",
-          last_name: "Holt",
-          first_name: "Jan",
-          customer_id: 2735250571321,
-          country_code: "AU",
-          country_name: "Australia",
-          province_code: "WA",
-        },
-      ],
-      last_name: "Holt",
-      created_at: "2019-12-17T09:12:52+11:00",
-      first_name: "Jan",
-      updated_at: "2023-03-26T00:54:35+11:00",
-      total_spent: "149.92",
-      orders_count: 2,
-      last_order_id: 3844975394873,
-      verified_email: true,
-      default_address: {
-        id: 6393040273465,
-        zip: "6031",
-        city: "Banksia Grove",
-        name: "Jan Holt",
-        phone: "+61410594247",
-        country: "Australia",
-        default: true,
-        address1: "Parcel Locker 1002322995",
-        address2: "81 Ghost Gum Boulevard",
-        province: "Western Australia",
-        last_name: "Holt",
-        first_name: "Jan",
-        customer_id: 2735250571321,
-        country_code: "AU",
-        country_name: "Australia",
-        province_code: "WA",
-      },
-      last_order_name: "S236776",
-      admin_graphql_api_id: "gid://shopify/Customer/2735250571321",
-      accepts_marketing_updated_at: "2019-12-17T09:12:53+11:00",
-    })
-  )
-);
+        url: `https://api.au-${ENV_TWC}.thewishlist.io/services/shopifyconnect/api/customers/${customer_id}`,
+        data: customer,
+      });
+      if (status === 200) {
+        return true;
+      }
+    } catch (err) {
+      console.log(`Remove Customer ${customer_id} ERR:`, err.message);
+      if (err.response?.status === 401) {
+        await getAccessToken({
+          tenant_id: TENANT_ID,
+          client_secret: TENANT_SECRET,
+        });
+      }
+    }
+  }
+
+  if (index === totalRetries) {
+    console.log(`ERR: create customers: ${customer_id} failed`);
+    removeFailCustomerIds.push(customer_id);
+    return false;
+  }
+};
+
+const removeCustomers = async () => {
+  const customerIds = require(path.join(
+    __dirname,
+    "./customers/remove-customer-ids.json"
+  ));
+  const customerChunks = chunk(customerIds, RATE_LIMIT_TWC);
+
+  const countCustomers = customerIds.length;
+  let index = 0;
+  for (const vChunk of customerChunks) {
+    console.log(
+      `Remove customers - index: ${
+        index * RATE_LIMIT_TWC + 1
+      }/${countCustomers}`
+    );
+    await Promise.all(vChunk.map((customer) => removeChunkCustomers(customer)));
+    await sleep(500);
+    index++;
+  }
+
+  // for (const variant of customerChunks) {
+  //   console.log(
+  //     `Create product: ${product_id} variant ${variant_id} - index: ${++index}/${countVariant}`
+  //   );
+  //   await saveProductVariantTWC(variant, TENANT_ID);
+  // }
+
+  console.log(
+    `Total length customer not sync: ${
+      Object.keys(removeFailCustomerIds).length
+    }`
+  );
+  fs.writeFileSync(
+    "./customers/remove-failed-customer-ids.json",
+    JSON.stringify(removeFailCustomerIds, null, 2)
+  );
+};
+
+// removeCustomers();
+
+getAccessToken({
+  tenant_id: TENANT_ID,
+  client_secret: TENANT_SECRET,
+});
