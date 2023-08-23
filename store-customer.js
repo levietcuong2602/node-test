@@ -3,6 +3,7 @@ const path = require("path");
 const XLSX = require("xlsx");
 const axios = require("axios");
 const url = require("url");
+const camelcaseKeys = require("camelcase-keys");
 
 const { chunk, sleep } = require("./utils/util");
 
@@ -11,9 +12,13 @@ const results = {};
 const removeFailCustomerIds = [];
 
 const RATE_LIMIT_TWC = 15;
-const TENANT_ID = "viktoria-woods";
-const TENANT_SECRET = "OZDJrXXhFByxcHWGxXP7oF";
-const ENV_TWC = "aws";
+const TENANT_ID = "cuongtoi001";
+const TENANT_SECRET = "66RofyRNG_yS15Irs6856.";
+const ENV_TWC = "sandbox";
+
+// const TENANT_ID = "incu-2";
+// const TENANT_SECRET = "DZKTJ0knFSHzn7smAgX9UV";
+// const ENV_TWC = "aws";
 
 const getAccessToken = async ({ tenant_id, client_secret }) => {
   try {
@@ -295,6 +300,20 @@ const convertCustomer = (customer) => {
       email: email && email.toLowerCase(),
       id: `${addr.id}`,
       customer_id: `${addr.customer_id || 0}`,
+
+      building: "string",
+      city: "string",
+      contactPerson: "string",
+      countryIsocode: "string",
+      countryName: "string",
+      county: "string",
+      fax: "string",
+      level: "string",
+      phone: "string",
+      postcode: "string",
+      state: "string",
+      street: "string",
+      streetNumber: "string",
     }));
   }
 
@@ -394,3 +413,153 @@ getAccessToken({
   tenant_id: TENANT_ID,
   client_secret: TENANT_SECRET,
 });
+
+const { customAlphabet } = require("nanoid");
+
+const generateId = (length = 18, allowedChars) => {
+  // eslint-disable-next-line no-param-reassign
+  allowedChars =
+    allowedChars ||
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  const nanoid = customAlphabet(allowedChars, length);
+
+  return nanoid();
+};
+
+console.log(generateId(32));
+
+const formatImpexCustomer = (customer) => {
+  const {
+    id,
+    last_order_id,
+    email,
+    created_at,
+    updated_at,
+    accepts_marketing_updated_at,
+    addresses = [],
+    default_address,
+    total_spent = 0,
+  } = customer;
+
+  const newCustomer = {
+    accepts_marketing: !!customer.accepts_marketing,
+    active: !!customer.active,
+    email: email && email.toLowerCase(),
+    id: `${id}`,
+    last_order_id: `${last_order_id}`,
+    createdDate: new Date(created_at).toISOString(),
+    customer_state: customer.state,
+    firstName: customer.first_name,
+    lastName: customer.last_name,
+    lastModifiedDate: new Date(updated_at).toISOString(),
+    marketing_optin_level: customer.marketing_opt_in_level,
+    marketing_preferences_updated_at: new Date(
+      accepts_marketing_updated_at
+    ).toISOString(),
+    total_spent: total_spent && Number(total_spent),
+    accepts_marketing_updated_at: new Date(
+      accepts_marketing_updated_at
+    ).toISOString(),
+    mobile: customer.phone,
+    phone: customer.phone,
+    taxExempt: customer.tax_exempt,
+    taxExemptions: customer.tax_exemptions,
+    verified_email: customer.verified_email,
+  };
+
+  if (default_address) {
+    const {
+      id: addressId,
+      customerId,
+      ...rest
+    } = camelcaseKeys(default_address, { deep: true });
+
+    newCustomer.default_address = {
+      ...rest,
+      email: email && email.toLowerCase(),
+      customerId: `${customerId || 0}`,
+      addressId: `${addressId}`,
+    };
+  }
+  if (addresses && addresses.length > 0) {
+    newCustomer.addresses = addresses.map((addr) => {
+      const {
+        id: addressId,
+        customerId,
+        ...rest
+      } = camelcaseKeys(addr, { deep: true });
+
+      return {
+        ...rest,
+        email: email && email.toLowerCase(),
+        customerId: `${customerId || 0}`,
+        addressId: `${addressId}`,
+      };
+    });
+  }
+
+  return newCustomer;
+};
+
+console.log(
+  formatImpexCustomer({
+    id: 5815300063289,
+    tags: "segment_spend_participation, tier: Bronze",
+    email: "stephen@cptdistribution.com.au",
+    state: "enabled",
+    currency: "AUD",
+    addresses: [
+      {
+        id: 7428237230137,
+        zip: "2259",
+        city: "Wyong",
+        name: "Stephen McFadyen",
+        phone: "0416 661 576",
+        company: "CPT Distribution",
+        country: "Australia",
+        address1: "unit 9/12 Donaldson Street",
+        province: "New South Wales",
+        last_name: "McFadyen",
+        first_name: "Stephen",
+        customer_id: 5815300063289,
+        country_code: "AU",
+        country_name: "Australia",
+        province_code: "NSW",
+      },
+      {
+        id: 7428235362361,
+        name: "Stephen McFadyen",
+        country: "Australia",
+        default: true,
+        last_name: "McFadyen",
+        first_name: "Stephen",
+        customer_id: 5815300063289,
+        country_code: "AU",
+        country_name: "Australia",
+      },
+    ],
+    last_name: "McFadyen",
+    created_at: "2023-02-18T16:58:25+11:00",
+    first_name: "Stephen",
+    updated_at: "2023-03-11T17:10:18+11:00",
+    total_spent: "47.86",
+    orders_count: 1,
+    last_order_id: 4414631313465,
+    default_address: {
+      id: 7428235362361,
+      name: "Stephen McFadyen",
+      country: "Australia",
+      default: true,
+      last_name: "McFadyen",
+      first_name: "Stephen",
+      customer_id: 5815300063289,
+      country_code: "AU",
+      country_name: "Australia",
+    },
+    last_order_name: "S277134",
+    accepts_marketing: true,
+    admin_graphql_api_id: "gid://shopify/Customer/5815300063289",
+    marketing_opt_in_level: "single_opt_in",
+    accepts_marketing_updated_at: "2023-02-18T16:58:25+11:00",
+  })
+);

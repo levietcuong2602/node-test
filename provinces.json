@@ -1,0 +1,4326 @@
+[
+  {
+    "name_en": "BANGKOK",
+    "name_th": "กรุงเทพมหานคร",
+    "code": 10,
+    "geography": "ภาคกลาง",
+    "districts": [
+      {
+        "name_en": "KHET PHRA NAKHON",
+        "name_th": "เขตพระนคร"
+      },
+      {
+        "name_en": "KHET DUSIT",
+        "name_th": "เขตดุสิต"
+      },
+      {
+        "name_en": "KHET NONG CHOK",
+        "name_th": "เขตหนองจอก"
+      },
+      {
+        "name_en": "KHET BANG RAK",
+        "name_th": "เขตบางรัก"
+      },
+      {
+        "name_en": "KHET BANG KHEN",
+        "name_th": "เขตบางเขน"
+      },
+      {
+        "name_en": "KHET BANG KAPI",
+        "name_th": "เขตบางกะปิ"
+      },
+      {
+        "name_en": "KHET PATHUM WAN",
+        "name_th": "เขตปทุมวัน"
+      },
+      {
+        "name_en": "KHET POM PRAP SATTRU PHAI",
+        "name_th": "เขตป้อมปราบศัตรูพ่าย"
+      },
+      {
+        "name_en": "KHET PHRA KHANONG",
+        "name_th": "เขตพระโขนง"
+      },
+      {
+        "name_en": "KHET MIN BURI",
+        "name_th": "เขตมีนบุรี"
+      },
+      {
+        "name_en": "KHET LAT KRABANG",
+        "name_th": "เขตลาดกระบัง"
+      },
+      {
+        "name_en": "KHET YAN NAWA",
+        "name_th": "เขตยานนาวา"
+      },
+      {
+        "name_en": "KHET SAMPHANTHAWONG",
+        "name_th": "เขตสัมพันธวงศ์"
+      },
+      {
+        "name_en": "KHET PHAYA THAI",
+        "name_th": "เขตพญาไท"
+      },
+      {
+        "name_en": "KHET THON BURI",
+        "name_th": "เขตธนบุรี"
+      },
+      {
+        "name_en": "KHET BANGKOK YAI",
+        "name_th": "เขตบางกอกใหญ่"
+      },
+      {
+        "name_en": "KHET HUAI KHWANG",
+        "name_th": "เขตห้วยขวาง"
+      },
+      {
+        "name_en": "KHET KHLONG SAN",
+        "name_th": "เขตคลองสาน"
+      },
+      {
+        "name_en": "KHET TALING CHAN",
+        "name_th": "เขตตลิ่งชัน"
+      },
+      {
+        "name_en": "KHET BANGKOK NOI",
+        "name_th": "เขตบางกอกน้อย"
+      },
+      {
+        "name_en": "KHET BANG KHUN THIAN",
+        "name_th": "เขตบางขุนเทียน"
+      },
+      {
+        "name_en": "KHET PHASI CHAROEN",
+        "name_th": "เขตภาษีเจริญ"
+      },
+      {
+        "name_en": "KHET NONG KHAEM",
+        "name_th": "เขตหนองแขม"
+      },
+      {
+        "name_en": "KHET RAT BURANA",
+        "name_th": "เขตราษฎร์บูรณะ"
+      },
+      {
+        "name_en": "KHET BANG PHLAT",
+        "name_th": "เขตบางพลัด"
+      },
+      {
+        "name_en": "KHET DIN DAENG",
+        "name_th": "เขตดินแดง"
+      },
+      {
+        "name_en": "KHET BUENG KUM",
+        "name_th": "เขตบึงกุ่ม"
+      },
+      {
+        "name_en": "KHET SATHON",
+        "name_th": "เขตสาทร"
+      },
+      {
+        "name_en": "KHET BANG SUE",
+        "name_th": "เขตบางซื่อ"
+      },
+      {
+        "name_en": "KHET CHATUCHAK",
+        "name_th": "เขตจตุจักร"
+      },
+      {
+        "name_en": "KHET BANG KHO LAEM",
+        "name_th": "เขตบางคอแหลม"
+      },
+      {
+        "name_en": "KHET PRAWET",
+        "name_th": "เขตประเวศ"
+      },
+      {
+        "name_en": "KHET KHLONG TOEI",
+        "name_th": "เขตคลองเตย"
+      },
+      {
+        "name_en": "KHET SUAN LUANG",
+        "name_th": "เขตสวนหลวง"
+      },
+      {
+        "name_en": "KHET CHOM THONG",
+        "name_th": "เขตจอมทอง"
+      },
+      {
+        "name_en": "KHET DON MUEANG",
+        "name_th": "เขตดอนเมือง"
+      },
+      {
+        "name_en": "KHET RATCHATHEWI",
+        "name_th": "เขตราชเทวี"
+      },
+      {
+        "name_en": "KHET LAT PHRAO",
+        "name_th": "เขตลาดพร้าว"
+      },
+      {
+        "name_en": "KHET VADHANA",
+        "name_th": "เขตวัฒนา"
+      },
+      {
+        "name_en": "KHET BANG KHAE",
+        "name_th": "เขตบางแค"
+      },
+      {
+        "name_en": "KHET LAK SI",
+        "name_th": "เขตหลักสี่"
+      },
+      {
+        "name_en": "KHET SAI MAI",
+        "name_th": "เขตสายไหม"
+      },
+      {
+        "name_en": "KHET KHAN NA YAO",
+        "name_th": "เขตคันนายาว"
+      },
+      {
+        "name_en": "KHET SAPHAN SUNG",
+        "name_th": "เขตสะพานสูง"
+      },
+      {
+        "name_en": "KHET WANG THONGLANG",
+        "name_th": "เขตวังทองหลาง"
+      },
+      {
+        "name_en": "KHET KHLONG SAM WA",
+        "name_th": "เขตคลองสามวา"
+      },
+      {
+        "name_en": "KHET BANG NA",
+        "name_th": "เขตบางนา"
+      },
+      {
+        "name_en": "KHET THAWI WATTHANA",
+        "name_th": "เขตทวีวัฒนา"
+      },
+      {
+        "name_en": "KHET THUNG KHRU",
+        "name_th": "เขตทุ่งครุ"
+      },
+      {
+        "name_en": "KHET BANG BON",
+        "name_th": "เขตบางบอน"
+      }
+    ]
+  },
+  {
+    "name_en": "SAMUT PRAKAN",
+    "name_th": "สมุทรปราการ",
+    "code": 11,
+    "geography": "ภาคกลาง",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG SAMUT PRAKAN",
+        "name_th": "อำเภอเมืองสมุทรปราการ"
+      },
+      {
+        "name_en": "AMPHOE BANG BO",
+        "name_th": "อำเภอบางบ่อ"
+      },
+      {
+        "name_en": "AMPHOE BANG PHLI",
+        "name_th": "อำเภอบางพลี"
+      },
+      {
+        "name_en": "AMPHOE PHRA PRADAENG",
+        "name_th": "อำเภอพระประแดง"
+      },
+      {
+        "name_en": "AMPHOE PHRA SAMUT CHEDI",
+        "name_th": "อำเภอพระสมุทรเจดีย์"
+      },
+      {
+        "name_en": "AMPHOE BANG SAO THONG",
+        "name_th": "อำเภอบางเสาธง"
+      }
+    ]
+  },
+  {
+    "name_en": "NONTHABURI",
+    "name_th": "นนทบุรี",
+    "code": 12,
+    "geography": "ภาคกลาง",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG NONTHABURI",
+        "name_th": "อำเภอเมืองนนทบุรี"
+      },
+      {
+        "name_en": "AMPHOE BANG KRUAI",
+        "name_th": "อำเภอบางกรวย"
+      },
+      {
+        "name_en": "AMPHOE BANG YAI",
+        "name_th": "อำเภอบางใหญ่"
+      },
+      {
+        "name_en": "AMPHOE BANG BUA THONG",
+        "name_th": "อำเภอบางบัวทอง"
+      },
+      {
+        "name_en": "AMPHOE SAI NOI",
+        "name_th": "อำเภอไทรน้อย"
+      },
+      {
+        "name_en": "AMPHOE PAK KRET",
+        "name_th": "อำเภอปากเกร็ด"
+      }
+    ]
+  },
+  {
+    "name_en": "PATHUM THANI",
+    "name_th": "ปทุมธานี",
+    "code": 13,
+    "geography": "ภาคกลาง",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG PATHUM THANI",
+        "name_th": "อำเภอเมืองปทุมธานี"
+      },
+      {
+        "name_en": "AMPHOE KHLONG LUANG",
+        "name_th": "อำเภอคลองหลวง"
+      },
+      {
+        "name_en": "AMPHOE THANYABURI",
+        "name_th": "อำเภอธัญบุรี"
+      },
+      {
+        "name_en": "AMPHOE NONG SUEA",
+        "name_th": "อำเภอหนองเสือ"
+      },
+      {
+        "name_en": "AMPHOE LAT LUM KAEO",
+        "name_th": "อำเภอลาดหลุมแก้ว"
+      },
+      {
+        "name_en": "AMPHOE LAM LUK KA",
+        "name_th": "อำเภอลำลูกกา"
+      },
+      {
+        "name_en": "AMPHOE SAM KHOK",
+        "name_th": "อำเภอสามโคก"
+      }
+    ]
+  },
+  {
+    "name_en": "PHRA NAKHON SI AYUTTHAYA",
+    "name_th": "พระนครศรีอยุธยา",
+    "code": 14,
+    "geography": "ภาคกลาง",
+    "districts": [
+      {
+        "name_en": "AMPHOE PHRA NAKHON SI AYUTTHAYA",
+        "name_th": "อำเภอพระนครศรีอยุธยา"
+      },
+      {
+        "name_en": "AMPHOE THA RUEA",
+        "name_th": "อำเภอท่าเรือ"
+      },
+      {
+        "name_en": "AMPHOE NAKHON LUANG",
+        "name_th": "อำเภอนครหลวง"
+      },
+      {
+        "name_en": "AMPHOE BANG SAI",
+        "name_th": "อำเภอบางซ้าย"
+      },
+      {
+        "name_en": "AMPHOE BANG BAN",
+        "name_th": "อำเภอบางบาล"
+      },
+      {
+        "name_en": "AMPHOE BANG PA-IN",
+        "name_th": "อำเภอบางปะอิน"
+      },
+      {
+        "name_en": "AMPHOE BANG PAHAN",
+        "name_th": "อำเภอบางปะหัน"
+      },
+      {
+        "name_en": "AMPHOE PHAK HAI",
+        "name_th": "อำเภอผักไห่"
+      },
+      {
+        "name_en": "AMPHOE PHACHI",
+        "name_th": "อำเภอภาชี"
+      },
+      {
+        "name_en": "AMPHOE LAT BUA LUANG",
+        "name_th": "อำเภอลาดบัวหลวง"
+      },
+      {
+        "name_en": "AMPHOE WANG NOI",
+        "name_th": "อำเภอวังน้อย"
+      },
+      {
+        "name_en": "AMPHOE SENA",
+        "name_th": "อำเภอเสนา"
+      },
+      {
+        "name_en": "AMPHOE UTHAI",
+        "name_th": "อำเภออุทัย"
+      },
+      {
+        "name_en": "AMPHOE MAHA RAT",
+        "name_th": "อำเภอมหาราช"
+      },
+      {
+        "name_en": "AMPHOE BAN PHRAEK",
+        "name_th": "อำเภอบ้านแพรก"
+      }
+    ]
+  },
+  {
+    "name_en": "ANG THONG",
+    "name_th": "อ่างทอง",
+    "code": 15,
+    "geography": "ภาคกลาง",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG ANG THONG",
+        "name_th": "อำเภอเมืองอ่างทอง"
+      },
+      {
+        "name_en": "AMPHOE CHAIYO",
+        "name_th": "อำเภอไชโย"
+      },
+      {
+        "name_en": "AMPHOE PA MOK",
+        "name_th": "อำเภอป่าโมก"
+      },
+      {
+        "name_en": "AMPHOE PHO THONG",
+        "name_th": "อำเภอโพธิ์ทอง"
+      },
+      {
+        "name_en": "AMPHOE SAWAENG HA",
+        "name_th": "อำเภอแสวงหา"
+      },
+      {
+        "name_en": "AMPHOE WISET CHAI CHAN",
+        "name_th": "อำเภอวิเศษชัยชาญ"
+      },
+      {
+        "name_en": "AMPHOE SAMKO",
+        "name_th": "อำเภอสามโก้"
+      }
+    ]
+  },
+  {
+    "name_en": "LOP BURI",
+    "name_th": "ลพบุรี",
+    "code": 16,
+    "geography": "ภาคกลาง",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG LOP BURI",
+        "name_th": "อำเภอเมืองลพบุรี"
+      },
+      {
+        "name_en": "AMPHOE PHATTHANA NIKHOM",
+        "name_th": "อำเภอพัฒนานิคม"
+      },
+      {
+        "name_en": "AMPHOE KHOK SAMRONG",
+        "name_th": "อำเภอโคกสำโรง"
+      },
+      {
+        "name_en": "AMPHOE CHAI BADAN",
+        "name_th": "อำเภอชัยบาดาล"
+      },
+      {
+        "name_en": "AMPHOE THA WUNG",
+        "name_th": "อำเภอท่าวุ้ง"
+      },
+      {
+        "name_en": "AMPHOE BAN MI",
+        "name_th": "อำเภอบ้านหมี่"
+      },
+      {
+        "name_en": "AMPHOE THA LUANG",
+        "name_th": "อำเภอท่าหลวง"
+      },
+      {
+        "name_en": "AMPHOE SA BOT",
+        "name_th": "อำเภอสระโบสถ์"
+      },
+      {
+        "name_en": "AMPHOE KHOK CHAROEN",
+        "name_th": "อำเภอโคกเจริญ"
+      },
+      {
+        "name_en": "AMPHOE LAM SONTHI",
+        "name_th": "อำเภอลำสนธิ"
+      },
+      {
+        "name_en": "AMPHOE NONG MUANG",
+        "name_th": "อำเภอหนองม่วง"
+      }
+    ]
+  },
+  {
+    "name_en": "SING BURI",
+    "name_th": "สิงห์บุรี",
+    "code": 17,
+    "geography": "ภาคกลาง",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG SING BURI",
+        "name_th": "อำเภอเมืองสิงห์บุรี"
+      },
+      {
+        "name_en": "AMPHOE BANG RACHAN",
+        "name_th": "อำเภอบางระจัน"
+      },
+      {
+        "name_en": "AMPHOE KHAI BANG RACHAN",
+        "name_th": "อำเภอค่ายบางระจัน"
+      },
+      {
+        "name_en": "AMPHOE PHROM BURI",
+        "name_th": "อำเภอพรหมบุรี"
+      },
+      {
+        "name_en": "AMPHOE THA CHANG",
+        "name_th": "อำเภอท่าช้าง"
+      },
+      {
+        "name_en": "AMPHOE IN BURI",
+        "name_th": "อำเภออินทร์บุรี"
+      }
+    ]
+  },
+  {
+    "name_en": "CHAI NAT",
+    "name_th": "ชัยนาท",
+    "code": 18,
+    "geography": "ภาคกลาง",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG CHAI NAT",
+        "name_th": "อำเภอเมืองชัยนาท"
+      },
+      {
+        "name_en": "AMPHOE MANOROM",
+        "name_th": "อำเภอมโนรมย์"
+      },
+      {
+        "name_en": "AMPHOE WAT SING",
+        "name_th": "อำเภอวัดสิงห์"
+      },
+      {
+        "name_en": "AMPHOE SAPPHAYA",
+        "name_th": "อำเภอสรรพยา"
+      },
+      {
+        "name_en": "AMPHOE SANKHABURI",
+        "name_th": "อำเภอสรรคบุรี"
+      },
+      {
+        "name_en": "AMPHOE HANKHA",
+        "name_th": "อำเภอหันคา"
+      },
+      {
+        "name_en": "AMPHOE NONG MAMONG",
+        "name_th": "อำเภอหนองมะโมง"
+      },
+      {
+        "name_en": "AMPHOE NOEN KHAM",
+        "name_th": "อำเภอเนินขาม"
+      }
+    ]
+  },
+  {
+    "name_en": "SARABURI",
+    "name_th": "สระบุรี",
+    "code": 19,
+    "geography": "ภาคกลาง",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG SARABURI",
+        "name_th": "อำเภอเมืองสระบุรี"
+      },
+      {
+        "name_en": "AMPHOE KAENG KHOI",
+        "name_th": "อำเภอแก่งคอย"
+      },
+      {
+        "name_en": "AMPHOE NONG KHAE",
+        "name_th": "อำเภอหนองแค"
+      },
+      {
+        "name_en": "AMPHOE WIHAN DAENG",
+        "name_th": "อำเภอวิหารแดง"
+      },
+      {
+        "name_en": "AMPHOE NONG SAENG",
+        "name_th": "อำเภอหนองแซง"
+      },
+      {
+        "name_en": "AMPHOE BAN MO",
+        "name_th": "อำเภอบ้านหมอ"
+      },
+      {
+        "name_en": "AMPHOE DON PHUT",
+        "name_th": "อำเภอดอนพุด"
+      },
+      {
+        "name_en": "AMPHOE NONG DON",
+        "name_th": "อำเภอหนองโดน"
+      },
+      {
+        "name_en": "AMPHOE PHRA PHUTTHABAT",
+        "name_th": "อำเภอพระพุทธบาท"
+      },
+      {
+        "name_en": "AMPHOE SAO HAI",
+        "name_th": "อำเภอเสาไห้"
+      },
+      {
+        "name_en": "AMPHOE MUAK LEK",
+        "name_th": "อำเภอมวกเหล็ก"
+      },
+      {
+        "name_en": "AMPHOE WANG MUANG",
+        "name_th": "อำเภอวังม่วง"
+      },
+      {
+        "name_en": "AMPHOE CHALOEM PHRA KIAT",
+        "name_th": "อำเภอเฉลิมพระเกียรติ"
+      }
+    ]
+  },
+  {
+    "name_en": "CHON BURI",
+    "name_th": "ชลบุรี",
+    "code": 20,
+    "geography": "ภาคตะวันออก",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG CHON BURI",
+        "name_th": "อำเภอเมืองชลบุรี"
+      },
+      {
+        "name_en": "AMPHOE BAN BUENG",
+        "name_th": "อำเภอบ้านบึง"
+      },
+      {
+        "name_en": "AMPHOE NONG YAI",
+        "name_th": "อำเภอหนองใหญ่"
+      },
+      {
+        "name_en": "AMPHOE BANG LAMUNG",
+        "name_th": "อำเภอบางละมุง"
+      },
+      {
+        "name_en": "AMPHOE PHAN THONG",
+        "name_th": "อำเภอพานทอง"
+      },
+      {
+        "name_en": "AMPHOE PHANAT NIKHOM",
+        "name_th": "อำเภอพนัสนิคม"
+      },
+      {
+        "name_en": "AMPHOE SI RACHA",
+        "name_th": "อำเภอศรีราชา"
+      },
+      {
+        "name_en": "AMPHOE KO SICHANG",
+        "name_th": "อำเภอเกาะสีชัง"
+      },
+      {
+        "name_en": "AMPHOE SATTAHIP",
+        "name_th": "อำเภอสัตหีบ"
+      },
+      {
+        "name_en": "AMPHOE BO THONG",
+        "name_th": "อำเภอบ่อทอง"
+      },
+      {
+        "name_en": "AMPHOE KO CHAN",
+        "name_th": "อำเภอเกาะจันทร์"
+      }
+    ]
+  },
+  {
+    "name_en": "RAYONG",
+    "name_th": "ระยอง",
+    "code": 21,
+    "geography": "ภาคตะวันออก",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG RAYONG",
+        "name_th": "อำเภอเมืองระยอง"
+      },
+      {
+        "name_en": "AMPHOE BAN CHANG",
+        "name_th": "อำเภอบ้านฉาง"
+      },
+      {
+        "name_en": "AMPHOE KLAENG",
+        "name_th": "อำเภอแกลง"
+      },
+      {
+        "name_en": "AMPHOE WANG CHAN",
+        "name_th": "อำเภอวังจันทร์"
+      },
+      {
+        "name_en": "AMPHOE BAN KHAI",
+        "name_th": "อำเภอบ้านค่าย"
+      },
+      {
+        "name_en": "AMPHOE PLUAK DAENG",
+        "name_th": "อำเภอปลวกแดง"
+      },
+      {
+        "name_en": "AMPHOE KHAO CHAMAO",
+        "name_th": "อำเภอเขาชะเมา"
+      },
+      {
+        "name_en": "AMPHOE NIKHOM PHATTHANA",
+        "name_th": "อำเภอนิคมพัฒนา"
+      }
+    ]
+  },
+  {
+    "name_en": "CHANTHABURI",
+    "name_th": "จันทบุรี",
+    "code": 22,
+    "geography": "ภาคตะวันออก",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG CHANTHABURI",
+        "name_th": "อำเภอเมืองจันทบุรี"
+      },
+      {
+        "name_en": "AMPHOE KHLUNG",
+        "name_th": "อำเภอขลุง"
+      },
+      {
+        "name_en": "AMPHOE THA MAI",
+        "name_th": "อำเภอท่าใหม่"
+      },
+      {
+        "name_en": "AMPHOE PONG NAM RON",
+        "name_th": "อำเภอโป่งน้ำร้อน"
+      },
+      {
+        "name_en": "AMPHOE MAKHAM",
+        "name_th": "อำเภอมะขาม"
+      },
+      {
+        "name_en": "AMPHOE LAEM SING",
+        "name_th": "อำเภอแหลมสิงห์"
+      },
+      {
+        "name_en": "AMPHOE SOI DAO",
+        "name_th": "อำเภอสอยดาว"
+      },
+      {
+        "name_en": "AMPHOE KAENG HANG MAEO",
+        "name_th": "อำเภอแก่งหางแมว"
+      },
+      {
+        "name_en": "AMPHOE NA YAI AM",
+        "name_th": "อำเภอนายายอาม"
+      },
+      {
+        "name_en": "AMPHOE KHAO KHITCHAKUT",
+        "name_th": "อำเภอเขาคิชฌกูฏ"
+      }
+    ]
+  },
+  {
+    "name_en": "TRAT",
+    "name_th": "ตราด",
+    "code": 23,
+    "geography": "ภาคตะวันออก",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG TRAT",
+        "name_th": "อำเภอเมืองตราด"
+      },
+      {
+        "name_en": "AMPHOE KHLONG YAI",
+        "name_th": "อำเภอคลองใหญ่"
+      },
+      {
+        "name_en": "AMPHOE KHAO SAMING",
+        "name_th": "อำเภอเขาสมิง"
+      },
+      {
+        "name_en": "AMPHOE BO RAI",
+        "name_th": "อำเภอบ่อไร่"
+      },
+      {
+        "name_en": "AMPHOE LAEM NGOP",
+        "name_th": "อำเภอแหลมงอบ"
+      },
+      {
+        "name_en": "AMPHOE KO KUT",
+        "name_th": "อำเภอเกาะกูด"
+      },
+      {
+        "name_en": "AMPHOE KO CHANG",
+        "name_th": "อำเภอเกาะช้าง"
+      }
+    ]
+  },
+  {
+    "name_en": "CHACHOENGSAO",
+    "name_th": "ฉะเชิงเทรา",
+    "code": 24,
+    "geography": "ภาคตะวันออก",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG CHACHOENGSAO",
+        "name_th": "อำเภอเมืองฉะเชิงเทรา"
+      },
+      {
+        "name_en": "AMPHOE BANG KHLA",
+        "name_th": "อำเภอบางคล้า"
+      },
+      {
+        "name_en": "AMPHOE BANG NAM PRIAO",
+        "name_th": "อำเภอบางน้ำเปรี้ยว"
+      },
+      {
+        "name_en": "AMPHOE BANG PAKONG",
+        "name_th": "อำเภอบางปะกง"
+      },
+      {
+        "name_en": "AMPHOE BAN PHO",
+        "name_th": "อำเภอบ้านโพธิ์"
+      },
+      {
+        "name_en": "AMPHOE PHANOM SARAKHAM",
+        "name_th": "อำเภอพนมสารคาม"
+      },
+      {
+        "name_en": "AMPHOE RATCHASAN",
+        "name_th": "อำเภอราชสาส์น"
+      },
+      {
+        "name_en": "AMPHOE SANAM CHAI KHET",
+        "name_th": "อำเภอสนามชัยเขต"
+      },
+      {
+        "name_en": "AMPHOE PLAENG YAO",
+        "name_th": "อำเภอแปลงยาว"
+      },
+      {
+        "name_en": "AMPHOE THA TAKIAP",
+        "name_th": "อำเภอท่าตะเกียบ"
+      },
+      {
+        "name_en": "AMPHOE KHLONG KHUEAN",
+        "name_th": "อำเภอคลองเขื่อน"
+      }
+    ]
+  },
+  {
+    "name_en": "PRACHIN BURI",
+    "name_th": "ปราจีนบุรี",
+    "code": 25,
+    "geography": "ภาคตะวันออก",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG PRACHIN BURI",
+        "name_th": "อำเภอเมืองปราจีนบุรี"
+      },
+      {
+        "name_en": "AMPHOE KABIN BURI",
+        "name_th": "อำเภอกบินทร์บุรี"
+      },
+      {
+        "name_en": "AMPHOE NA DI",
+        "name_th": "อำเภอนาดี"
+      },
+      {
+        "name_en": "AMPHOE BAN SANG",
+        "name_th": "อำเภอบ้านสร้าง"
+      },
+      {
+        "name_en": "AMPHOE PRACHANTAKHAM",
+        "name_th": "อำเภอประจันตคาม"
+      },
+      {
+        "name_en": "AMPHOE SI MAHA PHOT",
+        "name_th": "อำเภอศรีมหาโพธิ"
+      },
+      {
+        "name_en": "AMPHOE SI MAHOSOT",
+        "name_th": "อำเภอศรีมโหสถ"
+      }
+    ]
+  },
+  {
+    "name_en": "NAKHON NAYOK",
+    "name_th": "นครนายก",
+    "code": 26,
+    "geography": "ภาคกลาง",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG NAKHON NAYOK",
+        "name_th": "อำเภอเมืองนครนายก"
+      },
+      {
+        "name_en": "AMPHOE PAK PHLI",
+        "name_th": "อำเภอปากพลี"
+      },
+      {
+        "name_en": "AMPHOE BAN NA",
+        "name_th": "อำเภอบ้านนา"
+      },
+      {
+        "name_en": "AMPHOE ONGKHARAK",
+        "name_th": "อำเภอองครักษ์"
+      }
+    ]
+  },
+  {
+    "name_en": "SA KAEO",
+    "name_th": "สระแก้ว",
+    "code": 27,
+    "geography": "ภาคตะวันออก",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG SA KAEO",
+        "name_th": "อำเภอเมืองสระแก้ว"
+      },
+      {
+        "name_en": "AMPHOE KHLONG HAT",
+        "name_th": "อำเภอคลองหาด"
+      },
+      {
+        "name_en": "AMPHOE TA PHRAYA",
+        "name_th": "อำเภอตาพระยา"
+      },
+      {
+        "name_en": "AMPHOE WANG NAM YEN",
+        "name_th": "อำเภอวังน้ำเย็น"
+      },
+      {
+        "name_en": "AMPHOE WATTHANA NAKHON",
+        "name_th": "อำเภอวัฒนานคร"
+      },
+      {
+        "name_en": "AMPHOE ARANYAPRATHET",
+        "name_th": "อำเภออรัญประเทศ"
+      },
+      {
+        "name_en": "AMPHOE KHAO CHAKAN",
+        "name_th": "อำเภอเขาฉกรรจ์"
+      },
+      {
+        "name_en": "AMPHOE KHOK SUNG",
+        "name_th": "อำเภอโคกสูง"
+      },
+      {
+        "name_en": "AMPHOE WANG SOMBUN",
+        "name_th": "อำเภอวังสมบูรณ์"
+      }
+    ]
+  },
+  {
+    "name_en": "NAKHON RATCHASIMA",
+    "name_th": "นครราชสีมา",
+    "code": 30,
+    "geography": "ภาคตะวันออกเฉียงเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG NAKHON RATCHASIMA",
+        "name_th": "อำเภอเมืองนครราชสีมา"
+      },
+      {
+        "name_en": "AMPHOE KHON BURI",
+        "name_th": "อำเภอครบุรี"
+      },
+      {
+        "name_en": "AMPHOE SOENG SANG",
+        "name_th": "อำเภอเสิงสาง"
+      },
+      {
+        "name_en": "AMPHOE KHONG",
+        "name_th": "อำเภอคง"
+      },
+      {
+        "name_en": "AMPHOE BAN LUEAM",
+        "name_th": "อำเภอบ้านเหลื่อม"
+      },
+      {
+        "name_en": "AMPHOE CHAKKARAT",
+        "name_th": "อำเภอจักราช"
+      },
+      {
+        "name_en": "AMPHOE CHOK CHAI",
+        "name_th": "อำเภอโชคชัย"
+      },
+      {
+        "name_en": "AMPHOE DAN KHUN THOT",
+        "name_th": "อำเภอด่านขุนทด"
+      },
+      {
+        "name_en": "AMPHOE NON THAI",
+        "name_th": "อำเภอโนนไทย"
+      },
+      {
+        "name_en": "AMPHOE NON SUNG",
+        "name_th": "อำเภอโนนสูง"
+      },
+      {
+        "name_en": "AMPHOE KHAM SAKAESAENG",
+        "name_th": "อำเภอขามสะแกแสง"
+      },
+      {
+        "name_en": "AMPHOE BUA YAI",
+        "name_th": "อำเภอบัวใหญ่"
+      },
+      {
+        "name_en": "AMPHOE PRATHAI",
+        "name_th": "อำเภอประทาย"
+      },
+      {
+        "name_en": "AMPHOE PAK THONG CHAI",
+        "name_th": "อำเภอปักธงชัย"
+      },
+      {
+        "name_en": "AMPHOE PHIMAI",
+        "name_th": "อำเภอพิมาย"
+      },
+      {
+        "name_en": "AMPHOE HUAI THALAENG",
+        "name_th": "อำเภอห้วยแถลง"
+      },
+      {
+        "name_en": "AMPHOE CHUM PHUANG",
+        "name_th": "อำเภอชุมพวง"
+      },
+      {
+        "name_en": "AMPHOE SUNG NOEN",
+        "name_th": "อำเภอสูงเนิน"
+      },
+      {
+        "name_en": "AMPHOE KHAM THALE SO",
+        "name_th": "อำเภอขามทะเลสอ"
+      },
+      {
+        "name_en": "AMPHOE SIKHIO",
+        "name_th": "อำเภอสีคิ้ว"
+      },
+      {
+        "name_en": "AMPHOE PAK CHONG",
+        "name_th": "อำเภอปากช่อง"
+      },
+      {
+        "name_en": "AMPHOE NONG BUNMAK",
+        "name_th": "อำเภอหนองบุญมาก"
+      },
+      {
+        "name_en": "AMPHOE KAENG SANAM NANG",
+        "name_th": "อำเภอแก้งสนามนาง"
+      },
+      {
+        "name_en": "AMPHOE NON DAENG",
+        "name_th": "อำเภอโนนแดง"
+      },
+      {
+        "name_en": "AMPHOE WANG NAM KHIAO",
+        "name_th": "อำเภอวังน้ำเขียว"
+      },
+      {
+        "name_en": "AMPHOE THEPHARAK",
+        "name_th": "อำเภอเทพารักษ์"
+      },
+      {
+        "name_en": "AMPHOE MUEANG YANG",
+        "name_th": "อำเภอเมืองยาง"
+      },
+      {
+        "name_en": "AMPHOE PHRA THONG KHAM",
+        "name_th": "อำเภอพระทองคำ"
+      },
+      {
+        "name_en": "AMPHOE LAM THAMENCHAI",
+        "name_th": "อำเภอลำทะเมนชัย"
+      },
+      {
+        "name_en": "AMPHOE BUA LAI",
+        "name_th": "อำเภอบัวลาย"
+      },
+      {
+        "name_en": "AMPHOE SIDA",
+        "name_th": "อำเภอสีดา"
+      },
+      {
+        "name_en": "AMPHOE CHALOEM PHRA KIAT",
+        "name_th": "อำเภอเฉลิมพระเกียรติ"
+      }
+    ]
+  },
+  {
+    "name_en": "BURI RAM",
+    "name_th": "บุรีรัมย์",
+    "code": 31,
+    "geography": "ภาคตะวันออกเฉียงเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG BURI RAM",
+        "name_th": "อำเภอเมืองบุรีรัมย์"
+      },
+      {
+        "name_en": "AMPHOE KHU MUEANG",
+        "name_th": "อำเภอคูเมือง"
+      },
+      {
+        "name_en": "AMPHOE KRASANG",
+        "name_th": "อำเภอกระสัง"
+      },
+      {
+        "name_en": "AMPHOE NANG RONG",
+        "name_th": "อำเภอนางรอง"
+      },
+      {
+        "name_en": "AMPHOE NONG KI",
+        "name_th": "อำเภอหนองกี่"
+      },
+      {
+        "name_en": "AMPHOE LAHAN SAI",
+        "name_th": "อำเภอละหานทราย"
+      },
+      {
+        "name_en": "AMPHOE PRAKHON CHAI",
+        "name_th": "อำเภอประโคนชัย"
+      },
+      {
+        "name_en": "AMPHOE BAN KRUAT",
+        "name_th": "อำเภอบ้านกรวด"
+      },
+      {
+        "name_en": "AMPHOE PHUTTHAISONG",
+        "name_th": "อำเภอพุทไธสง"
+      },
+      {
+        "name_en": "AMPHOE LAM PLAI MAT",
+        "name_th": "อำเภอลำปลายมาศ"
+      },
+      {
+        "name_en": "AMPHOE SATUEK",
+        "name_th": "อำเภอสตึก"
+      },
+      {
+        "name_en": "AMPHOE PAKHAM",
+        "name_th": "อำเภอปะคำ"
+      },
+      {
+        "name_en": "AMPHOE NA PHO",
+        "name_th": "อำเภอนาโพธิ์"
+      },
+      {
+        "name_en": "AMPHOE NONG HONG",
+        "name_th": "อำเภอหนองหงส์"
+      },
+      {
+        "name_en": "AMPHOE PHLAPPHLA CHAI",
+        "name_th": "อำเภอพลับพลาชัย"
+      },
+      {
+        "name_en": "AMPHOE HUAI RAT",
+        "name_th": "อำเภอห้วยราช"
+      },
+      {
+        "name_en": "AMPHOE NON SUWAN",
+        "name_th": "อำเภอโนนสุวรรณ"
+      },
+      {
+        "name_en": "AMPHOE CHAMNI",
+        "name_th": "อำเภอชำนิ"
+      },
+      {
+        "name_en": "AMPHOE BAN MAI CHAIYAPHOT",
+        "name_th": "อำเภอบ้านใหม่ไชยพจน์"
+      },
+      {
+        "name_en": "AMPHOE NON DIN DAENG",
+        "name_th": "อำเภอโนนดินแดง"
+      },
+      {
+        "name_en": "AMPHOE BAN DAN",
+        "name_th": "อำเภอบ้านด่าน"
+      },
+      {
+        "name_en": "AMPHOE KHAEN DONG",
+        "name_th": "อำเภอแคนดง"
+      },
+      {
+        "name_en": "AMPHOE CHALOEM PHRA KIAT",
+        "name_th": "อำเภอเฉลิมพระเกียรติ"
+      }
+    ]
+  },
+  {
+    "name_en": "SURIN",
+    "name_th": "สุรินทร์",
+    "code": 32,
+    "geography": "ภาคตะวันออกเฉียงเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG SURIN",
+        "name_th": "อำเภอเมืองสุรินทร์"
+      },
+      {
+        "name_en": "AMPHOE CHUMPHON BURI",
+        "name_th": "อำเภอชุมพลบุรี"
+      },
+      {
+        "name_en": "AMPHOE THA TUM",
+        "name_th": "อำเภอท่าตูม"
+      },
+      {
+        "name_en": "AMPHOE CHOM PHRA",
+        "name_th": "อำเภอจอมพระ"
+      },
+      {
+        "name_en": "AMPHOE PRASAT",
+        "name_th": "อำเภอปราสาท"
+      },
+      {
+        "name_en": "AMPHOE KAP CHOENG",
+        "name_th": "อำเภอกาบเชิง"
+      },
+      {
+        "name_en": "AMPHOE RATTANABURI",
+        "name_th": "อำเภอรัตนบุรี"
+      },
+      {
+        "name_en": "AMPHOE SANOM",
+        "name_th": "อำเภอสนม"
+      },
+      {
+        "name_en": "AMPHOE SIKHORAPHUM",
+        "name_th": "อำเภอศีขรภูมิ"
+      },
+      {
+        "name_en": "AMPHOE SANGKHA",
+        "name_th": "อำเภอสังขะ"
+      },
+      {
+        "name_en": "AMPHOE LAMDUAN",
+        "name_th": "อำเภอลำดวน"
+      },
+      {
+        "name_en": "AMPHOE SAMRONG THAP",
+        "name_th": "อำเภอสำโรงทาบ"
+      },
+      {
+        "name_en": "AMPHOE BUACHET",
+        "name_th": "อำเภอบัวเชด"
+      },
+      {
+        "name_en": "AMPHOE PHANOM DONG RAK",
+        "name_th": "อำเภอพนมดงรัก"
+      },
+      {
+        "name_en": "AMPHOE SI NARONG",
+        "name_th": "อำเภอศรีณรงค์"
+      },
+      {
+        "name_en": "AMPHOE KHWAO SINRIN",
+        "name_th": "อำเภอเขวาสินรินทร์"
+      },
+      {
+        "name_en": "AMPHOE NON NARAI",
+        "name_th": "อำเภอโนนนารายณ์"
+      }
+    ]
+  },
+  {
+    "name_en": "SI SA KET",
+    "name_th": "ศรีสะเกษ",
+    "code": 33,
+    "geography": "ภาคตะวันออกเฉียงเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG SI SA KET",
+        "name_th": "อำเภอเมืองศรีสะเกษ"
+      },
+      {
+        "name_en": "AMPHOE YANG CHUM NOI",
+        "name_th": "อำเภอยางชุมน้อย"
+      },
+      {
+        "name_en": "AMPHOE KANTHARAROM",
+        "name_th": "อำเภอกันทรารมย์"
+      },
+      {
+        "name_en": "AMPHOE KANTHARALAK",
+        "name_th": "อำเภอกันทรลักษ์"
+      },
+      {
+        "name_en": "AMPHOE KHUKHAN",
+        "name_th": "อำเภอขุขันธ์"
+      },
+      {
+        "name_en": "AMPHOE PHRAI BUENG",
+        "name_th": "อำเภอไพรบึง"
+      },
+      {
+        "name_en": "AMPHOE PRANG KU",
+        "name_th": "อำเภอปรางค์กู่"
+      },
+      {
+        "name_en": "AMPHOE KHUN HAN",
+        "name_th": "อำเภอขุนหาญ"
+      },
+      {
+        "name_en": "AMPHOE RASI SALAI",
+        "name_th": "อำเภอราษีไศล"
+      },
+      {
+        "name_en": "AMPHOE UTHUMPHON PHISAI",
+        "name_th": "อำเภออุทุมพรพิสัย"
+      },
+      {
+        "name_en": "AMPHOE BUENG BUN",
+        "name_th": "อำเภอบึงบูรพ์"
+      },
+      {
+        "name_en": "AMPHOE HUAI THAP THAN",
+        "name_th": "อำเภอห้วยทับทัน"
+      },
+      {
+        "name_en": "AMPHOE NON KHUN",
+        "name_th": "อำเภอโนนคูณ"
+      },
+      {
+        "name_en": "AMPHOE SI RATTANA",
+        "name_th": "อำเภอศรีรัตนะ"
+      },
+      {
+        "name_en": "AMPHOE NAM KLIANG",
+        "name_th": "อำเภอน้ำเกลี้ยง"
+      },
+      {
+        "name_en": "AMPHOE WANG HIN",
+        "name_th": "อำเภอวังหิน"
+      },
+      {
+        "name_en": "AMPHOE PHU SING",
+        "name_th": "อำเภอภูสิงห์"
+      },
+      {
+        "name_en": "AMPHOE MUEANG CHAN",
+        "name_th": "อำเภอเมืองจันทร์"
+      },
+      {
+        "name_en": "AMPHOE BENCHALAK",
+        "name_th": "อำเภอเบญจลักษ์"
+      },
+      {
+        "name_en": "AMPHOE PHAYU",
+        "name_th": "อำเภอพยุห์"
+      },
+      {
+        "name_en": "AMPHOE PHO SI SUWAN",
+        "name_th": "อำเภอโพธิ์ศรีสุวรรณ"
+      },
+      {
+        "name_en": "AMPHOE SILA LAT",
+        "name_th": "อำเภอศิลาลาด"
+      }
+    ]
+  },
+  {
+    "name_en": "UBON RATCHATHANI",
+    "name_th": "อุบลราชธานี",
+    "code": 34,
+    "geography": "ภาคตะวันออกเฉียงเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG UBON RATCHATHANI",
+        "name_th": "อำเภอเมืองอุบลราชธานี"
+      },
+      {
+        "name_en": "AMPHOE SI MUEANG MAI",
+        "name_th": "อำเภอศรีเมืองใหม่"
+      },
+      {
+        "name_en": "AMPHOE KHONG CHIAM",
+        "name_th": "อำเภอโขงเจียม"
+      },
+      {
+        "name_en": "AMPHOE KHUEANG NAI",
+        "name_th": "อำเภอเขื่องใน"
+      },
+      {
+        "name_en": "AMPHOE KHEMARAT",
+        "name_th": "อำเภอเขมราฐ"
+      },
+      {
+        "name_en": "AMPHOE DET UDOM",
+        "name_th": "อำเภอเดชอุดม"
+      },
+      {
+        "name_en": "AMPHOE NA CHALUAI",
+        "name_th": "อำเภอนาจะหลวย"
+      },
+      {
+        "name_en": "AMPHOE NAM YUEN",
+        "name_th": "อำเภอน้ำยืน"
+      },
+      {
+        "name_en": "AMPHOE BUNTHARIK",
+        "name_th": "อำเภอบุณฑริก"
+      },
+      {
+        "name_en": "AMPHOE TRAKAN PHUET PHON",
+        "name_th": "อำเภอตระการพืชผล"
+      },
+      {
+        "name_en": "AMPHOE KUT KHAOPUN",
+        "name_th": "อำเภอกุดข้าวปุ้น"
+      },
+      {
+        "name_en": "AMPHOE MUANG SAM SIP",
+        "name_th": "อำเภอม่วงสามสิบ"
+      },
+      {
+        "name_en": "AMPHOE WARIN CHAMRAP",
+        "name_th": "อำเภอวารินชำราบ"
+      },
+      {
+        "name_en": "AMPHOE PHIBUN MANGSAHAN",
+        "name_th": "อำเภอพิบูลมังสาหาร"
+      },
+      {
+        "name_en": "AMPHOE TAN SUM",
+        "name_th": "อำเภอตาลสุม"
+      },
+      {
+        "name_en": "AMPHOE PHO SAI",
+        "name_th": "อำเภอโพธิ์ไทร"
+      },
+      {
+        "name_en": "AMPHOE SAMRONG",
+        "name_th": "อำเภอสำโรง"
+      },
+      {
+        "name_en": "AMPHOE DON MOT DAENG",
+        "name_th": "อำเภอดอนมดแดง"
+      },
+      {
+        "name_en": "AMPHOE SIRINDHORN",
+        "name_th": "อำเภอสิรินธร"
+      },
+      {
+        "name_en": "AMPHOE THUNG SI UDOM",
+        "name_th": "อำเภอทุ่งศรีอุดม"
+      },
+      {
+        "name_en": "AMPHOE NA YIA",
+        "name_th": "อำเภอนาเยีย"
+      },
+      {
+        "name_en": "AMPHOE NA TAN",
+        "name_th": "อำเภอนาตาล"
+      },
+      {
+        "name_en": "AMPHOE LAO SUEA KOK",
+        "name_th": "อำเภอเหล่าเสือโก้ก"
+      },
+      {
+        "name_en": "AMPHOE SAWANG WIRAWONG",
+        "name_th": "อำเภอสว่างวีระวงศ์"
+      },
+      {
+        "name_en": "AMPHOE NAM KHUN",
+        "name_th": "อำเภอน้ำขุ่น"
+      }
+    ]
+  },
+  {
+    "name_en": "YASOTHON",
+    "name_th": "ยโสธร",
+    "code": 35,
+    "geography": "ภาคตะวันออกเฉียงเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG YASOTHON",
+        "name_th": "อำเภอเมืองยโสธร"
+      },
+      {
+        "name_en": "AMPHOE SAI MUN",
+        "name_th": "อำเภอทรายมูล"
+      },
+      {
+        "name_en": "AMPHOE KUT CHUM",
+        "name_th": "อำเภอกุดชุม"
+      },
+      {
+        "name_en": "AMPHOE KHAM KHUEAN KAEO",
+        "name_th": "อำเภอคำเขื่อนแก้ว"
+      },
+      {
+        "name_en": "AMPHOE PA TIO",
+        "name_th": "อำเภอป่าติ้ว"
+      },
+      {
+        "name_en": "AMPHOE MAHA CHANA CHAI",
+        "name_th": "อำเภอมหาชนะชัย"
+      },
+      {
+        "name_en": "AMPHOE KHO WANG",
+        "name_th": "อำเภอค้อวัง"
+      },
+      {
+        "name_en": "AMPHOE LOENG NOK THA",
+        "name_th": "อำเภอเลิงนกทา"
+      },
+      {
+        "name_en": "AMPHOE THAI CHAROEN",
+        "name_th": "อำเภอไทยเจริญ"
+      }
+    ]
+  },
+  {
+    "name_en": "CHAIYAPHUM",
+    "name_th": "ชัยภูมิ",
+    "code": 36,
+    "geography": "ภาคตะวันออกเฉียงเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG CHAIYAPHUM",
+        "name_th": "อำเภอเมืองชัยภูมิ"
+      },
+      {
+        "name_en": "AMPHOE BAN KHWAO",
+        "name_th": "อำเภอบ้านเขว้า"
+      },
+      {
+        "name_en": "AMPHOE KHON SAWAN",
+        "name_th": "อำเภอคอนสวรรค์"
+      },
+      {
+        "name_en": "AMPHOE KASET SOMBUN",
+        "name_th": "อำเภอเกษตรสมบูรณ์"
+      },
+      {
+        "name_en": "AMPHOE NONG BUA DAENG",
+        "name_th": "อำเภอหนองบัวแดง"
+      },
+      {
+        "name_en": "AMPHOE CHATTURAT",
+        "name_th": "อำเภอจัตุรัส"
+      },
+      {
+        "name_en": "AMPHOE BAMNET NARONG",
+        "name_th": "อำเภอบำเหน็จณรงค์"
+      },
+      {
+        "name_en": "AMPHOE NONG BUA RAWE",
+        "name_th": "อำเภอหนองบัวระเหว"
+      },
+      {
+        "name_en": "AMPHOE THEP SATHIT",
+        "name_th": "อำเภอเทพสถิต"
+      },
+      {
+        "name_en": "AMPHOE PHU KHIAO",
+        "name_th": "อำเภอภูเขียว"
+      },
+      {
+        "name_en": "AMPHOE BAN THAEN",
+        "name_th": "อำเภอบ้านแท่น"
+      },
+      {
+        "name_en": "AMPHOE KAENG KHRO",
+        "name_th": "อำเภอแก้งคร้อ"
+      },
+      {
+        "name_en": "AMPHOE KHON SAN",
+        "name_th": "อำเภอคอนสาร"
+      },
+      {
+        "name_en": "AMPHOE PHAKDI CHUMPHON",
+        "name_th": "อำเภอภักดีชุมพล"
+      },
+      {
+        "name_en": "AMPHOE NOEN SA-NGA",
+        "name_th": "อำเภอเนินสง่า"
+      },
+      {
+        "name_en": "AMPHOE SAP YAI",
+        "name_th": "อำเภอซับใหญ่"
+      }
+    ]
+  },
+  {
+    "name_en": "AMNAT CHAROEN",
+    "name_th": "อำนาจเจริญ",
+    "code": 37,
+    "geography": "ภาคตะวันออกเฉียงเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG AMNAT CHAROEN",
+        "name_th": "อำเภอเมืองอำนาจเจริญ"
+      },
+      {
+        "name_en": "AMPHOE CHANUMAN",
+        "name_th": "อำเภอชานุมาน"
+      },
+      {
+        "name_en": "AMPHOE PATHUM RATCHAWONGSA",
+        "name_th": "อำเภอปทุมราชวงศา"
+      },
+      {
+        "name_en": "AMPHOE PHANA",
+        "name_th": "อำเภอพนา"
+      },
+      {
+        "name_en": "AMPHOE SENANGKHANIKHOM",
+        "name_th": "อำเภอเสนางคนิคม"
+      },
+      {
+        "name_en": "AMPHOE HUA TAPHAN",
+        "name_th": "อำเภอหัวตะพาน"
+      },
+      {
+        "name_en": "AMPHOE LUE AMNAT",
+        "name_th": "อำเภอลืออำนาจ"
+      }
+    ]
+  },
+  {
+    "name_en": "BUENG KAN",
+    "name_th": "บึงกาฬ",
+    "code": 38,
+    "geography": "ภาคตะวันออกเฉียงเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG BUENG KAN",
+        "name_th": "อำเภอเมืองบึงกาฬ"
+      },
+      {
+        "name_en": "AMPHOE PHON CHAROEN",
+        "name_th": "อำเภอพรเจริญ"
+      },
+      {
+        "name_en": "AMPHOE SO PHISAI",
+        "name_th": "อำเภอโซ่พิสัย"
+      },
+      {
+        "name_en": "AMPHOE SEKA",
+        "name_th": "อำเภอเซกา"
+      },
+      {
+        "name_en": "AMPHOE PAK KHAT",
+        "name_th": "อำเภอปากคาด"
+      },
+      {
+        "name_en": "AMPHOE BUENG KHONG LONG",
+        "name_th": "อำเภอบึงโขงหลง"
+      },
+      {
+        "name_en": "AMPHOE SI WILAI",
+        "name_th": "อำเภอศรีวิไล"
+      },
+      {
+        "name_en": "AMPHOE BUNG KHLA",
+        "name_th": "อำเภอบุ่งคล้า"
+      }
+    ]
+  },
+  {
+    "name_en": "NONG BUA LAM PHU",
+    "name_th": "หนองบัวลำภู",
+    "code": 39,
+    "geography": "ภาคตะวันออกเฉียงเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG NONG BUA LAM PHU",
+        "name_th": "อำเภอเมืองหนองบัวลำภู"
+      },
+      {
+        "name_en": "AMPHOE NA KLANG",
+        "name_th": "อำเภอนากลาง"
+      },
+      {
+        "name_en": "AMPHOE NON SANG",
+        "name_th": "อำเภอโนนสัง"
+      },
+      {
+        "name_en": "AMPHOE SI BUN RUEANG",
+        "name_th": "อำเภอศรีบุญเรือง"
+      },
+      {
+        "name_en": "AMPHOE SUWANNAKHUHA",
+        "name_th": "อำเภอสุวรรณคูหา"
+      },
+      {
+        "name_en": "AMPHOE NA WANG",
+        "name_th": "อำเภอนาวัง"
+      }
+    ]
+  },
+  {
+    "name_en": "KHON KAEN",
+    "name_th": "ขอนแก่น",
+    "code": 40,
+    "geography": "ภาคตะวันออกเฉียงเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG KHON KAEN",
+        "name_th": "อำเภอเมืองขอนแก่น"
+      },
+      {
+        "name_en": "AMPHOE BAN FANG",
+        "name_th": "อำเภอบ้านฝาง"
+      },
+      {
+        "name_en": "AMPHOE PHRA YUEN",
+        "name_th": "อำเภอพระยืน"
+      },
+      {
+        "name_en": "AMPHOE NONG RUEA",
+        "name_th": "อำเภอหนองเรือ"
+      },
+      {
+        "name_en": "AMPHOE CHUM PHAE",
+        "name_th": "อำเภอชุมแพ"
+      },
+      {
+        "name_en": "AMPHOE SI CHOMPHU",
+        "name_th": "อำเภอสีชมพู"
+      },
+      {
+        "name_en": "AMPHOE NAM PHONG",
+        "name_th": "อำเภอน้ำพอง"
+      },
+      {
+        "name_en": "AMPHOE UBOLRATANA",
+        "name_th": "อำเภออุบลรัตน์"
+      },
+      {
+        "name_en": "AMPHOE KRANUAN",
+        "name_th": "อำเภอกระนวน"
+      },
+      {
+        "name_en": "AMPHOE BAN PHAI",
+        "name_th": "อำเภอบ้านไผ่"
+      },
+      {
+        "name_en": "AMPHOE PUEAI NOI",
+        "name_th": "อำเภอเปือยน้อย"
+      },
+      {
+        "name_en": "AMPHOE PHON",
+        "name_th": "อำเภอพล"
+      },
+      {
+        "name_en": "AMPHOE WAENG YAI",
+        "name_th": "อำเภอแวงใหญ่"
+      },
+      {
+        "name_en": "AMPHOE WAENG NOI",
+        "name_th": "อำเภอแวงน้อย"
+      },
+      {
+        "name_en": "AMPHOE NONG SONG HONG",
+        "name_th": "อำเภอหนองสองห้อง"
+      },
+      {
+        "name_en": "AMPHOE PHU WIANG",
+        "name_th": "อำเภอภูเวียง"
+      },
+      {
+        "name_en": "AMPHOE MANCHA KHIRI",
+        "name_th": "อำเภอมัญจาคีรี"
+      },
+      {
+        "name_en": "AMPHOE CHONNABOT",
+        "name_th": "อำเภอชนบท"
+      },
+      {
+        "name_en": "AMPHOE KHAO SUAN KWANG",
+        "name_th": "อำเภอเขาสวนกวาง"
+      },
+      {
+        "name_en": "AMPHOE PHU PHA MAN",
+        "name_th": "อำเภอภูผาม่าน"
+      },
+      {
+        "name_en": "AMPHOE SAM SUNG",
+        "name_th": "อำเภอซำสูง"
+      },
+      {
+        "name_en": "AMPHOE KHOK PHO CHAI",
+        "name_th": "อำเภอโคกโพธิ์ไชย"
+      },
+      {
+        "name_en": "AMPHOE NONG NA KHAM",
+        "name_th": "อำเภอหนองนาคำ"
+      },
+      {
+        "name_en": "AMPHOE BAN HAET",
+        "name_th": "อำเภอบ้านแฮด"
+      },
+      {
+        "name_en": "AMPHOE NON SILA",
+        "name_th": "อำเภอโนนศิลา"
+      },
+      {
+        "name_en": "AMPHOE WIANG KAO",
+        "name_th": "อำเภอเวียงเก่า"
+      }
+    ]
+  },
+  {
+    "name_en": "UDON THANI",
+    "name_th": "อุดรธานี",
+    "code": 41,
+    "geography": "ภาคตะวันออกเฉียงเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG UDON THANI",
+        "name_th": "อำเภอเมืองอุดรธานี"
+      },
+      {
+        "name_en": "AMPHOE KUT CHAP",
+        "name_th": "อำเภอกุดจับ"
+      },
+      {
+        "name_en": "AMPHOE NONG WUA SO",
+        "name_th": "อำเภอหนองวัวซอ"
+      },
+      {
+        "name_en": "AMPHOE KUMPHAWAPI",
+        "name_th": "อำเภอกุมภวาปี"
+      },
+      {
+        "name_en": "AMPHOE NON SA-AT",
+        "name_th": "อำเภอโนนสะอาด"
+      },
+      {
+        "name_en": "AMPHOE NONG HAN",
+        "name_th": "อำเภอหนองหาน"
+      },
+      {
+        "name_en": "AMPHOE THUNG FON",
+        "name_th": "อำเภอทุ่งฝน"
+      },
+      {
+        "name_en": "AMPHOE CHAI WAN",
+        "name_th": "อำเภอไชยวาน"
+      },
+      {
+        "name_en": "AMPHOE SI THAT",
+        "name_th": "อำเภอศรีธาตุ"
+      },
+      {
+        "name_en": "AMPHOE WANG SAM MO",
+        "name_th": "อำเภอวังสามหมอ"
+      },
+      {
+        "name_en": "AMPHOE BAN DUNG",
+        "name_th": "อำเภอบ้านดุง"
+      },
+      {
+        "name_en": "AMPHOE BAN PHUE",
+        "name_th": "อำเภอบ้านผือ"
+      },
+      {
+        "name_en": "AMPHOE NAM SOM",
+        "name_th": "อำเภอน้ำโสม"
+      },
+      {
+        "name_en": "AMPHOE PHEN",
+        "name_th": "อำเภอเพ็ญ"
+      },
+      {
+        "name_en": "AMPHOE SANG KHOM",
+        "name_th": "อำเภอสร้างคอม"
+      },
+      {
+        "name_en": "AMPHOE NONG SAENG",
+        "name_th": "อำเภอหนองแสง"
+      },
+      {
+        "name_en": "AMPHOE NA YUNG",
+        "name_th": "อำเภอนายูง"
+      },
+      {
+        "name_en": "AMPHOE PHIBUN RAK",
+        "name_th": "อำเภอพิบูลย์รักษ์"
+      },
+      {
+        "name_en": "AMPHOE KU KAEO",
+        "name_th": "อำเภอกู่แก้ว"
+      },
+      {
+        "name_en": "AMPHOE PRACHAK SINLAPAKHOM",
+        "name_th": "อำเภอประจักษ์ศิลปาคม"
+      }
+    ]
+  },
+  {
+    "name_en": "LOEI",
+    "name_th": "เลย",
+    "code": 42,
+    "geography": "ภาคตะวันออกเฉียงเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG LOEI",
+        "name_th": "อำเภอเมืองเลย"
+      },
+      {
+        "name_en": "AMPHOE NA DUANG",
+        "name_th": "อำเภอนาด้วง"
+      },
+      {
+        "name_en": "AMPHOE CHIANG KHAN",
+        "name_th": "อำเภอเชียงคาน"
+      },
+      {
+        "name_en": "AMPHOE PAK CHOM",
+        "name_th": "อำเภอปากชม"
+      },
+      {
+        "name_en": "AMPHOE DAN SAI",
+        "name_th": "อำเภอด่านซ้าย"
+      },
+      {
+        "name_en": "AMPHOE NA HAEO",
+        "name_th": "อำเภอนาแห้ว"
+      },
+      {
+        "name_en": "AMPHOE PHU RUEA",
+        "name_th": "อำเภอภูเรือ"
+      },
+      {
+        "name_en": "AMPHOE THA LI",
+        "name_th": "อำเภอท่าลี่"
+      },
+      {
+        "name_en": "AMPHOE WANG SAPHUNG",
+        "name_th": "อำเภอวังสะพุง"
+      },
+      {
+        "name_en": "AMPHOE PHU KRADUENG",
+        "name_th": "อำเภอภูกระดึง"
+      },
+      {
+        "name_en": "AMPHOE PHU LUANG",
+        "name_th": "อำเภอภูหลวง"
+      },
+      {
+        "name_en": "AMPHOE PHA KHAO",
+        "name_th": "อำเภอผาขาว"
+      },
+      {
+        "name_en": "AMPHOE ERAWAN",
+        "name_th": "อำเภอเอราวัณ"
+      },
+      {
+        "name_en": "AMPHOE NONG HIN",
+        "name_th": "อำเภอหนองหิน"
+      }
+    ]
+  },
+  {
+    "name_en": "NONG KHAI",
+    "name_th": "หนองคาย",
+    "code": 43,
+    "geography": "ภาคตะวันออกเฉียงเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG NONG KHAI",
+        "name_th": "อำเภอเมืองหนองคาย"
+      },
+      {
+        "name_en": "AMPHOE THA BO",
+        "name_th": "อำเภอท่าบ่อ"
+      },
+      {
+        "name_en": "AMPHOE PHON PHISAI",
+        "name_th": "อำเภอโพนพิสัย"
+      },
+      {
+        "name_en": "AMPHOE SI CHIANG MAI",
+        "name_th": "อำเภอศรีเชียงใหม่"
+      },
+      {
+        "name_en": "AMPHOE SANGKHOM",
+        "name_th": "อำเภอสังคม"
+      },
+      {
+        "name_en": "AMPHOE SAKHRAI",
+        "name_th": "อำเภอสระใคร"
+      },
+      {
+        "name_en": "AMPHOE FAO RAI",
+        "name_th": "อำเภอเฝ้าไร่"
+      },
+      {
+        "name_en": "AMPHOE RATTANAWAPI",
+        "name_th": "อำเภอรัตนวาปี"
+      },
+      {
+        "name_en": "AMPHOE PHO TAK",
+        "name_th": "อำเภอโพธิ์ตาก"
+      }
+    ]
+  },
+  {
+    "name_en": "MAHA SARAKHAM",
+    "name_th": "มหาสารคาม",
+    "code": 44,
+    "geography": "ภาคตะวันออกเฉียงเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG MAHA SARAKHAM",
+        "name_th": "อำเภอเมืองมหาสารคาม"
+      },
+      {
+        "name_en": "AMPHOE KAE DAM",
+        "name_th": "อำเภอแกดำ"
+      },
+      {
+        "name_en": "AMPHOE KOSUM PHISAI",
+        "name_th": "อำเภอโกสุมพิสัย"
+      },
+      {
+        "name_en": "AMPHOE KANTHARAWICHAI",
+        "name_th": "อำเภอกันทรวิชัย"
+      },
+      {
+        "name_en": "AMPHOE CHIANG YUEN",
+        "name_th": "อำเภอเชียงยืน"
+      },
+      {
+        "name_en": "AMPHOE BORABUE",
+        "name_th": "อำเภอบรบือ"
+      },
+      {
+        "name_en": "AMPHOE NA CHUEAK",
+        "name_th": "อำเภอนาเชือก"
+      },
+      {
+        "name_en": "AMPHOE PHAYAKKHAPHUM PHISAI",
+        "name_th": "อำเภอพยัคฆภูมิพิสัย"
+      },
+      {
+        "name_en": "AMPHOE WAPI PATHUM",
+        "name_th": "อำเภอวาปีปทุม"
+      },
+      {
+        "name_en": "AMPHOE NA DUN",
+        "name_th": "อำเภอนาดูน"
+      },
+      {
+        "name_en": "AMPHOE YANG SI SURAT",
+        "name_th": "อำเภอยางสีสุราช"
+      },
+      {
+        "name_en": "AMPHOE KUT RANG",
+        "name_th": "อำเภอกุดรัง"
+      },
+      {
+        "name_en": "AMPHOE CHUEN CHOM",
+        "name_th": "อำเภอชื่นชม"
+      }
+    ]
+  },
+  {
+    "name_en": "ROI ET",
+    "name_th": "ร้อยเอ็ด",
+    "code": 45,
+    "geography": "ภาคตะวันออกเฉียงเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG ROI ET",
+        "name_th": "อำเภอเมืองร้อยเอ็ด"
+      },
+      {
+        "name_en": "AMPHOE KASET WISAI",
+        "name_th": "อำเภอเกษตรวิสัย"
+      },
+      {
+        "name_en": "AMPHOE PATHUM RAT",
+        "name_th": "อำเภอปทุมรัตต์"
+      },
+      {
+        "name_en": "AMPHOE CHATURAPHAK PHIMAN",
+        "name_th": "อำเภอจตุรพักตรพิมาน"
+      },
+      {
+        "name_en": "AMPHOE THAWAT BURI",
+        "name_th": "อำเภอธวัชบุรี"
+      },
+      {
+        "name_en": "AMPHOE PHANOM PHRAI",
+        "name_th": "อำเภอพนมไพร"
+      },
+      {
+        "name_en": "AMPHOE PHON THONG",
+        "name_th": "อำเภอโพนทอง"
+      },
+      {
+        "name_en": "AMPHOE PHO CHAI",
+        "name_th": "อำเภอโพธิ์ชัย"
+      },
+      {
+        "name_en": "AMPHOE NONG PHOK",
+        "name_th": "อำเภอหนองพอก"
+      },
+      {
+        "name_en": "AMPHOE SELAPHUM",
+        "name_th": "อำเภอเสลภูมิ"
+      },
+      {
+        "name_en": "AMPHOE SUWANNAPHUM",
+        "name_th": "อำเภอสุวรรณภูมิ"
+      },
+      {
+        "name_en": "AMPHOE MUEANG SUANG",
+        "name_th": "อำเภอเมืองสรวง"
+      },
+      {
+        "name_en": "AMPHOE PHON SAI",
+        "name_th": "อำเภอโพนทราย"
+      },
+      {
+        "name_en": "AMPHOE AT SAMAT",
+        "name_th": "อำเภออาจสามารถ"
+      },
+      {
+        "name_en": "AMPHOE MOEI WADI",
+        "name_th": "อำเภอเมยวดี"
+      },
+      {
+        "name_en": "AMPHOE SI SOMDET",
+        "name_th": "อำเภอศรีสมเด็จ"
+      },
+      {
+        "name_en": "AMPHOE CHANGHAN",
+        "name_th": "อำเภอจังหาร"
+      },
+      {
+        "name_en": "AMPHOE CHIANG KHWAN",
+        "name_th": "อำเภอเชียงขวัญ"
+      },
+      {
+        "name_en": "AMPHOE NONG HI",
+        "name_th": "อำเภอหนองฮี"
+      },
+      {
+        "name_en": "AMPHOE THUNG KHAO LUANG",
+        "name_th": "อำเภอทุ่งเขาหลวง"
+      }
+    ]
+  },
+  {
+    "name_en": "KALASIN",
+    "name_th": "กาฬสินธุ์",
+    "code": 46,
+    "geography": "ภาคตะวันออกเฉียงเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG KALASIN",
+        "name_th": "อำเภอเมืองกาฬสินธุ์"
+      },
+      {
+        "name_en": "AMPHOE NA MON",
+        "name_th": "อำเภอนามน"
+      },
+      {
+        "name_en": "AMPHOE KAMALASAI",
+        "name_th": "อำเภอกมลาไสย"
+      },
+      {
+        "name_en": "AMPHOE RONG KHAM",
+        "name_th": "อำเภอร่องคำ"
+      },
+      {
+        "name_en": "AMPHOE KUCHINARAI",
+        "name_th": "อำเภอกุฉินารายณ์"
+      },
+      {
+        "name_en": "AMPHOE KHAO WONG",
+        "name_th": "อำเภอเขาวง"
+      },
+      {
+        "name_en": "AMPHOE YANG TALAT",
+        "name_th": "อำเภอยางตลาด"
+      },
+      {
+        "name_en": "AMPHOE HUAI MEK",
+        "name_th": "อำเภอห้วยเม็ก"
+      },
+      {
+        "name_en": "AMPHOE SAHATSAKHAN",
+        "name_th": "อำเภอสหัสขันธ์"
+      },
+      {
+        "name_en": "AMPHOE KHAM MUANG",
+        "name_th": "อำเภอคำม่วง"
+      },
+      {
+        "name_en": "AMPHOE THA KHANTHO",
+        "name_th": "อำเภอท่าคันโท"
+      },
+      {
+        "name_en": "AMPHOE NONG KUNG SI",
+        "name_th": "อำเภอหนองกุงศรี"
+      },
+      {
+        "name_en": "AMPHOE SOMDET",
+        "name_th": "อำเภอสมเด็จ"
+      },
+      {
+        "name_en": "AMPHOE HUAI PHUENG",
+        "name_th": "อำเภอห้วยผึ้ง"
+      },
+      {
+        "name_en": "AMPHOE SAM CHAI",
+        "name_th": "อำเภอสามชัย"
+      },
+      {
+        "name_en": "AMPHOE NA KHU",
+        "name_th": "อำเภอนาคู"
+      },
+      {
+        "name_en": "AMPHOE DON CHAN",
+        "name_th": "อำเภอดอนจาน"
+      },
+      {
+        "name_en": "AMPHOE KHONG CHAI",
+        "name_th": "อำเภอฆ้องชัย"
+      }
+    ]
+  },
+  {
+    "name_en": "SAKON NAKHON",
+    "name_th": "สกลนคร",
+    "code": 47,
+    "geography": "ภาคตะวันออกเฉียงเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG SAKON NAKHON",
+        "name_th": "อำเภอเมืองสกลนคร"
+      },
+      {
+        "name_en": "AMPHOE KUSUMAN",
+        "name_th": "อำเภอกุสุมาลย์"
+      },
+      {
+        "name_en": "AMPHOE KUT BAK",
+        "name_th": "อำเภอกุดบาก"
+      },
+      {
+        "name_en": "AMPHOE PHANNA NIKHOM",
+        "name_th": "อำเภอพรรณานิคม"
+      },
+      {
+        "name_en": "AMPHOE PHANG KHON",
+        "name_th": "อำเภอพังโคน"
+      },
+      {
+        "name_en": "AMPHOE WARITCHAPHUM",
+        "name_th": "อำเภอวาริชภูมิ"
+      },
+      {
+        "name_en": "AMPHOE NIKHOM NAM UN",
+        "name_th": "อำเภอนิคมน้ำอูน"
+      },
+      {
+        "name_en": "AMPHOE WANON NIWAT",
+        "name_th": "อำเภอวานรนิวาส"
+      },
+      {
+        "name_en": "AMPHOE KHAM TA KLA",
+        "name_th": "อำเภอคำตากล้า"
+      },
+      {
+        "name_en": "AMPHOE BAN MUANG",
+        "name_th": "อำเภอบ้านม่วง"
+      },
+      {
+        "name_en": "AMPHOE AKAT AMNUAI",
+        "name_th": "อำเภออากาศอำนวย"
+      },
+      {
+        "name_en": "AMPHOE SAWANG DAEN DIN",
+        "name_th": "อำเภอสว่างแดนดิน"
+      },
+      {
+        "name_en": "AMPHOE SONG DAO",
+        "name_th": "อำเภอส่องดาว"
+      },
+      {
+        "name_en": "AMPHOE TAO NGOI",
+        "name_th": "อำเภอเต่างอย"
+      },
+      {
+        "name_en": "AMPHOE KHOK SI SUPHAN",
+        "name_th": "อำเภอโคกศรีสุพรรณ"
+      },
+      {
+        "name_en": "AMPHOE CHAROEN SIN",
+        "name_th": "อำเภอเจริญศิลป์"
+      },
+      {
+        "name_en": "AMPHOE PHON NA KAEO",
+        "name_th": "อำเภอโพนนาแก้ว"
+      },
+      {
+        "name_en": "AMPHOE PHU PHAN",
+        "name_th": "อำเภอภูพาน"
+      }
+    ]
+  },
+  {
+    "name_en": "NAKHON PHANOM",
+    "name_th": "นครพนม",
+    "code": 48,
+    "geography": "ภาคตะวันออกเฉียงเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG NAKHON PHANOM",
+        "name_th": "อำเภอเมืองนครพนม"
+      },
+      {
+        "name_en": "AMPHOE PLA PAK",
+        "name_th": "อำเภอปลาปาก"
+      },
+      {
+        "name_en": "AMPHOE THA UTHEN",
+        "name_th": "อำเภอท่าอุเทน"
+      },
+      {
+        "name_en": "AMPHOE BAN PHAENG",
+        "name_th": "อำเภอบ้านแพง"
+      },
+      {
+        "name_en": "AMPHOE THAT PHANOM",
+        "name_th": "อำเภอธาตุพนม"
+      },
+      {
+        "name_en": "AMPHOE RENU NAKHON",
+        "name_th": "อำเภอเรณูนคร"
+      },
+      {
+        "name_en": "AMPHOE NA KAE",
+        "name_th": "อำเภอนาแก"
+      },
+      {
+        "name_en": "AMPHOE SI SONGKHRAM",
+        "name_th": "อำเภอศรีสงคราม"
+      },
+      {
+        "name_en": "AMPHOE NA WA",
+        "name_th": "อำเภอนาหว้า"
+      },
+      {
+        "name_en": "AMPHOE PHON SAWAN",
+        "name_th": "อำเภอโพนสวรรค์"
+      },
+      {
+        "name_en": "AMPHOE NA THOM",
+        "name_th": "อำเภอนาทม"
+      },
+      {
+        "name_en": "AMPHOE WANG YANG",
+        "name_th": "อำเภอวังยาง"
+      }
+    ]
+  },
+  {
+    "name_en": "MUKDAHAN",
+    "name_th": "มุกดาหาร",
+    "code": 49,
+    "geography": "ภาคตะวันออกเฉียงเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG MUKDAHAN",
+        "name_th": "อำเภอเมืองมุกดาหาร"
+      },
+      {
+        "name_en": "AMPHOE NIKHOM KHAM SOI",
+        "name_th": "อำเภอนิคมคำสร้อย"
+      },
+      {
+        "name_en": "AMPHOE DON TAN",
+        "name_th": "อำเภอดอนตาล"
+      },
+      {
+        "name_en": "AMPHOE DONG LUANG",
+        "name_th": "อำเภอดงหลวง"
+      },
+      {
+        "name_en": "AMPHOE KHAMCHA-I",
+        "name_th": "อำเภอคำชะอี"
+      },
+      {
+        "name_en": "AMPHOE WAN YAI",
+        "name_th": "อำเภอหว้านใหญ่"
+      },
+      {
+        "name_en": "AMPHOE NONG SUNG",
+        "name_th": "อำเภอหนองสูง"
+      }
+    ]
+  },
+  {
+    "name_en": "CHIANG MAI",
+    "name_th": "เชียงใหม่",
+    "code": 50,
+    "geography": "ภาคเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG CHIANG MAI",
+        "name_th": "อำเภอเมืองเชียงใหม่"
+      },
+      {
+        "name_en": "AMPHOE CHOM THONG",
+        "name_th": "อำเภอจอมทอง"
+      },
+      {
+        "name_en": "AMPHOE MAE CHAEM",
+        "name_th": "อำเภอแม่แจ่ม"
+      },
+      {
+        "name_en": "AMPHOE CHIANG DAO",
+        "name_th": "อำเภอเชียงดาว"
+      },
+      {
+        "name_en": "AMPHOE DOI SAKET",
+        "name_th": "อำเภอดอยสะเก็ด"
+      },
+      {
+        "name_en": "AMPHOE MAE TAENG",
+        "name_th": "อำเภอแม่แตง"
+      },
+      {
+        "name_en": "AMPHOE MAE RIM",
+        "name_th": "อำเภอแม่ริม"
+      },
+      {
+        "name_en": "AMPHOE SAMOENG",
+        "name_th": "อำเภอสะเมิง"
+      },
+      {
+        "name_en": "AMPHOE FANG",
+        "name_th": "อำเภอฝาง"
+      },
+      {
+        "name_en": "AMPHOE MAE AI",
+        "name_th": "อำเภอแม่อาย"
+      },
+      {
+        "name_en": "AMPHOE PHRAO",
+        "name_th": "อำเภอพร้าว"
+      },
+      {
+        "name_en": "AMPHOE SAN PA TONG",
+        "name_th": "อำเภอสันป่าตอง"
+      },
+      {
+        "name_en": "AMPHOE SAN KAMPHAENG",
+        "name_th": "อำเภอสันกำแพง"
+      },
+      {
+        "name_en": "AMPHOE SAN SAI",
+        "name_th": "อำเภอสันทราย"
+      },
+      {
+        "name_en": "AMPHOE HANG DONG",
+        "name_th": "อำเภอหางดง"
+      },
+      {
+        "name_en": "AMPHOE HOT",
+        "name_th": "อำเภอฮอด"
+      },
+      {
+        "name_en": "AMPHOE DOI TAO",
+        "name_th": "อำเภอดอยเต่า"
+      },
+      {
+        "name_en": "AMPHOE OMKOI",
+        "name_th": "อำเภออมก๋อย"
+      },
+      {
+        "name_en": "AMPHOE SARAPHI",
+        "name_th": "อำเภอสารภี"
+      },
+      {
+        "name_en": "AMPHOE WIANG HAENG",
+        "name_th": "อำเภอเวียงแหง"
+      },
+      {
+        "name_en": "AMPHOE CHAI PRAKAN",
+        "name_th": "อำเภอไชยปราการ"
+      },
+      {
+        "name_en": "AMPHOE MAE WANG",
+        "name_th": "อำเภอแม่วาง"
+      },
+      {
+        "name_en": "AMPHOE MAE ON",
+        "name_th": "อำเภอแม่ออน"
+      },
+      {
+        "name_en": "AMPHOE DOI LO",
+        "name_th": "อำเภอดอยหล่อ"
+      },
+      {
+        "name_en": "AMPHOE GALAYANI VADHANA",
+        "name_th": "อำเภอกัลยาณิวัฒนา"
+      }
+    ]
+  },
+  {
+    "name_en": "LAMPHUN",
+    "name_th": "ลำพูน",
+    "code": 51,
+    "geography": "ภาคเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG LAMPHUN",
+        "name_th": "อำเภอเมืองลำพูน"
+      },
+      {
+        "name_en": "AMPHOE MAE THA",
+        "name_th": "อำเภอแม่ทา"
+      },
+      {
+        "name_en": "AMPHOE BAN HONG",
+        "name_th": "อำเภอบ้านโฮ่ง"
+      },
+      {
+        "name_en": "AMPHOE LI",
+        "name_th": "อำเภอลี้"
+      },
+      {
+        "name_en": "AMPHOE THUNG HUA CHANG",
+        "name_th": "อำเภอทุ่งหัวช้าง"
+      },
+      {
+        "name_en": "AMPHOE PA SANG",
+        "name_th": "อำเภอป่าซาง"
+      },
+      {
+        "name_en": "AMPHOE BAN THI",
+        "name_th": "อำเภอบ้านธิ"
+      },
+      {
+        "name_en": "AMPHOE WIANG NONG LONG",
+        "name_th": "อำเภอเวียงหนองล่อง"
+      }
+    ]
+  },
+  {
+    "name_en": "LAMPANG",
+    "name_th": "ลำปาง",
+    "code": 52,
+    "geography": "ภาคเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG LAMPANG",
+        "name_th": "อำเภอเมืองลำปาง"
+      },
+      {
+        "name_en": "AMPHOE MAE MO",
+        "name_th": "อำเภอแม่เมาะ"
+      },
+      {
+        "name_en": "AMPHOE KO KHA",
+        "name_th": "อำเภอเกาะคา"
+      },
+      {
+        "name_en": "AMPHOE SOEM NGAM",
+        "name_th": "อำเภอเสริมงาม"
+      },
+      {
+        "name_en": "AMPHOE NGAO",
+        "name_th": "อำเภองาว"
+      },
+      {
+        "name_en": "AMPHOE CHAE HOM",
+        "name_th": "อำเภอแจ้ห่ม"
+      },
+      {
+        "name_en": "AMPHOE WANG NUEA",
+        "name_th": "อำเภอวังเหนือ"
+      },
+      {
+        "name_en": "AMPHOE THOEN",
+        "name_th": "อำเภอเถิน"
+      },
+      {
+        "name_en": "AMPHOE MAE PHRIK",
+        "name_th": "อำเภอแม่พริก"
+      },
+      {
+        "name_en": "AMPHOE MAE THA",
+        "name_th": "อำเภอแม่ทะ"
+      },
+      {
+        "name_en": "AMPHOE SOP PRAP",
+        "name_th": "อำเภอสบปราบ"
+      },
+      {
+        "name_en": "AMPHOE HANG CHAT",
+        "name_th": "อำเภอห้างฉัตร"
+      },
+      {
+        "name_en": "AMPHOE MUEANG PAN",
+        "name_th": "อำเภอเมืองปาน"
+      }
+    ]
+  },
+  {
+    "name_en": "UTTARADIT",
+    "name_th": "อุตรดิตถ์",
+    "code": 53,
+    "geography": "ภาคเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG UTTARADIT",
+        "name_th": "อำเภอเมืองอุตรดิตถ์"
+      },
+      {
+        "name_en": "AMPHOE TRON",
+        "name_th": "อำเภอตรอน"
+      },
+      {
+        "name_en": "AMPHOE THA PLA",
+        "name_th": "อำเภอท่าปลา"
+      },
+      {
+        "name_en": "AMPHOE NAM PAT",
+        "name_th": "อำเภอน้ำปาด"
+      },
+      {
+        "name_en": "AMPHOE FAK THA",
+        "name_th": "อำเภอฟากท่า"
+      },
+      {
+        "name_en": "AMPHOE BAN KHOK",
+        "name_th": "อำเภอบ้านโคก"
+      },
+      {
+        "name_en": "AMPHOE PHICHAI",
+        "name_th": "อำเภอพิชัย"
+      },
+      {
+        "name_en": "AMPHOE LAPLAE",
+        "name_th": "อำเภอลับแล"
+      },
+      {
+        "name_en": "AMPHOE THONG SAEN KHAN",
+        "name_th": "อำเภอทองแสนขัน"
+      }
+    ]
+  },
+  {
+    "name_en": "PHRAE",
+    "name_th": "แพร่",
+    "code": 54,
+    "geography": "ภาคเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG PHRAE",
+        "name_th": "อำเภอเมืองแพร่"
+      },
+      {
+        "name_en": "AMPHOE RONG KWANG",
+        "name_th": "อำเภอร้องกวาง"
+      },
+      {
+        "name_en": "AMPHOE LONG",
+        "name_th": "อำเภอลอง"
+      },
+      {
+        "name_en": "AMPHOE SUNG MEN",
+        "name_th": "อำเภอสูงเม่น"
+      },
+      {
+        "name_en": "AMPHOE DEN CHAI",
+        "name_th": "อำเภอเด่นชัย"
+      },
+      {
+        "name_en": "AMPHOE SONG",
+        "name_th": "อำเภอสอง"
+      },
+      {
+        "name_en": "AMPHOE WANG CHIN",
+        "name_th": "อำเภอวังชิ้น"
+      },
+      {
+        "name_en": "AMPHOE NONG MUANG KHAI",
+        "name_th": "อำเภอหนองม่วงไข่"
+      }
+    ]
+  },
+  {
+    "name_en": "NAN",
+    "name_th": "น่าน",
+    "code": 55,
+    "geography": "ภาคเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG NAN",
+        "name_th": "อำเภอเมืองน่าน"
+      },
+      {
+        "name_en": "AMPHOE MAE CHARIM",
+        "name_th": "อำเภอแม่จริม"
+      },
+      {
+        "name_en": "AMPHOE BAN LUANG",
+        "name_th": "อำเภอบ้านหลวง"
+      },
+      {
+        "name_en": "AMPHOE NA NOI",
+        "name_th": "อำเภอนาน้อย"
+      },
+      {
+        "name_en": "AMPHOE PUA",
+        "name_th": "อำเภอปัว"
+      },
+      {
+        "name_en": "AMPHOE THA WANG PHA",
+        "name_th": "อำเภอท่าวังผา"
+      },
+      {
+        "name_en": "AMPHOE WIANG SA",
+        "name_th": "อำเภอเวียงสา"
+      },
+      {
+        "name_en": "AMPHOE THUNG CHANG",
+        "name_th": "อำเภอทุ่งช้าง"
+      },
+      {
+        "name_en": "AMPHOE CHIANG KLANG",
+        "name_th": "อำเภอเชียงกลาง"
+      },
+      {
+        "name_en": "AMPHOE NA MUEN",
+        "name_th": "อำเภอนาหมื่น"
+      },
+      {
+        "name_en": "AMPHOE SANTI SUK",
+        "name_th": "อำเภอสันติสุข"
+      },
+      {
+        "name_en": "AMPHOE BO KLUEA",
+        "name_th": "อำเภอบ่อเกลือ"
+      },
+      {
+        "name_en": "AMPHOE SONG KHWAE",
+        "name_th": "อำเภอสองแคว"
+      },
+      {
+        "name_en": "AMPHOE PHU PHIANG",
+        "name_th": "อำเภอภูเพียง"
+      },
+      {
+        "name_en": "AMPHOE CHALOEM PHRA KIAT",
+        "name_th": "อำเภอเฉลิมพระเกียรติ"
+      }
+    ]
+  },
+  {
+    "name_en": "PHAYAO",
+    "name_th": "พะเยา",
+    "code": 56,
+    "geography": "ภาคเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG PHAYAO",
+        "name_th": "อำเภอเมืองพะเยา"
+      },
+      {
+        "name_en": "AMPHOE CHUN",
+        "name_th": "อำเภอจุน"
+      },
+      {
+        "name_en": "AMPHOE CHIANG KHAM",
+        "name_th": "อำเภอเชียงคำ"
+      },
+      {
+        "name_en": "AMPHOE CHIANG MUAN",
+        "name_th": "อำเภอเชียงม่วน"
+      },
+      {
+        "name_en": "AMPHOE DOK KHAMTAI",
+        "name_th": "อำเภอดอกคำใต้"
+      },
+      {
+        "name_en": "AMPHOE PONG",
+        "name_th": "อำเภอปง"
+      },
+      {
+        "name_en": "AMPHOE MAE CHAI",
+        "name_th": "อำเภอแม่ใจ"
+      },
+      {
+        "name_en": "AMPHOE PHU SANG",
+        "name_th": "อำเภอภูซาง"
+      },
+      {
+        "name_en": "AMPHOE PHU KAMYAO",
+        "name_th": "อำเภอภูกามยาว"
+      }
+    ]
+  },
+  {
+    "name_en": "CHIANG RAI",
+    "name_th": "เชียงราย",
+    "code": 57,
+    "geography": "ภาคเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG CHIANG RAI",
+        "name_th": "อำเภอเมืองเชียงราย"
+      },
+      {
+        "name_en": "AMPHOE WIANG CHAI",
+        "name_th": "อำเภอเวียงชัย"
+      },
+      {
+        "name_en": "AMPHOE CHIANG KHONG",
+        "name_th": "อำเภอเชียงของ"
+      },
+      {
+        "name_en": "AMPHOE THOENG",
+        "name_th": "อำเภอเทิง"
+      },
+      {
+        "name_en": "AMPHOE PHAN",
+        "name_th": "อำเภอพาน"
+      },
+      {
+        "name_en": "AMPHOE PA DAET",
+        "name_th": "อำเภอป่าแดด"
+      },
+      {
+        "name_en": "AMPHOE MAE CHAN",
+        "name_th": "อำเภอแม่จัน"
+      },
+      {
+        "name_en": "AMPHOE CHIANG SAEN",
+        "name_th": "อำเภอเชียงแสน"
+      },
+      {
+        "name_en": "AMPHOE MAE SAI",
+        "name_th": "อำเภอแม่สาย"
+      },
+      {
+        "name_en": "AMPHOE MAE SUAI",
+        "name_th": "อำเภอแม่สรวย"
+      },
+      {
+        "name_en": "AMPHOE WIANG PA PAO",
+        "name_th": "อำเภอเวียงป่าเป้า"
+      },
+      {
+        "name_en": "AMPHOE PHAYA MENGRAI",
+        "name_th": "อำเภอพญาเม็งราย"
+      },
+      {
+        "name_en": "AMPHOE WIANG KAEN",
+        "name_th": "อำเภอเวียงแก่น"
+      },
+      {
+        "name_en": "AMPHOE KHUN TAN",
+        "name_th": "อำเภอขุนตาล"
+      },
+      {
+        "name_en": "AMPHOE MAE FA LUANG",
+        "name_th": "อำเภอแม่ฟ้าหลวง"
+      },
+      {
+        "name_en": "AMPHOE MAE LAO",
+        "name_th": "อำเภอแม่ลาว"
+      },
+      {
+        "name_en": "AMPHOE WIANG CHIANG RUNG",
+        "name_th": "อำเภอเวียงเชียงรุ้ง"
+      },
+      {
+        "name_en": "AMPHOE DOI LUANG",
+        "name_th": "อำเภอดอยหลวง"
+      }
+    ]
+  },
+  {
+    "name_en": "MAE HONG SON",
+    "name_th": "แม่ฮ่องสอน",
+    "code": 58,
+    "geography": "ภาคเหนือ",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG MAE HONG SON",
+        "name_th": "อำเภอเมืองแม่ฮ่องสอน"
+      },
+      {
+        "name_en": "AMPHOE KHUN YUAM",
+        "name_th": "อำเภอขุนยวม"
+      },
+      {
+        "name_en": "AMPHOE PAI",
+        "name_th": "อำเภอปาย"
+      },
+      {
+        "name_en": "AMPHOE MAE SARIANG",
+        "name_th": "อำเภอแม่สะเรียง"
+      },
+      {
+        "name_en": "AMPHOE MAE LA NOI",
+        "name_th": "อำเภอแม่ลาน้อย"
+      },
+      {
+        "name_en": "AMPHOE SOP MOEI",
+        "name_th": "อำเภอสบเมย"
+      },
+      {
+        "name_en": "AMPHOE PANG MAPHA",
+        "name_th": "อำเภอปางมะผ้า"
+      }
+    ]
+  },
+  {
+    "name_en": "NAKHON SAWAN",
+    "name_th": "นครสวรรค์",
+    "code": 60,
+    "geography": "ภาคกลาง",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG NAKHON SAWAN",
+        "name_th": "อำเภอเมืองนครสวรรค์"
+      },
+      {
+        "name_en": "AMPHOE KROK PHRA",
+        "name_th": "อำเภอโกรกพระ"
+      },
+      {
+        "name_en": "AMPHOE CHUM SAENG",
+        "name_th": "อำเภอชุมแสง"
+      },
+      {
+        "name_en": "AMPHOE NONG BUA",
+        "name_th": "อำเภอหนองบัว"
+      },
+      {
+        "name_en": "AMPHOE BANPHOT PHISAI",
+        "name_th": "อำเภอบรรพตพิสัย"
+      },
+      {
+        "name_en": "AMPHOE KAO LIAO",
+        "name_th": "อำเภอเก้าเลี้ยว"
+      },
+      {
+        "name_en": "AMPHOE TAKHLI",
+        "name_th": "อำเภอตาคลี"
+      },
+      {
+        "name_en": "AMPHOE THA TAKO",
+        "name_th": "อำเภอท่าตะโก"
+      },
+      {
+        "name_en": "AMPHOE PHAISALI",
+        "name_th": "อำเภอไพศาลี"
+      },
+      {
+        "name_en": "AMPHOE PHAYUHA KHIRI",
+        "name_th": "อำเภอพยุหะคีรี"
+      },
+      {
+        "name_en": "AMPHOE LAT YAO",
+        "name_th": "อำเภอลาดยาว"
+      },
+      {
+        "name_en": "AMPHOE TAK FA",
+        "name_th": "อำเภอตากฟ้า"
+      },
+      {
+        "name_en": "AMPHOE MAE WONG",
+        "name_th": "อำเภอแม่วงก์"
+      },
+      {
+        "name_en": "AMPHOE MAE POEN",
+        "name_th": "อำเภอแม่เปิน"
+      },
+      {
+        "name_en": "AMPHOE CHUM TA BONG",
+        "name_th": "อำเภอชุมตาบง"
+      }
+    ]
+  },
+  {
+    "name_en": "UTHAI THANI",
+    "name_th": "อุทัยธานี",
+    "code": 61,
+    "geography": "ภาคกลาง",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG UTHAI THANI",
+        "name_th": "อำเภอเมืองอุทัยธานี"
+      },
+      {
+        "name_en": "AMPHOE THAP THAN",
+        "name_th": "อำเภอทัพทัน"
+      },
+      {
+        "name_en": "AMPHOE SAWANG AROM",
+        "name_th": "อำเภอสว่างอารมณ์"
+      },
+      {
+        "name_en": "AMPHOE NONG CHANG",
+        "name_th": "อำเภอหนองฉาง"
+      },
+      {
+        "name_en": "AMPHOE NONG KHAYANG",
+        "name_th": "อำเภอหนองขาหย่าง"
+      },
+      {
+        "name_en": "AMPHOE BAN RAI",
+        "name_th": "อำเภอบ้านไร่"
+      },
+      {
+        "name_en": "AMPHOE LAN SAK",
+        "name_th": "อำเภอลานสัก"
+      },
+      {
+        "name_en": "AMPHOE HUAI KHOT",
+        "name_th": "อำเภอห้วยคต"
+      }
+    ]
+  },
+  {
+    "name_en": "KAMPHAENG PHET",
+    "name_th": "กำแพงเพชร",
+    "code": 62,
+    "geography": "ภาคกลาง",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG KAMPHAENG PHET",
+        "name_th": "อำเภอเมืองกำแพงเพชร"
+      },
+      {
+        "name_en": "AMPHOE SAI NGAM",
+        "name_th": "อำเภอไทรงาม"
+      },
+      {
+        "name_en": "AMPHOE KHLONG LAN",
+        "name_th": "อำเภอคลองลาน"
+      },
+      {
+        "name_en": "AMPHOE KHANU WORALAKSABURI",
+        "name_th": "อำเภอขาณุวรลักษบุรี"
+      },
+      {
+        "name_en": "AMPHOE KHLONG KHLUNG",
+        "name_th": "อำเภอคลองขลุง"
+      },
+      {
+        "name_en": "AMPHOE PHRAN KRATAI",
+        "name_th": "อำเภอพรานกระต่าย"
+      },
+      {
+        "name_en": "AMPHOE LAN KRABUE",
+        "name_th": "อำเภอลานกระบือ"
+      },
+      {
+        "name_en": "AMPHOE SAI THONG WATTHANA",
+        "name_th": "อำเภอทรายทองวัฒนา"
+      },
+      {
+        "name_en": "AMPHOE PANG SILA THONG",
+        "name_th": "อำเภอปางศิลาทอง"
+      },
+      {
+        "name_en": "AMPHOE BUENG SAMAKKHI",
+        "name_th": "อำเภอบึงสามัคคี"
+      },
+      {
+        "name_en": "AMPHOE KOSAMPHI NAKHON",
+        "name_th": "อำเภอโกสัมพีนคร"
+      }
+    ]
+  },
+  {
+    "name_en": "TAK",
+    "name_th": "ตาก",
+    "code": 63,
+    "geography": "ภาคตะวันตก",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG TAK",
+        "name_th": "อำเภอเมืองตาก"
+      },
+      {
+        "name_en": "AMPHOE BAN TAK",
+        "name_th": "อำเภอบ้านตาก"
+      },
+      {
+        "name_en": "AMPHOE SAM NGAO",
+        "name_th": "อำเภอสามเงา"
+      },
+      {
+        "name_en": "AMPHOE MAE RAMAT",
+        "name_th": "อำเภอแม่ระมาด"
+      },
+      {
+        "name_en": "AMPHOE THA SONG YANG",
+        "name_th": "อำเภอท่าสองยาง"
+      },
+      {
+        "name_en": "AMPHOE MAE SOT",
+        "name_th": "อำเภอแม่สอด"
+      },
+      {
+        "name_en": "AMPHOE PHOP PHRA",
+        "name_th": "อำเภอพบพระ"
+      },
+      {
+        "name_en": "AMPHOE UMPHANG",
+        "name_th": "อำเภออุ้มผาง"
+      },
+      {
+        "name_en": "AMPHOE WANG CHAO",
+        "name_th": "อำเภอวังเจ้า"
+      }
+    ]
+  },
+  {
+    "name_en": "SUKHOTHAI",
+    "name_th": "สุโขทัย",
+    "code": 64,
+    "geography": "ภาคกลาง",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG SUKHOTHAI",
+        "name_th": "อำเภอเมืองสุโขทัย"
+      },
+      {
+        "name_en": "AMPHOE BAN DAN LAN HOI",
+        "name_th": "อำเภอบ้านด่านลานหอย"
+      },
+      {
+        "name_en": "AMPHOE KHIRI MAT",
+        "name_th": "อำเภอคีรีมาศ"
+      },
+      {
+        "name_en": "AMPHOE KONG KRAILAT",
+        "name_th": "อำเภอกงไกรลาศ"
+      },
+      {
+        "name_en": "AMPHOE SI SATCHANALAI",
+        "name_th": "อำเภอศรีสัชนาลัย"
+      },
+      {
+        "name_en": "AMPHOE SI SAMRONG",
+        "name_th": "อำเภอศรีสำโรง"
+      },
+      {
+        "name_en": "AMPHOE SAWANKHALOK",
+        "name_th": "อำเภอสวรรคโลก"
+      },
+      {
+        "name_en": "AMPHOE SI NAKHON",
+        "name_th": "อำเภอศรีนคร"
+      },
+      {
+        "name_en": "AMPHOE THUNG SALIAM",
+        "name_th": "อำเภอทุ่งเสลี่ยม"
+      }
+    ]
+  },
+  {
+    "name_en": "PHITSANULOK",
+    "name_th": "พิษณุโลก",
+    "code": 65,
+    "geography": "ภาคกลาง",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG PHITSANULOK",
+        "name_th": "อำเภอเมืองพิษณุโลก"
+      },
+      {
+        "name_en": "AMPHOE NAKHON THAI",
+        "name_th": "อำเภอนครไทย"
+      },
+      {
+        "name_en": "AMPHOE CHAT TRAKAN",
+        "name_th": "อำเภอชาติตระการ"
+      },
+      {
+        "name_en": "AMPHOE BANG RAKAM",
+        "name_th": "อำเภอบางระกำ"
+      },
+      {
+        "name_en": "AMPHOE BANG KRATHUM",
+        "name_th": "อำเภอบางกระทุ่ม"
+      },
+      {
+        "name_en": "AMPHOE PHROM PHIRAM",
+        "name_th": "อำเภอพรหมพิราม"
+      },
+      {
+        "name_en": "AMPHOE WAT BOT",
+        "name_th": "อำเภอวัดโบสถ์"
+      },
+      {
+        "name_en": "AMPHOE WANG THONG",
+        "name_th": "อำเภอวังทอง"
+      },
+      {
+        "name_en": "AMPHOE NOEN MAPRANG",
+        "name_th": "อำเภอเนินมะปราง"
+      }
+    ]
+  },
+  {
+    "name_en": "PHICHIT",
+    "name_th": "พิจิตร",
+    "code": 66,
+    "geography": "ภาคกลาง",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG PHICHIT",
+        "name_th": "อำเภอเมืองพิจิตร"
+      },
+      {
+        "name_en": "AMPHOE WANG SAI PHUN",
+        "name_th": "อำเภอวังทรายพูน"
+      },
+      {
+        "name_en": "AMPHOE PHO PRATHAP CHANG",
+        "name_th": "อำเภอโพธิ์ประทับช้าง"
+      },
+      {
+        "name_en": "AMPHOE TAPHAN HIN",
+        "name_th": "อำเภอตะพานหิน"
+      },
+      {
+        "name_en": "AMPHOE BANG MUN NAK",
+        "name_th": "อำเภอบางมูลนาก"
+      },
+      {
+        "name_en": "AMPHOE PHO THALE",
+        "name_th": "อำเภอโพทะเล"
+      },
+      {
+        "name_en": "AMPHOE SAM NGAM",
+        "name_th": "อำเภอสามง่าม"
+      },
+      {
+        "name_en": "AMPHOE THAP KHLO",
+        "name_th": "อำเภอทับคล้อ"
+      },
+      {
+        "name_en": "AMPHOE SAK LEK",
+        "name_th": "อำเภอสากเหล็ก"
+      },
+      {
+        "name_en": "AMPHOE BUENG NA RANG",
+        "name_th": "อำเภอบึงนาราง"
+      },
+      {
+        "name_en": "AMPHOE DONG CHAROEN",
+        "name_th": "อำเภอดงเจริญ"
+      },
+      {
+        "name_en": "AMPHOE WACHIRABARAMI",
+        "name_th": "อำเภอวชิรบารมี"
+      }
+    ]
+  },
+  {
+    "name_en": "PHETCHABUN",
+    "name_th": "เพชรบูรณ์",
+    "code": 67,
+    "geography": "ภาคกลาง",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG PHETCHABUN",
+        "name_th": "อำเภอเมืองเพชรบูรณ์"
+      },
+      {
+        "name_en": "AMPHOE CHON DAEN",
+        "name_th": "อำเภอชนแดน"
+      },
+      {
+        "name_en": "AMPHOE LOM SAK",
+        "name_th": "อำเภอหล่มสัก"
+      },
+      {
+        "name_en": "AMPHOE LOM KAO",
+        "name_th": "อำเภอหล่มเก่า"
+      },
+      {
+        "name_en": "AMPHOE WICHIAN BURI",
+        "name_th": "อำเภอวิเชียรบุรี"
+      },
+      {
+        "name_en": "AMPHOE SI THEP",
+        "name_th": "อำเภอศรีเทพ"
+      },
+      {
+        "name_en": "AMPHOE NONG PHAI",
+        "name_th": "อำเภอหนองไผ่"
+      },
+      {
+        "name_en": "AMPHOE BUENG SAM PHAN",
+        "name_th": "อำเภอบึงสามพัน"
+      },
+      {
+        "name_en": "AMPHOE NAM NAO",
+        "name_th": "อำเภอน้ำหนาว"
+      },
+      {
+        "name_en": "AMPHOE WANG PONG",
+        "name_th": "อำเภอวังโป่ง"
+      },
+      {
+        "name_en": "AMPHOE KHAO KHO",
+        "name_th": "อำเภอเขาค้อ"
+      }
+    ]
+  },
+  {
+    "name_en": "RATCHABURI",
+    "name_th": "ราชบุรี",
+    "code": 70,
+    "geography": "ภาคตะวันตก",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG RATCHABURI",
+        "name_th": "อำเภอเมืองราชบุรี"
+      },
+      {
+        "name_en": "AMPHOE CHOM BUENG",
+        "name_th": "อำเภอจอมบึง"
+      },
+      {
+        "name_en": "AMPHOE SUAN PHUENG",
+        "name_th": "อำเภอสวนผึ้ง"
+      },
+      {
+        "name_en": "AMPHOE DAMNOEN SADUAK",
+        "name_th": "อำเภอดำเนินสะดวก"
+      },
+      {
+        "name_en": "AMPHOE BAN PONG",
+        "name_th": "อำเภอบ้านโป่ง"
+      },
+      {
+        "name_en": "AMPHOE BANG PHAE",
+        "name_th": "อำเภอบางแพ"
+      },
+      {
+        "name_en": "AMPHOE PHOTHARAM",
+        "name_th": "อำเภอโพธาราม"
+      },
+      {
+        "name_en": "AMPHOE PAK THO",
+        "name_th": "อำเภอปากท่อ"
+      },
+      {
+        "name_en": "AMPHOE WAT PHLENG",
+        "name_th": "อำเภอวัดเพลง"
+      },
+      {
+        "name_en": "AMPHOE BAN KHA",
+        "name_th": "อำเภอบ้านคา"
+      }
+    ]
+  },
+  {
+    "name_en": "KANCHANABURI",
+    "name_th": "กาญจนบุรี",
+    "code": 71,
+    "geography": "ภาคตะวันตก",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG KANCHANABURI",
+        "name_th": "อำเภอเมืองกาญจนบุรี"
+      },
+      {
+        "name_en": "AMPHOE SAI YOK",
+        "name_th": "อำเภอไทรโยค"
+      },
+      {
+        "name_en": "AMPHOE BO PHLOI",
+        "name_th": "อำเภอบ่อพลอย"
+      },
+      {
+        "name_en": "AMPHOE SI SAWAT",
+        "name_th": "อำเภอศรีสวัสดิ์"
+      },
+      {
+        "name_en": "AMPHOE THA MAKA",
+        "name_th": "อำเภอท่ามะกา"
+      },
+      {
+        "name_en": "AMPHOE THA MUANG",
+        "name_th": "อำเภอท่าม่วง"
+      },
+      {
+        "name_en": "AMPHOE THONG PHA PHUM",
+        "name_th": "อำเภอทองผาภูมิ"
+      },
+      {
+        "name_en": "AMPHOE SANGKHLA BURI",
+        "name_th": "อำเภอสังขละบุรี"
+      },
+      {
+        "name_en": "AMPHOE PHANOM THUAN",
+        "name_th": "อำเภอพนมทวน"
+      },
+      {
+        "name_en": "AMPHOE LAO KHWAN",
+        "name_th": "อำเภอเลาขวัญ"
+      },
+      {
+        "name_en": "AMPHOE DAN MAKHAM TIA",
+        "name_th": "อำเภอด่านมะขามเตี้ย"
+      },
+      {
+        "name_en": "AMPHOE NONG PRUE",
+        "name_th": "อำเภอหนองปรือ"
+      },
+      {
+        "name_en": "AMPHOE HUAI KRACHAO",
+        "name_th": "อำเภอห้วยกระเจา"
+      }
+    ]
+  },
+  {
+    "name_en": "SUPHAN BURI",
+    "name_th": "สุพรรณบุรี",
+    "code": 72,
+    "geography": "ภาคกลาง",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG SUPHAN BURI",
+        "name_th": "อำเภอเมืองสุพรรณบุรี"
+      },
+      {
+        "name_en": "AMPHOE DOEM BANG NANG BUAT",
+        "name_th": "อำเภอเดิมบางนางบวช"
+      },
+      {
+        "name_en": "AMPHOE DAN CHANG",
+        "name_th": "อำเภอด่านช้าง"
+      },
+      {
+        "name_en": "AMPHOE BANG PLA MA",
+        "name_th": "อำเภอบางปลาม้า"
+      },
+      {
+        "name_en": "AMPHOE SI PRACHAN",
+        "name_th": "อำเภอศรีประจันต์"
+      },
+      {
+        "name_en": "AMPHOE DON CHEDI",
+        "name_th": "อำเภอดอนเจดีย์"
+      },
+      {
+        "name_en": "AMPHOE SONG PHI NONG",
+        "name_th": "อำเภอสองพี่น้อง"
+      },
+      {
+        "name_en": "AMPHOE SAM CHUK",
+        "name_th": "อำเภอสามชุก"
+      },
+      {
+        "name_en": "AMPHOE U THONG",
+        "name_th": "อำเภออู่ทอง"
+      },
+      {
+        "name_en": "AMPHOE NONG YA SAI",
+        "name_th": "อำเภอหนองหญ้าไซ"
+      }
+    ]
+  },
+  {
+    "name_en": "NAKHON PATHOM",
+    "name_th": "นครปฐม",
+    "code": 73,
+    "geography": "ภาคกลาง",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG NAKHON PATHOM",
+        "name_th": "อำเภอเมืองนครปฐม"
+      },
+      {
+        "name_en": "AMPHOE KAMPHAENG SAEN",
+        "name_th": "อำเภอกำแพงแสน"
+      },
+      {
+        "name_en": "AMPHOE NAKHON CHAI SI",
+        "name_th": "อำเภอนครชัยศรี"
+      },
+      {
+        "name_en": "AMPHOE DON TUM",
+        "name_th": "อำเภอดอนตูม"
+      },
+      {
+        "name_en": "AMPHOE BANG LEN",
+        "name_th": "อำเภอบางเลน"
+      },
+      {
+        "name_en": "AMPHOE SAM PHRAN",
+        "name_th": "อำเภอสามพราน"
+      },
+      {
+        "name_en": "AMPHOE PHUTTHAMONTHON",
+        "name_th": "อำเภอพุทธมณฑล"
+      }
+    ]
+  },
+  {
+    "name_en": "SAMUT SAKHON",
+    "name_th": "สมุทรสาคร",
+    "code": 74,
+    "geography": "ภาคกลาง",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG SAMUT SAKHON",
+        "name_th": "อำเภอเมืองสมุทรสาคร"
+      },
+      {
+        "name_en": "AMPHOE KRATHUM BAEN",
+        "name_th": "อำเภอกระทุ่มแบน"
+      },
+      {
+        "name_en": "AMPHOE BAN PHAEO",
+        "name_th": "อำเภอบ้านแพ้ว"
+      }
+    ]
+  },
+  {
+    "name_en": "SAMUT SONGKHRAM",
+    "name_th": "สมุทรสงคราม",
+    "code": 75,
+    "geography": "ภาคกลาง",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG SAMUT SONGKHRAM",
+        "name_th": "อำเภอเมืองสมุทรสงคราม"
+      },
+      {
+        "name_en": "AMPHOE BANG KHONTHI",
+        "name_th": "อำเภอบางคนที"
+      },
+      {
+        "name_en": "AMPHOE AMPHAWA",
+        "name_th": "อำเภออัมพวา"
+      }
+    ]
+  },
+  {
+    "name_en": "PHETCHABURI",
+    "name_th": "เพชรบุรี",
+    "code": 76,
+    "geography": "ภาคตะวันตก",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG PHETCHABURI",
+        "name_th": "อำเภอเมืองเพชรบุรี"
+      },
+      {
+        "name_en": "AMPHOE KHAO YOI",
+        "name_th": "อำเภอเขาย้อย"
+      },
+      {
+        "name_en": "AMPHOE NONG YA PLONG",
+        "name_th": "อำเภอหนองหญ้าปล้อง"
+      },
+      {
+        "name_en": "AMPHOE CHA-AM",
+        "name_th": "อำเภอชะอำ"
+      },
+      {
+        "name_en": "AMPHOE THA YANG",
+        "name_th": "อำเภอท่ายาง"
+      },
+      {
+        "name_en": "AMPHOE BAN LAT",
+        "name_th": "อำเภอบ้านลาด"
+      },
+      {
+        "name_en": "AMPHOE BAN LAEM",
+        "name_th": "อำเภอบ้านแหลม"
+      },
+      {
+        "name_en": "AMPHOE KAENG KRACHAN",
+        "name_th": "อำเภอแก่งกระจาน"
+      }
+    ]
+  },
+  {
+    "name_en": "PRACHUAP KHIRI KHAN",
+    "name_th": "ประจวบคีรีขันธ์",
+    "code": 77,
+    "geography": "ภาคตะวันตก",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG PRACHUAP KHIRI KHAN",
+        "name_th": "อำเภอเมืองประจวบคีรีขันธ์"
+      },
+      {
+        "name_en": "AMPHOE KUI BURI",
+        "name_th": "อำเภอกุยบุรี"
+      },
+      {
+        "name_en": "AMPHOE THAP SAKAE",
+        "name_th": "อำเภอทับสะแก"
+      },
+      {
+        "name_en": "AMPHOE BANG SAPHAN",
+        "name_th": "อำเภอบางสะพาน"
+      },
+      {
+        "name_en": "AMPHOE BANG SAPHAN NOI",
+        "name_th": "อำเภอบางสะพานน้อย"
+      },
+      {
+        "name_en": "AMPHOE PRAN BURI",
+        "name_th": "อำเภอปราณบุรี"
+      },
+      {
+        "name_en": "AMPHOE HUA HIN",
+        "name_th": "อำเภอหัวหิน"
+      },
+      {
+        "name_en": "AMPHOE SAM ROI YOT",
+        "name_th": "อำเภอสามร้อยยอด"
+      }
+    ]
+  },
+  {
+    "name_en": "NAKHON SI THAMMARAT",
+    "name_th": "นครศรีธรรมราช",
+    "code": 80,
+    "geography": "ภาคใต้",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG NAKHON SI THAMMARAT",
+        "name_th": "อำเภอเมืองนครศรีธรรมราช"
+      },
+      {
+        "name_en": "AMPHOE PHROM KHIRI",
+        "name_th": "อำเภอพรหมคีรี"
+      },
+      {
+        "name_en": "AMPHOE LAN SAKA",
+        "name_th": "อำเภอลานสกา"
+      },
+      {
+        "name_en": "AMPHOE CHAWANG",
+        "name_th": "อำเภอฉวาง"
+      },
+      {
+        "name_en": "AMPHOE PHIPUN",
+        "name_th": "อำเภอพิปูน"
+      },
+      {
+        "name_en": "AMPHOE CHIAN YAI",
+        "name_th": "อำเภอเชียรใหญ่"
+      },
+      {
+        "name_en": "AMPHOE CHA-UAT",
+        "name_th": "อำเภอชะอวด"
+      },
+      {
+        "name_en": "AMPHOE THA SALA",
+        "name_th": "อำเภอท่าศาลา"
+      },
+      {
+        "name_en": "AMPHOE THUNG SONG",
+        "name_th": "อำเภอทุ่งสง"
+      },
+      {
+        "name_en": "AMPHOE NA BON",
+        "name_th": "อำเภอนาบอน"
+      },
+      {
+        "name_en": "AMPHOE THUNG YAI",
+        "name_th": "อำเภอทุ่งใหญ่"
+      },
+      {
+        "name_en": "AMPHOE PAK PHANANG",
+        "name_th": "อำเภอปากพนัง"
+      },
+      {
+        "name_en": "AMPHOE RON PHIBUN",
+        "name_th": "อำเภอร่อนพิบูลย์"
+      },
+      {
+        "name_en": "AMPHOE SICHON",
+        "name_th": "อำเภอสิชล"
+      },
+      {
+        "name_en": "AMPHOE KHANOM",
+        "name_th": "อำเภอขนอม"
+      },
+      {
+        "name_en": "AMPHOE HUA SAI",
+        "name_th": "อำเภอหัวไทร"
+      },
+      {
+        "name_en": "AMPHOE BANG KHAN",
+        "name_th": "อำเภอบางขัน"
+      },
+      {
+        "name_en": "AMPHOE THAM PHANNARA",
+        "name_th": "อำเภอถ้ำพรรณรา"
+      },
+      {
+        "name_en": "AMPHOE CHULABHORN",
+        "name_th": "อำเภอจุฬาภรณ์"
+      },
+      {
+        "name_en": "AMPHOE PHRA PHROM",
+        "name_th": "อำเภอพระพรหม"
+      },
+      {
+        "name_en": "AMPHOE NOPPHITAM",
+        "name_th": "อำเภอนบพิตำ"
+      },
+      {
+        "name_en": "AMPHOE CHANG KLANG",
+        "name_th": "อำเภอช้างกลาง"
+      },
+      {
+        "name_en": "AMPHOE CHALOEM PHRA KIAT",
+        "name_th": "อำเภอเฉลิมพระเกียรติ"
+      }
+    ]
+  },
+  {
+    "name_en": "KRABI",
+    "name_th": "กระบี่",
+    "code": 81,
+    "geography": "ภาคใต้",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG KRABI",
+        "name_th": "อำเภอเมืองกระบี่"
+      },
+      {
+        "name_en": "AMPHOE KHAO PHANOM",
+        "name_th": "อำเภอเขาพนม"
+      },
+      {
+        "name_en": "AMPHOE KO LANTA",
+        "name_th": "อำเภอเกาะลันตา"
+      },
+      {
+        "name_en": "AMPHOE KHLONG THOM",
+        "name_th": "อำเภอคลองท่อม"
+      },
+      {
+        "name_en": "AMPHOE AO LUEK",
+        "name_th": "อำเภออ่าวลึก"
+      },
+      {
+        "name_en": "AMPHOE PLAI PHRAYA",
+        "name_th": "อำเภอปลายพระยา"
+      },
+      {
+        "name_en": "AMPHOE LAM THAP",
+        "name_th": "อำเภอลำทับ"
+      },
+      {
+        "name_en": "AMPHOE NUEA KHLONG",
+        "name_th": "อำเภอเหนือคลอง"
+      }
+    ]
+  },
+  {
+    "name_en": "PHANGNGA",
+    "name_th": "พังงา",
+    "code": 82,
+    "geography": "ภาคใต้",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG PHANG-NGA",
+        "name_th": "อำเภอเมืองพังงา"
+      },
+      {
+        "name_en": "AMPHOE KO YAO",
+        "name_th": "อำเภอเกาะยาว"
+      },
+      {
+        "name_en": "AMPHOE KAPONG",
+        "name_th": "อำเภอกะปง"
+      },
+      {
+        "name_en": "AMPHOE TAKUA THUNG",
+        "name_th": "อำเภอตะกั่วทุ่ง"
+      },
+      {
+        "name_en": "AMPHOE TAKUA PA",
+        "name_th": "อำเภอตะกั่วป่า"
+      },
+      {
+        "name_en": "AMPHOE KHURA BURI",
+        "name_th": "อำเภอคุระบุรี"
+      },
+      {
+        "name_en": "AMPHOE THAP PUT",
+        "name_th": "อำเภอทับปุด"
+      },
+      {
+        "name_en": "AMPHOE THAI MUEANG",
+        "name_th": "อำเภอท้ายเหมือง"
+      }
+    ]
+  },
+  {
+    "name_en": "PHUKET",
+    "name_th": "ภูเก็ต",
+    "code": 83,
+    "geography": "ภาคใต้",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG PHUKET",
+        "name_th": "อำเภอเมืองภูเก็ต"
+      },
+      {
+        "name_en": "AMPHOE KATHU",
+        "name_th": "อำเภอกะทู้"
+      },
+      {
+        "name_en": "AMPHOE THALANG",
+        "name_th": "อำเภอถลาง"
+      }
+    ]
+  },
+  {
+    "name_en": "SURAT THANI",
+    "name_th": "สุราษฎร์ธานี",
+    "code": 84,
+    "geography": "ภาคใต้",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG SURAT THANI",
+        "name_th": "อำเภอเมืองสุราษฎร์ธานี"
+      },
+      {
+        "name_en": "AMPHOE KANCHANADIT",
+        "name_th": "อำเภอกาญจนดิษฐ์"
+      },
+      {
+        "name_en": "AMPHOE DON SAK",
+        "name_th": "อำเภอดอนสัก"
+      },
+      {
+        "name_en": "AMPHOE KO SAMUI",
+        "name_th": "อำเภอเกาะสมุย"
+      },
+      {
+        "name_en": "AMPHOE KO PHA-NGAN",
+        "name_th": "อำเภอเกาะพะงัน"
+      },
+      {
+        "name_en": "AMPHOE CHAIYA",
+        "name_th": "อำเภอไชยา"
+      },
+      {
+        "name_en": "AMPHOE THA CHANA",
+        "name_th": "อำเภอท่าชนะ"
+      },
+      {
+        "name_en": "AMPHOE KHIRI RAT NIKHOM",
+        "name_th": "อำเภอคีรีรัฐนิคม"
+      },
+      {
+        "name_en": "AMPHOE BAN TA KHUN",
+        "name_th": "อำเภอบ้านตาขุน"
+      },
+      {
+        "name_en": "AMPHOE PHANOM",
+        "name_th": "อำเภอพนม"
+      },
+      {
+        "name_en": "AMPHOE THA CHANG",
+        "name_th": "อำเภอท่าฉาง"
+      },
+      {
+        "name_en": "AMPHOE BAN NA SAN",
+        "name_th": "อำเภอบ้านนาสาร"
+      },
+      {
+        "name_en": "AMPHOE BAN NA DOEM",
+        "name_th": "อำเภอบ้านนาเดิม"
+      },
+      {
+        "name_en": "AMPHOE KHIAN SA",
+        "name_th": "อำเภอเคียนซา"
+      },
+      {
+        "name_en": "AMPHOE WIANG SA",
+        "name_th": "อำเภอเวียงสระ"
+      },
+      {
+        "name_en": "AMPHOE PHRASAENG",
+        "name_th": "อำเภอพระแสง"
+      },
+      {
+        "name_en": "AMPHOE PHUNPHIN",
+        "name_th": "อำเภอพุนพิน"
+      },
+      {
+        "name_en": "AMPHOE CHAI BURI",
+        "name_th": "อำเภอชัยบุรี"
+      },
+      {
+        "name_en": "AMPHOE VIBHAVADI",
+        "name_th": "อำเภอวิภาวดี"
+      }
+    ]
+  },
+  {
+    "name_en": "RANONG",
+    "name_th": "ระนอง",
+    "code": 85,
+    "geography": "ภาคใต้",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG RANONG",
+        "name_th": "อำเภอเมืองระนอง"
+      },
+      {
+        "name_en": "AMPHOE LA-UN",
+        "name_th": "อำเภอละอุ่น"
+      },
+      {
+        "name_en": "AMPHOE KAPOE",
+        "name_th": "อำเภอกะเปอร์"
+      },
+      {
+        "name_en": "AMPHOE KRA BURI",
+        "name_th": "อำเภอกระบุรี"
+      },
+      {
+        "name_en": "AMPHOE SUK SAMRAN",
+        "name_th": "อำเภอสุขสำราญ"
+      }
+    ]
+  },
+  {
+    "name_en": "CHUMPHON",
+    "name_th": "ชุมพร",
+    "code": 86,
+    "geography": "ภาคใต้",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG CHUMPHON",
+        "name_th": "อำเภอเมืองชุมพร"
+      },
+      {
+        "name_en": "AMPHOE THA SAE",
+        "name_th": "อำเภอท่าแซะ"
+      },
+      {
+        "name_en": "AMPHOE PATHIO",
+        "name_th": "อำเภอปะทิว"
+      },
+      {
+        "name_en": "AMPHOE LANG SUAN",
+        "name_th": "อำเภอหลังสวน"
+      },
+      {
+        "name_en": "AMPHOE LAMAE",
+        "name_th": "อำเภอละแม"
+      },
+      {
+        "name_en": "AMPHOE PHATO",
+        "name_th": "อำเภอพะโต๊ะ"
+      },
+      {
+        "name_en": "AMPHOE SAWI",
+        "name_th": "อำเภอสวี"
+      },
+      {
+        "name_en": "AMPHOE THUNG TAKO",
+        "name_th": "อำเภอทุ่งตะโก"
+      }
+    ]
+  },
+  {
+    "name_en": "SONGKHLA",
+    "name_th": "สงขลา",
+    "code": 90,
+    "geography": "ภาคใต้",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG SONGKHLA",
+        "name_th": "อำเภอเมืองสงขลา"
+      },
+      {
+        "name_en": "AMPHOE SATHING PHRA",
+        "name_th": "อำเภอสทิงพระ"
+      },
+      {
+        "name_en": "AMPHOE CHANA",
+        "name_th": "อำเภอจะนะ"
+      },
+      {
+        "name_en": "AMPHOE NA THAWI",
+        "name_th": "อำเภอนาทวี"
+      },
+      {
+        "name_en": "AMPHOE THEPHA",
+        "name_th": "อำเภอเทพา"
+      },
+      {
+        "name_en": "AMPHOE SABA YOI",
+        "name_th": "อำเภอสะบ้าย้อย"
+      },
+      {
+        "name_en": "AMPHOE RANOT",
+        "name_th": "อำเภอระโนด"
+      },
+      {
+        "name_en": "AMPHOE KRASAE SIN",
+        "name_th": "อำเภอกระแสสินธุ์"
+      },
+      {
+        "name_en": "AMPHOE RATTAPHUM",
+        "name_th": "อำเภอรัตภูมิ"
+      },
+      {
+        "name_en": "AMPHOE SADAO",
+        "name_th": "อำเภอสะเดา"
+      },
+      {
+        "name_en": "AMPHOE HAT YAI",
+        "name_th": "อำเภอหาดใหญ่"
+      },
+      {
+        "name_en": "AMPHOE NA MOM",
+        "name_th": "อำเภอนาหม่อม"
+      },
+      {
+        "name_en": "AMPHOE KHUAN NIANG",
+        "name_th": "อำเภอควนเนียง"
+      },
+      {
+        "name_en": "AMPHOE BANG KLAM",
+        "name_th": "อำเภอบางกล่ำ"
+      },
+      {
+        "name_en": "AMPHOE SINGHANAKHON",
+        "name_th": "อำเภอสิงหนคร"
+      },
+      {
+        "name_en": "AMPHOE KHLONG HOI KHONG",
+        "name_th": "อำเภอคลองหอยโข่ง"
+      }
+    ]
+  },
+  {
+    "name_en": "SATUN",
+    "name_th": "สตูล",
+    "code": 91,
+    "geography": "ภาคใต้",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG SATUN",
+        "name_th": "อำเภอเมืองสตูล"
+      },
+      {
+        "name_en": "AMPHOE KHUAN DON",
+        "name_th": "อำเภอควนโดน"
+      },
+      {
+        "name_en": "AMPHOE KHUAN KALONG",
+        "name_th": "อำเภอควนกาหลง"
+      },
+      {
+        "name_en": "AMPHOE THA PHAE",
+        "name_th": "อำเภอท่าแพ"
+      },
+      {
+        "name_en": "AMPHOE LA-NGU",
+        "name_th": "อำเภอละงู"
+      },
+      {
+        "name_en": "AMPHOE THUNG WA",
+        "name_th": "อำเภอทุ่งหว้า"
+      },
+      {
+        "name_en": "AMPHOE MANANG",
+        "name_th": "อำเภอมะนัง"
+      }
+    ]
+  },
+  {
+    "name_en": "TRANG",
+    "name_th": "ตรัง",
+    "code": 92,
+    "geography": "ภาคใต้",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG TRANG",
+        "name_th": "อำเภอเมืองตรัง"
+      },
+      {
+        "name_en": "AMPHOE KANTANG",
+        "name_th": "อำเภอกันตัง"
+      },
+      {
+        "name_en": "AMPHOE YAN TA KHAO",
+        "name_th": "อำเภอย่านตาขาว"
+      },
+      {
+        "name_en": "AMPHOE PALIAN",
+        "name_th": "อำเภอปะเหลียน"
+      },
+      {
+        "name_en": "AMPHOE SIKAO",
+        "name_th": "อำเภอสิเกา"
+      },
+      {
+        "name_en": "AMPHOE HUAI YOT",
+        "name_th": "อำเภอห้วยยอด"
+      },
+      {
+        "name_en": "AMPHOE WANG WISET",
+        "name_th": "อำเภอวังวิเศษ"
+      },
+      {
+        "name_en": "AMPHOE NA YONG",
+        "name_th": "อำเภอนาโยง"
+      },
+      {
+        "name_en": "AMPHOE RATSADA",
+        "name_th": "อำเภอรัษฎา"
+      },
+      {
+        "name_en": "AMPHOE HAT SAMRAN",
+        "name_th": "อำเภอหาดสำราญ"
+      }
+    ]
+  },
+  {
+    "name_en": "PHATTHALUNG",
+    "name_th": "พัทลุง",
+    "code": 93,
+    "geography": "ภาคใต้",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG PHATTHALUNG",
+        "name_th": "อำเภอเมืองพัทลุง"
+      },
+      {
+        "name_en": "AMPHOE KONG RA",
+        "name_th": "อำเภอกงหรา"
+      },
+      {
+        "name_en": "AMPHOE KHAO CHAISON",
+        "name_th": "อำเภอเขาชัยสน"
+      },
+      {
+        "name_en": "AMPHOE TAMOT",
+        "name_th": "อำเภอตะโหมด"
+      },
+      {
+        "name_en": "AMPHOE KHUAN KHANUN",
+        "name_th": "อำเภอควนขนุน"
+      },
+      {
+        "name_en": "AMPHOE PAK PHAYUN",
+        "name_th": "อำเภอปากพะยูน"
+      },
+      {
+        "name_en": "AMPHOE SI BANPHOT",
+        "name_th": "อำเภอศรีบรรพต"
+      },
+      {
+        "name_en": "AMPHOE PA BON",
+        "name_th": "อำเภอป่าบอน"
+      },
+      {
+        "name_en": "AMPHOE BANG KAEO",
+        "name_th": "อำเภอบางแก้ว"
+      },
+      {
+        "name_en": "AMPHOE PA PHAYOM",
+        "name_th": "อำเภอป่าพะยอม"
+      },
+      {
+        "name_en": "AMPHOE SRINAGARINDRA",
+        "name_th": "อำเภอศรีนครินทร์"
+      }
+    ]
+  },
+  {
+    "name_en": "PATTANI",
+    "name_th": "ปัตตานี",
+    "code": 94,
+    "geography": "ภาคใต้",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG PATTANI",
+        "name_th": "อำเภอเมืองปัตตานี"
+      },
+      {
+        "name_en": "AMPHOE KHOK PHO",
+        "name_th": "อำเภอโคกโพธิ์"
+      },
+      {
+        "name_en": "AMPHOE NONG CHIK",
+        "name_th": "อำเภอหนองจิก"
+      },
+      {
+        "name_en": "AMPHOE PANARE",
+        "name_th": "อำเภอปะนาเระ"
+      },
+      {
+        "name_en": "AMPHOE MAYO",
+        "name_th": "อำเภอมายอ"
+      },
+      {
+        "name_en": "AMPHOE THUNG YANG DAENG",
+        "name_th": "อำเภอทุ่งยางแดง"
+      },
+      {
+        "name_en": "AMPHOE SAI BURI",
+        "name_th": "อำเภอสายบุรี"
+      },
+      {
+        "name_en": "AMPHOE MAI KAEN",
+        "name_th": "อำเภอไม้แก่น"
+      },
+      {
+        "name_en": "AMPHOE YARING",
+        "name_th": "อำเภอยะหริ่ง"
+      },
+      {
+        "name_en": "AMPHOE YARANG",
+        "name_th": "อำเภอยะรัง"
+      },
+      {
+        "name_en": "AMPHOE KAPHO",
+        "name_th": "อำเภอกะพ้อ"
+      },
+      {
+        "name_en": "AMPHOE MAE LAN",
+        "name_th": "อำเภอแม่ลาน"
+      }
+    ]
+  },
+  {
+    "name_en": "YALA",
+    "name_th": "ยะลา",
+    "code": 95,
+    "geography": "ภาคใต้",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG YALA",
+        "name_th": "อำเภอเมืองยะลา"
+      },
+      {
+        "name_en": "AMPHOE BETONG",
+        "name_th": "อำเภอเบตง"
+      },
+      {
+        "name_en": "AMPHOE BANNANG SATA",
+        "name_th": "อำเภอบันนังสตา"
+      },
+      {
+        "name_en": "AMPHOE THAN TO",
+        "name_th": "อำเภอธารโต"
+      },
+      {
+        "name_en": "AMPHOE YAHA",
+        "name_th": "อำเภอยะหา"
+      },
+      {
+        "name_en": "AMPHOE RAMAN",
+        "name_th": "อำเภอรามัน"
+      },
+      {
+        "name_en": "AMPHOE KABANG",
+        "name_th": "อำเภอกาบัง"
+      },
+      {
+        "name_en": "AMPHOE KRONG PINANG",
+        "name_th": "อำเภอกรงปินัง"
+      }
+    ]
+  },
+  {
+    "name_en": "NARATHIWAT",
+    "name_th": "นราธิวาส",
+    "code": 96,
+    "geography": "ภาคใต้",
+    "districts": [
+      {
+        "name_en": "AMPHOE MUEANG NARATHIWAT",
+        "name_th": "อำเภอเมืองนราธิวาส"
+      },
+      {
+        "name_en": "AMPHOE TAK BAI",
+        "name_th": "อำเภอตากใบ"
+      },
+      {
+        "name_en": "AMPHOE BACHO",
+        "name_th": "อำเภอบาเจาะ"
+      },
+      {
+        "name_en": "AMPHOE YI-NGO",
+        "name_th": "อำเภอยี่งอ"
+      },
+      {
+        "name_en": "AMPHOE RA-NGAE",
+        "name_th": "อำเภอระแงะ"
+      },
+      {
+        "name_en": "AMPHOE RUESO",
+        "name_th": "อำเภอรือเสาะ"
+      },
+      {
+        "name_en": "AMPHOE SI SAKHON",
+        "name_th": "อำเภอศรีสาคร"
+      },
+      {
+        "name_en": "AMPHOE WAENG",
+        "name_th": "อำเภอแว้ง"
+      },
+      {
+        "name_en": "AMPHOE SUKHIRIN",
+        "name_th": "อำเภอสุคิริน"
+      },
+      {
+        "name_en": "AMPHOE SU-NGAI KOLOK",
+        "name_th": "อำเภอสุไหงโก-ลก"
+      },
+      {
+        "name_en": "AMPHOE SU-NGAI PADI",
+        "name_th": "อำเภอสุไหงปาดี"
+      },
+      {
+        "name_en": "AMPHOE CHANAE",
+        "name_th": "อำเภอจะแนะ"
+      },
+      {
+        "name_en": "AMPHOE CHO-AIRONG",
+        "name_th": "อำเภอเจาะไอร้อง"
+      }
+    ]
+  }
+]
